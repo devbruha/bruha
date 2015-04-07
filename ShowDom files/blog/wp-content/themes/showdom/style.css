@@ -1,0 +1,82 @@
+/*
+Theme Name: Showdom
+Author: Netgainseo
+Author URI: http://netgainseo.com
+*/
+
+
+.postThumbnail {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+h2{
+	font-size:20px !important;	
+}
+
+.postDate{
+	position:relative;
+	color:#666666;
+	font-size:16px;
+	text-transform:uppercase;
+	display:block;
+	margin-bottom:5px;
+}
+
+.postedIn{
+	color:#666666;
+	font-size:12px;
+	margin-top:5px;
+	display:block;
+}
+
+p{
+	margin-bottom:10px;	
+	color: #666666;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.postThumbnail img{
+	border-radius:5px;
+	border:1px solid #cccccc;	
+}
+
+.comment-form-comment > label{
+	
+}
+
+.comment-form-comment > textarea{
+	position:relative;
+	width:100%;
+	clear:both;
+	resize:vertical;	
+}
+
+#commentform > p > label{
+	width:200px;
+	display:block;	
+}
+
+.comment-author > span, .comment-author > cite {
+    font-size: 20px;
+}
+
+.avatar {
+    display: none;
+}
+
+.comment-body {
+    border-bottom: 1px dotted #CCCCCC;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.comment-author.vcard {
+    margin-bottom: 10px;
+}
+
+.comment-meta.commentmetadata {
+    margin-bottom: 10px;
+}

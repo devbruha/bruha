@@ -1,0 +1,328 @@
+eventName,eventCategory,eventSubCategory,eventWebsite,eventTicketLink,eventStartMonth,eventStartDay,eventStartYear,eventEndMonth,eventEndDay,eventEndYear,eventStartTime,eventEndTime,eventLocation,eventCreatorType,eventKeywords,claimEvent,eventDescription,ageRestricted,longitude,latitude
+"Absolute Comedy",4,0,NULL,NULL,09,11,2013,09,11,2013,NULL,23:59," 															Absolute Comedy",Artist,NULL,0,NULL,0,-79.398665,43.7084097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Queer as Fuck",4,0,NULL,NULL,09,11,2013,09,11,2013,NULL,23:59," 															The Steady Cafe & Bar",Artist,NULL,0,NULL,0,-79.432099,43.6604937
+"Siren's Comedy",4,0,NULL,NULL,09,11,2013,09,11,2013,NULL,23:59," 															Celt's Pub",Artist,NULL,0,NULL,0,-79.4652703,43.6655143
+"Social Wednesdays",4,0,NULL,NULL,09,11,2013,09,11,2013,NULL,23:59," 															Seven44",Artist,NULL,0,NULL,0,-79.3897009,43.7071999
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Yuk Yuk's Downtown",4,0,NULL,NULL,09,11,2013,09,11,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Absolute Comedy",4,0,NULL,NULL,09,12,2013,09,12,2013,NULL,23:59," 															Absolute Comedy",Artist,NULL,0,NULL,0,-79.398665,43.7084097
+"Christina Pazsitzky",4,0,NULL,NULL,09,12,2013,09,12,2013,NULL,23:59," 															The Underground Comedy Club",Artist,NULL,0,NULL,0,-79.3513188,43.6585248
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Laugh Sabbath",4,0,NULL,NULL,09,12,2013,09,12,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Yuk Yuk's Downtown",4,0,NULL,NULL,09,11,2013,09,11,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Absolute Comedy",4,0,NULL,NULL,09,12,2013,09,12,2013,NULL,23:59," 															Absolute Comedy",Artist,NULL,0,NULL,0,-79.398665,43.7084097
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Christina Pazsitzky",4,0,NULL,NULL,09,12,2013,09,12,2013,NULL,23:59," 															The Underground Comedy Club",Artist,NULL,0,NULL,0,-79.3513188,43.6585248
+"Teh Internets Quiz Show",4,0,NULL,NULL,09,12,2013,09,12,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Texas Comedy Massacre 2",4,0,NULL,NULL,09,13,2013,09,13,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.3831715,43.6651795
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Yuk Yuk's Downtown",4,0,NULL,NULL,09,11,2013,09,11,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Absolute Comedy",4,0,NULL,NULL,09,12,2013,09,12,2013,NULL,23:59," 															Absolute Comedy",Artist,NULL,0,NULL,0,-79.398665,43.7084097
+"Christina Pazsitzky",4,0,NULL,NULL,09,12,2013,09,12,2013,NULL,23:59," 															The Underground Comedy Club",Artist,NULL,0,NULL,0,-79.3513188,43.6585248
+"Comedy At The Red Rocket",4,0,NULL,NULL,09,14,2013,09,14,2013,NULL,23:59," 															Red Rocket Coffee",Artist,NULL,0,NULL,0,-79.3284036,43.6823348
+"The Loudest Show On Earth",4,0,NULL,NULL,09,14,2013,09,14,2013,NULL,23:59," 															The Flying Beaver Pubaret",Artist,NULL,0,NULL,0,-79.3683638,43.6648338
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Yuk Yuk's Downtown",4,0,NULL,NULL,09,11,2013,09,11,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Absolute Comedy",4,0,NULL,NULL,09,12,2013,09,12,2013,NULL,23:59," 															Absolute Comedy",Artist,NULL,0,NULL,0,-79.398665,43.7084097
+"Happy Hour Comedy",4,0,NULL,NULL,09,15,2013,09,15,2013,NULL,23:59," 															Ein-Stein",Artist,NULL,0,NULL,0,-79.3975056,43.6582593
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Say Wha?!",4,0,NULL,NULL,09,15,2013,09,15,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Yuk Yuk's Downtown",4,0,NULL,NULL,09,11,2013,09,11,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"ALTdot Comedy Lounge",4,0,NULL,NULL,09,16,2013,09,16,2013,NULL,23:59," 															Rivoli",Artist,NULL,0,NULL,0,-79.3947847,43.6490803
+"Big City Improv T.K.O.!",4,0,NULL,NULL,07,15,2013,07,15,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Dawn Patrol",4,0,NULL,NULL,09,16,2013,09,16,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Fresh Meat",4,0,NULL,NULL,09,16,2013,09,16,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Laughable At Unlovable",4,0,NULL,NULL,09,16,2013,09,16,2013,NULL,23:59," 															Unlovable",Artist,NULL,0,NULL,0,-79.4291819,43.649481
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"West End Girls: 4-Year Anniversary Show",4,0,NULL,NULL,09,17,2013,09,17,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Absolute Comedy",4,0,NULL,NULL,09,18,2013,09,18,2013,NULL,23:59," 															Absolute Comedy",Artist,NULL,0,NULL,0,-79.398665,43.7084097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Corktown Comedy: The Crazy Canucks Show",4,0,NULL,NULL,09,18,2013,09,18,2013,NULL,23:59," 															Betty's",Artist,NULL,0,NULL,0,-79.367378,43.6514991
+"The Julien Dionne Comedy Hour",4,0,NULL,NULL,09,18,2013,09,18,2013,NULL,23:59," 															C'est What",Artist,NULL,0,NULL,0,-79.3734095,43.6485113
+"Siren's Comedy",4,0,NULL,NULL,09,18,2013,09,18,2013,NULL,23:59," 															Celt's Pub",Artist,NULL,0,NULL,0,-79.4652703,43.6655143
+"Social Wednesdays",4,0,NULL,NULL,09,18,2013,09,18,2013,NULL,23:59," 															Seven44",Artist,NULL,0,NULL,0,-79.3897009,43.7071999
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Comedy At The Red Rocket",4,0,NULL,NULL,09,21,2013,09,21,2013,NULL,23:59," 															Red Rocket Coffee",Artist,NULL,0,NULL,0,-79.3284036,43.6823348
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"The Best Of The Second City",4,0,NULL,NULL,09,23,2013,09,23,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Clockwork [Orange Is The New] Black",4,0,NULL,NULL,09,23,2013,09,23,2013,NULL,23:59," 															Measure",Artist,NULL,0,NULL,0,-79.4074546,43.6655056
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"John Cleese: Last Time To See Me Before I Die",4,0,NULL,NULL,09,24,2013,09,24,2013,NULL,23:59," 															Winter Garden Theatre",Artist,NULL,0,NULL,0,-79.3793151,43.6529461
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"John Cleese: Last Time To See Me Before I Die",4,0,NULL,NULL,09,24,2013,09,24,2013,NULL,23:59," 															Winter Garden Theatre",Artist,NULL,0,NULL,0,-79.3793151,43.6529461
+"Siren's Comedy",4,0,NULL,NULL,09,25,2013,09,25,2013,NULL,23:59," 															Celt's Pub",Artist,NULL,0,NULL,0,-79.4652703,43.6655143
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"John Cleese: Last Time To See Me Before I Die",4,0,NULL,NULL,09,24,2013,09,24,2013,NULL,23:59," 															Winter Garden Theatre",Artist,NULL,0,NULL,0,-79.3793151,43.6529461
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"The Weaker Vessels Present Would You Rather...?",4,0,NULL,NULL,09,26,2013,09,26,2013,NULL,23:59," 															Baltic Avenue",Artist,NULL,0,NULL,0,-79.4250679,43.6620233
+"Yuk Yuk's On Tour",4,0,NULL,NULL,09,26,2013,09,26,2013,NULL,23:59," 															Rose Theatre, room: Studio 2",Artist,NULL,0,NULL,0,-79.7596235,43.6874768
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Drew Carey",4,0,NULL,NULL,09,27,2013,09,27,2013,NULL,23:59," 															Living Arts Centre",Artist,NULL,0,NULL,0,-79.6464125,43.5892046
+"John Cleese: Last Time To See Me Before I Die",4,0,NULL,NULL,09,24,2013,09,24,2013,NULL,23:59," 															Winter Garden Theatre",Artist,NULL,0,NULL,0,-79.3793151,43.6529461
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Women Fully Clothed",4,0,NULL,NULL,09,27,2013,09,27,2013,NULL,23:59," 															Rose Theatre",Artist,NULL,0,NULL,0,-79.7596235,43.6874768
+"The All Black Comedy Show",4,0,NULL,NULL,09,28,2013,09,28,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Comedy At The Red Rocket",4,0,NULL,NULL,09,28,2013,09,28,2013,NULL,23:59," 															Red Rocket Coffee",Artist,NULL,0,NULL,0,-79.3284036,43.6823348
+"John Cleese: Last Time To See Me Before I Die",4,0,NULL,NULL,09,24,2013,09,24,2013,NULL,23:59," 															Winter Garden Theatre",Artist,NULL,0,NULL,0,-79.3793151,43.6529461
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Michelle's 1st Anniversary Comedy Extravaganza",4,0,NULL,NULL,09,29,2013,09,29,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"We Can Be Heroes",4,0,NULL,NULL,08,29,2013,08,29,2013,NULL,23:59," 															Second City",Artist,NULL,0,NULL,0,-79.3919504,43.6453095
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Clockwork [Orange Is The New] Black",4,0,NULL,NULL,09,23,2013,09,23,2013,NULL,23:59," 															Measure",Artist,NULL,0,NULL,0,-79.4074546,43.6655056
+"Eyes On Eyes",4,0,NULL,NULL,09,30,2013,09,30,2013,NULL,23:59," 															Gladstone Hotel",Artist,NULL,0,NULL,0,-79.4271173,43.6425599
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Are You Ready To Laugh????",4,0,NULL,NULL,10,01,2013,10,01,2013,NULL,23:59," 															Absolute Comedy",Artist,NULL,0,NULL,0,-79.398665,43.7084097
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"Monkey Toast",4,0,NULL,NULL,10,05,2013,10,05,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Clockwork [Orange Is The New] Black",4,0,NULL,NULL,09,23,2013,09,23,2013,NULL,23:59," 															Measure",Artist,NULL,0,NULL,0,-79.4074546,43.6655056
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"Gad Elmaleh",4,0,NULL,NULL,10,08,2013,10,08,2013,NULL,23:59," 															Queen Elizabeth Theatre",Artist,NULL,0,NULL,0,-79.4213438,43.6327076
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Comedy Bang! Bang! Live!",4,0,NULL,NULL,10,10,2013,10,10,2013,NULL,23:59," 															The Danforth Music Hall",Artist,NULL,0,NULL,0,-79.3571267,43.6764421
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+"Aisha Tyler",4,0,NULL,NULL,10,18,2013,10,18,2013,NULL,23:59," 															Royal Cinema",Artist,NULL,0,NULL,0,-79.4149928,43.6551349
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"Monkey Toast",4,0,NULL,NULL,11,02,2013,11,02,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"Chris Tucker",4,0,NULL,NULL,11,09,2013,11,09,2013,NULL,23:59," 															Sony Centre for the Performing Arts",Artist,NULL,0,NULL,0,-79.3766657,43.6468182
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+"Yuk Yuk's On Tour",4,0,NULL,NULL,11,14,2013,11,14,2013,NULL,23:59," 															Rose Theatre, room: Studio 2",Artist,NULL,0,NULL,0,-79.7596235,43.6874768
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Trailer Park Boys: Dear Santa Claus, Go F*ck Yourself!",4,0,NULL,NULL,12,04,2013,12,04,2013,NULL,23:59," 															Queen Elizabeth Theatre",Artist,NULL,0,NULL,0,-79.4213438,43.6327076
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"Monkey Toast",4,0,NULL,NULL,12,07,2013,12,07,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Flat Tire Comedy",4,0,NULL,NULL,05,28,2013,05,28,2013,NULL,23:59," 															Amsterdam Bicycle Club",Artist,NULL,0,NULL,0,-79.3743409,43.6469106
+"The Other Dope Show",4,0,NULL,NULL,07,02,2013,07,02,2013,NULL,23:59," 															Vapor Social",Artist,NULL,0,NULL,0,-79.4255603,43.6538788
+"The Skin Of My Nuts",4,0,NULL,NULL,03,19,2013,03,19,2013,NULL,23:59," 															Sonic Espresso Bar",Artist,NULL,0,NULL,0,-79.3987886,43.6563222
+"The Wild Card",4,0,NULL,NULL,06,25,2013,06,25,2013,NULL,23:59," 															Fox & Fiddle",Artist,NULL,0,NULL,0,-79.4006436,43.6674858
+"Yuk Yuk's Downtown",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Yuk Yuk's Downtown",Artist,NULL,0,NULL,0,-79.3883142,43.6498097
+"Chuckle Co. Presents",4,0,NULL,NULL,05,01,2013,05,01,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Giggles @ The Groove Bar",4,0,NULL,NULL,06,06,2013,06,06,2013,NULL,23:59," 															The Groove Bar",Artist,NULL,0,NULL,0,-79.31542,43.6851491
+"KITCH Komedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Kitch",Artist,NULL,0,NULL,0,-79.4386699,43.6695913
+"Not My Dog Comedy",4,0,NULL,NULL,01,03,2013,01,03,2013,NULL,23:59," 															Not My Dog",Artist,NULL,0,NULL,0,-79.4383883,43.6402509
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+Catch23,4,0,NULL,NULL,04,19,2013,04,19,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Top Shelf Comedy",4,0,NULL,NULL,03,22,2013,03,22,2013,NULL,23:59," 															St Louis Bar & Grill",Artist,NULL,0,NULL,0,-79.3016866,43.6695761
+"The Playground",4,0,NULL,NULL,08,11,2013,08,11,2013,NULL,23:59," 															Playful Grounds",Artist,NULL,0,NULL,0,-79.4142826,43.6550491
+"Sunday Night Live",4,0,NULL,NULL,01,06,2013,01,06,2013,NULL,23:59," 															Comedy Bar",Artist,NULL,0,NULL,0,-79.4278268,43.6614289
+"Cheap Laughs Monday",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															PJ O'Briens Irish Pub",Artist,NULL,0,NULL,0,-79.3752834,43.6489371
+"Imperial Comedy Show",4,0,NULL,NULL,01,08,2013,01,08,2013,NULL,23:59," 															Imperial Pub",Artist,NULL,0,NULL,0,-79.3795765,43.6564938
+"Top Shelf Comedy",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															The Office Pub",Artist,NULL,0,NULL,0,-79.3902058,43.6481816
+"Yuk Yuk's On Tour",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															Rose Theatre, room: Studio 2",Artist,NULL,0,NULL,0,-79.7596235,43.6874768
+"Jim Breuer",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															Rose Theatre",Artist,NULL,0,NULL,0,-79.7596235,43.6874768
+"Yuk Yuk's On Tour",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															Rose Theatre, room: Studio 2",Artist,NULL,0,NULL,0,-79.7596235,43.6874768
+"Yuk Yuk's On Tour",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															Rose Theatre, room: Studio 2",Artist,NULL,0,NULL,0,-79.7596235,43.6874768
+"The Just For Laughs Road Show",4,0,NULL,NULL,01,07,2013,01,07,2013,NULL,23:59," 															Rose Theatre",Artist,NULL,0,NULL,0,-79.7596235,43.6874768
