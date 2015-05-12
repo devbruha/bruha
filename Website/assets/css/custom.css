@@ -159,3 +159,30 @@ height: 100px;
 font-Size: 19px;
 
 }
+
+/* ====================
+Custom main-content navigation for event list
+==============*/
+.eventListNav{
+	list-style-type: none;
+}
+
+.eventListNav li{
+	float: left;
+}
+
+.eventListNav li a{
+	color: purple;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    text-decoration: none;
+    margin: 0;
+}
+
+.eventListNav li + li a{
+    border-left: 0.3em solid purple;
+}
+
+.eventListNav .selected{
+	font-weight: bold;
+};
