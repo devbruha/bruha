@@ -230,3 +230,19 @@ Custom main-content for ticket page
 .ticket-client{
 	max-width: 50%;
 }
+.ticket-sidebar h4{
+	color:orange;
+	font-weight: bold;
+	margin: 10px;
+}
+/*ticket-sidebar element*/
+.sidebar-date{
+	margin-left: 10px;
+	font-weight: bold;
+	max-width: 100%;
+	margin-top: 30px;
+}
+.sidebar-date img{
+	position: relative;
+	bottom: 45px;
+}
