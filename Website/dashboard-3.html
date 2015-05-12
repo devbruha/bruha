@@ -1103,32 +1103,244 @@
 					return randInt;
 				}
 			</script>
-			<div>
+			<div class="eventListMain">
+					
 				<div>
-					<ul class="nav eventListNav hidden-xs">
-					<li><a class = "selected" href="#">Events</a></li>
-					<li><a href="#">Artists</a></li>
-					<li><a href="#">Venues</a></li>
-					<li><a href="#">Outfits</a></li>	
-					</ul>
+					<!-- content List Navigation-->
+					<div class="eventListNav">
+						<ul class="nav hidden-xs">
+						<li><a class = "selected" href="#">Events</a></li>
+						<li><a href="#">Artists</a></li>
+						<li><a href="#">Venues</a></li>
+						<li><a href="#">Outfits</a></li>	
+						</ul>
+					</div>
+					<!-- content List Navigation when screen is x-small -->
+					<div class=" btn-group hidden-sm hidden-md hidden-lg">
+					    <button type="button" class="btn-eventDropDown btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+					    Content <span class="caret"></span>
+				    	</button>
+					    <ul class="eventListNavxs dropdown-menu" role="menu">
+						    <li><a href="#">Events</a></li>
+						    <li><a href="#">Artists</a></li>
+						    <li><a href="#">Venues</a></li>
+						    <li class="divider"></li>
+						    <li><a href="#">Outfits</a></li>
+						</ul>
+					</div>
+					<!-- search bar -->
+					<div class = "searchBar">
+						<ul class="user-info-menu right-links list-inline list-unstyled">
+							<li class="search-form"><!-- You can add "always-visible" to show make the search input visible -->
+								<form class = "event-list-search" name="userinfo_search_form" method="get" action="extra-search.html">
+									<input type="text" name="s" class="rounded event-list-search-input form-control search-field" placeholder="Search My Uploads" />
+									<button type="submit" class="btn btn-link btn-icon-standalone-right btn-icon-standalone">
+										<i class="searchBtn linecons-search"></i>
+									</button>
+								</form>
+							</li>
+						</ul>
+					</div>
+
 				</div>
-				<div class=" btn-group hidden-sm hidden-md hidden-lg">
-				    <button type="button" class="btn-eventDropDown btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-				    Content <span class="caret"></span>
-			    	</button>
-				    <ul class="eventListNavxs dropdown-menu" role="menu">
-					    <li><a href="#">Events</a></li>
-					    <li><a href="#">Artists</a></li>
-					    <li><a href="#">Venues</a></li>
-					    <li class="divider"></li>
-					    <li><a href="#">Outfits</a></li>
-					</ul>
-				</div>
-			</div>
+				
+				<!-- event list table -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="all">
+							<table class="table table-hover members-table middle-align">
+								<thead class = "event-list-table-heading navbar navbar-default">
+									<!-- event list table heading -->
+									<tr>
+										<th style = "background-color : black; color : white" class = "col-md-2">Photo</th>
+										<th style = "background-color : black; color : white" class="hidden-xs hidden-sm col-md-2">Name</th>
+										<th style = "background-color : black; color : white" class = "col-md-2">Category</th>
+										<th style = "background-color : black; color : white" class = "col-md-2">Date</th>
+										<th style = "background-color : black; color : white" class = "col-md-2">Location</th>
+										<th style = "background-color : black; color : white" class = "col-md-2">Setting</th>
+									</tr>
+								</thead>
+								<tbody>
+									<!-- 5 rows -->
+									<tr>
+										<td class="user-image hidden-xs hidden-sm">
+											<a href="#">
+												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
+											</a>
+										</td>
+										<td class="user-name">
+											<a href="#" class="name">event1</a>
+										</td>
+										<td class="hidden-xs hidden-sm">
+											<span>Nightlife</span>
+										</td>
+										<td class="date">
+											25/04/15
+										</td>
+										<td>
+											<span>Toronto</span>
+										</td>
+										<td class="action-links">
+											<a href="#" class="edit">
+												<i class="linecons-pencil"></i>
+												Edit
+											</a>
+											<a href="#" class="delete">
+												<i class="linecons-trash"></i>
+												Delete
+											</a>
+											<a href="#" class="Stats">
+												<i class="linecons-doc"></i>
+												Stats
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="user-image hidden-xs hidden-sm">
+											<a href="#">
+												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
+											</a>
+										</td>
+										<td class="user-name">
+											<a href="#" class="name">event2</a>
+										</td>
+										<td class="hidden-xs hidden-sm">
+											<span>Nightlife</span>
+										</td>
+										<td class="date">
+											25/04/15
+										</td>
+										<td>
+											<span>Toronto</span>
+										</td>
+										<td class="action-links">
+											<a href="#" class="edit">
+												<i class="linecons-pencil"></i>
+												Edit
+											</a>
+											<a href="#" class="delete">
+												<i class="linecons-trash"></i>
+												Delete
+											</a>
+											<a href="#" class="Stats">
+												<i class="linecons-doc"></i>
+												Stats
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="user-image hidden-xs hidden-sm">
+											<a href="#">
+												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
+											</a>
+										</td>
+										<td class="user-name">
+											<a href="#" class="name">event3</a>
+										</td>
+										<td class="hidden-xs hidden-sm">
+											<span>Nightlife</span>
+										</td>
+										<td class="date">
+											25/04/15
+										</td>
+										<td>
+											<span>Toronto</span>
+										</td>
+										<td class="action-links">
+											<a href="#" class="edit">
+												<i class="linecons-pencil"></i>
+												Edit
+											</a>
+											<a href="#" class="delete">
+												<i class="linecons-trash"></i>
+												Delete
+											</a>
+											<a href="#" class="Stats">
+												<i class="linecons-doc"></i>
+												Stats
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="user-image hidden-xs hidden-sm">
+											<a href="#">
+												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
+											</a>
+										</td>
+										<td class="user-name">
+											<a href="#" class="name">event4</a>
+										</td>
+										<td class="hidden-xs hidden-sm">
+											<span>Nightlife</span>
+										</td>
+										<td class="date">
+											25/04/15
+										</td>
+										<td>
+											<span>Toronto</span>
+										</td>
+										<td class="action-links">
+											<a href="#" class="edit">
+												<i class="linecons-pencil"></i>
+												Edit
+											</a>
+											<a href="#" class="delete">
+												<i class="linecons-trash"></i>
+												Delete
+											</a>
+											<a href="#" class="Stats">
+												<i class="linecons-doc"></i>
+												Stats
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="user-image hidden-xs hidden-sm">
+											<a href="#">
+												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
+											</a>
+										</td>
+										<td class="user-name">
+											<a href="#" class="name">event5</a>
+										</td>
+										<td class="hidden-xs hidden-sm">
+											<span>Nightlife</span>
+										</td>
+										<td class="date">
+											25/04/15
+										</td>
+										<td>
+											<span>Toronto</span>
+										</td>
+										<td class="action-links">
+											<a href="#" class="edit">
+												<i class="linecons-pencil"></i>
+												Edit
+											</a>
+											<a href="#" class="delete">
+												<i class="linecons-trash"></i>
+												Delete
+											</a>
+											<a href="#" class="Stats">
+												<i class="linecons-doc"></i>
+												Stats
+											</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- button - create -->
+							<div class="button-create btn-group btn-group-xs rounded" role="group" aria-label="...">
+					 		   <button type="button" class="button-create-btn btn btn-default rounded">create</button>
+							</div>
+							<div class="button-creat-clear"></div>
+					</div>
+			
 
 				
+				
 			
-			
+			</div>			
 			
 			<!-- Main Footer -->
 			<!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
