@@ -191,4 +191,25 @@ Custom main-content for ticket page
 ==============*/
 .ticket-header{
 	color: purple;
+	font-weight: bold;
+	margin: 0 0 20px 35px;
+}
+.ticket-page{
+	margin: 0;
+	margin-left: 25px !important;
+	width: 68%;
+	height: 900px;
+	float: left;
+	background: white;
+}
+.ticket{
+	height: 2000px;
+}
+.ticket-sidebar{
+	margin: 0;
+	margin-left: 20px !important;
+	width: 25%;
+	height: 900px;
+	float: right;
+	background: white;
 }
