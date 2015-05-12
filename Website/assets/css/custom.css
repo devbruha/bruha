@@ -195,7 +195,7 @@ Custom main-content for ticket page
 	margin: 0 0 20px 0px;
 }
 .ticket-page{
-	width: 65%;
+	width: 70%;
 	height: 900px;
 	margin:20px 0 20px 10px;
 	float: left;
@@ -218,4 +218,15 @@ Custom main-content for ticket page
 	color: black;
 }
 .ticket-table{
+}
+.ticket-logo{
+	max-width: 50px;
+}
+.ticket-seller{
+	margin: 0;
+	padding: 0;
+	max-width: 50%;
+}
+.ticket-client{
+	max-width: 50%;
 }
