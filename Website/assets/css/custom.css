@@ -186,9 +186,17 @@ Custom main-content navigation for event list
 .eventListNav .selected{
 	font-weight: bold;
 }
+<<<<<<< HEAD
 /* ====================
 Custom main-content for ticket page
 ==============*/
 .ticket-header{
 	color: purple;
 }
+=======
+
+.eventListNavxs li a{
+	color: purple;
+	background-color: #40bbea;
+}
+>>>>>>> origin/master
