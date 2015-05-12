@@ -195,20 +195,25 @@ Custom main-content for ticket page
 	margin: 0 0 20px 0px;
 }
 .ticket-page{
-	width: 100%;
+	width: 65%;
 	height: 900px;
+	margin:20px 0 20px 10px;
+	float: left;
 	background: white;
 }
 .ticket{
 	height: 2000px;
 }
-/*.ticket-sidebar{
+.ticket-sidebar{
 	margin: 0;
-	margin-left: 5px !important;
+	padding: 0;
 	width: 25%;
 	height: 900px;
+	float: right;
 	background: white;
-}*/
+	position: relative;
+	top:20px;
+}
 .ticket-paragraph p{
 	color: black;
 }
