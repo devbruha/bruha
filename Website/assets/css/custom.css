@@ -185,4 +185,9 @@ Custom main-content navigation for event list
 
 .eventListNav .selected{
 	font-weight: bold;
-};
+}
+
+.eventListNavxs li a{
+	color: purple;
+	background-color: #40bbea;
+}
