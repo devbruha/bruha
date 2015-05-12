@@ -238,9 +238,39 @@ Custom main-content navigation for input field and search button
 /* ====================
 Custom main-content event list table
 ==============*/
+
+@media screen and (min-width:1px){
+.event-list-table-heading tr{
+	font-size: 9px;
+}}
+@media screen and (min-width:970px){
+.event-list-table-heading tr{
+	font-size: 7px;
+}}
+@media screen and (min-width:1053px){
+.event-list-table-heading tr{
+	font-size: 7px;
+}}
+@media screen and (min-width:1113px){
+.event-list-table-heading tr{
+	font-size: 8px;
+}}
+@media screen and (min-width:1131px){
+.event-list-table-heading tr{
+	font-size: 9px;
+}}
+@media screen and (min-width:1262px){
+.event-list-table-heading tr{
+	font-size: 12px;
+}}
+@media screen and (min-width:1280px){
+.event-list-table-heading tr{
+	font-size: 13px;
+}}
+@media screen and (min-width:1343px){
 .event-list-table-heading tr{
 	font-size: 15px;
-}
+}}
 
 .tab-pane{
 	background-color: white;
