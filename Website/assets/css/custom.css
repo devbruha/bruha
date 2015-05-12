@@ -189,5 +189,9 @@ Custom main-content navigation for event list
 
 .eventListNavxs li a{
 	color: purple;
-	background-color: #40bbea;
+	margin: 0;
+	padding: 0;
+}
+.eventListNavxs li a:hover{
+	color: purple; 
 }
