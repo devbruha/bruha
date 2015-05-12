@@ -196,11 +196,13 @@ Custom main-content for ticket page
 }
 .ticket-page{
 	margin: 0;
+	padding: 30px 20px 10px 30px;
 	margin-left: 25px !important;
 	width: 68%;
 	height: 900px;
 	float: left;
 	background: white;
+	overflow: auto;
 }
 .ticket{
 	height: 2000px;
@@ -212,4 +214,7 @@ Custom main-content for ticket page
 	height: 900px;
 	float: right;
 	background: white;
+}
+.ticket-paragraph p{
+	color: black;
 }
