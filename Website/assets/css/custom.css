@@ -246,3 +246,23 @@ Custom main-content for ticket page
 	position: relative;
 	bottom: 45px;
 }
+.sidebar-picture{
+	max-width: 70%;
+	margin-left: 5px;
+	margin-right: 25px;
+	height: 120px;
+}
+.sidebar-picture-price{
+	height: 20px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #E6E6E6;
+}
+.button{
+	margin:5%;
+	float: left;
+}
+.button button{
+	max-width: 50%;
+	margin: 1px;
+}
