@@ -312,7 +312,64 @@ Custom main-content event list with picutres page
 /* ====================
 Custom main-content event list with picutres page search addictions 
 ==============*/
+.event-list-search{
+	display: inline;
+	width: 80%;
+	height: 1.1em;
+	margin: 0 -20px 0 0;
+}
+.addiction-search-input{
+	display: inline-block;
+}
 .addiction-search-button{
 	position: relative;
-	right: 50px;
+	right: 60px;
 }
+/* ====================
+Custom main-content event list with picutres page pictures 
+==============*/
+.event-list-pictures{
+	padding-top:2.5%;
+	padding-right: 0;
+	background: white;
+	width: 34em;
+}
+
+
+.onimage-title-event-list-picture{
+background:black;
+width:100%;
+opacity:0.85;
+max-height:40px;
+position:absolute;
+bottom:0;
+left:0px;
+}
+
+.onimage-title-event-list-picture span{
+
+font-Size:11px;
+font-weight: bold;
+color:white;
+margin-left:10px;
+}
+
+.event-list-pictures-each-column{
+	width: 31.5%;
+	margin: 0;
+	padding: 0.4%;
+}
+
+.event-list-pictures{
+	width:550px;
+}
+
+.event-list-pictures-each-column-clear{
+	clear: both;
+}
+
+.event-list-picture-first-row{
+	margin-top: 0;
+	padding-top: 0;
+}
+
