@@ -1117,7 +1117,7 @@
 					</div>
 					<!-- content List Navigation when screen is x-small -->
 					<div class=" btn-group hidden-sm hidden-md hidden-lg">
-					    <button type="button" class="btn-eventDropDown btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+					    <button type="button" class="button-eventDropDown btn-eventDropDown btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 					    Content <span class="caret"></span>
 				    	</button>
 					    <ul class="eventListNavxs dropdown-menu" role="menu">
@@ -1151,33 +1151,38 @@
 								<thead class = "event-list-table-heading navbar navbar-default">
 									<!-- event list table heading -->
 									<tr>
-										<th style = "background-color : black; color : white" class = "col-md-2">Photo</th>
-										<th style = "background-color : black; color : white" class="hidden-xs hidden-sm col-md-2">Name</th>
-										<th style = "background-color : black; color : white" class = "col-md-2">Category</th>
-										<th style = "background-color : black; color : white" class = "col-md-2">Date</th>
-										<th style = "background-color : black; color : white" class = "col-md-2">Location</th>
-										<th style = "background-color : black; color : white" class = "col-md-2">Setting</th>
+										<th style = "background-color : black; color : white" class = "col-md-2 hidden-xs">Photo</th>
+										<th style = "background-color : black; color : white" class= "col-md-2 hidden-xs">Name</th>
+										<th style = "background-color : black; color : white" class = "col-md-2 hidden-xs">Category</th>
+										<th style = "background-color : black; color : white" class = "col-sm-4 hidden-lg hidden-md hidden-sm">Name and Category</th>
+										<th style = "background-color : black; color : white" class = "col-md-2 hidden-xs">Date</th>
+										<th style = "background-color : black; color : white" class = "col-md-2 hidden-xs">Location</th>
+										<th style = "background-color : black; color : white" class = "col-sm-4 hidden-lg hidden-md hidden-sm">Date and Location</th>
+										<th style = "background-color : black; color : white" class = "col-sm-4 hidden-lg hidden-md"></th>
+										<th style = "background-color : black; color : white" class = "col-md-2 col-sm-4">Setting</th>
 									</tr>
 								</thead>
 								<tbody>
 									<!-- 5 rows -->
 									<tr>
-										<td class="user-image hidden-xs hidden-sm">
+										<td class="user-image hidden-xs">
 											<a href="#">
 												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
 											</a>
 										</td>
 										<td class="user-name">
 											<a href="#" class="name">event1</a>
+											<span class="visible-xs">Nightlife</span>
 										</td>
-										<td class="hidden-xs hidden-sm">
+										<td class="hidden-xs">
 											<span>Nightlife</span>
 										</td>
 										<td class="date">
-											25/04/15
+											25/04/15<br>
+											<span class="visible-xs">Toronto</span>
 										</td>
 										<td>
-											<span>Toronto</span>
+											<span class="hidden-xs">Toronto</span>
 										</td>
 										<td class="action-links">
 											<a href="#" class="edit">
@@ -1195,22 +1200,24 @@
 										</td>
 									</tr>
 									<tr>
-										<td class="user-image hidden-xs hidden-sm">
+										<td class="user-image hidden-xs">
 											<a href="#">
 												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
 											</a>
 										</td>
 										<td class="user-name">
 											<a href="#" class="name">event2</a>
+											<span class="visible-xs">Nightlife</span>
 										</td>
-										<td class="hidden-xs hidden-sm">
+										<td class="hidden-xs">
 											<span>Nightlife</span>
 										</td>
 										<td class="date">
-											25/04/15
+											25/04/15<br>
+											<span class="visible-xs">Toronto</span>
 										</td>
 										<td>
-											<span>Toronto</span>
+											<span class="hidden-xs">Toronto</span>
 										</td>
 										<td class="action-links">
 											<a href="#" class="edit">
@@ -1228,22 +1235,24 @@
 										</td>
 									</tr>
 									<tr>
-										<td class="user-image hidden-xs hidden-sm">
+										<td class="user-image hidden-xs">
 											<a href="#">
 												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
 											</a>
 										</td>
 										<td class="user-name">
 											<a href="#" class="name">event3</a>
+											<span class="visible-xs">Nightlife</span>
 										</td>
-										<td class="hidden-xs hidden-sm">
+										<td class="hidden-xs">
 											<span>Nightlife</span>
 										</td>
 										<td class="date">
-											25/04/15
+											25/04/15<br>
+											<span class="visible-xs">Toronto</span>
 										</td>
 										<td>
-											<span>Toronto</span>
+											<span class="hidden-xs">Toronto</span>
 										</td>
 										<td class="action-links">
 											<a href="#" class="edit">
@@ -1261,22 +1270,24 @@
 										</td>
 									</tr>
 									<tr>
-										<td class="user-image hidden-xs hidden-sm">
+										<td class="user-image hidden-xs">
 											<a href="#">
 												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
 											</a>
 										</td>
 										<td class="user-name">
 											<a href="#" class="name">event4</a>
+											<span class="visible-xs">Nightlife</span>
 										</td>
-										<td class="hidden-xs hidden-sm">
+										<td class="hidden-xs">
 											<span>Nightlife</span>
 										</td>
 										<td class="date">
-											25/04/15
+											25/04/15<br>
+											<span class="visible-xs">Toronto</span>
 										</td>
 										<td>
-											<span>Toronto</span>
+											<span class="hidden-xs">Toronto</span>
 										</td>
 										<td class="action-links">
 											<a href="#" class="edit">
@@ -1294,22 +1305,24 @@
 										</td>
 									</tr>
 									<tr>
-										<td class="user-image hidden-xs hidden-sm">
+										<td class="user-image hidden-xs">
 											<a href="#">
 												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
 											</a>
 										</td>
 										<td class="user-name">
 											<a href="#" class="name">event5</a>
+											<span class="visible-xs">Nightlife</span>
 										</td>
-										<td class="hidden-xs hidden-sm">
+										<td class="hidden-xs">
 											<span>Nightlife</span>
 										</td>
 										<td class="date">
-											25/04/15
+											25/04/15<br>
+											<span class="visible-xs">Toronto</span>
 										</td>
 										<td>
-											<span>Toronto</span>
+											<span class="hidden-xs">Toronto</span>
 										</td>
 										<td class="action-links">
 											<a href="#" class="edit">
