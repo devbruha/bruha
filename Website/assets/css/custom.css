@@ -304,3 +304,15 @@ Custom main-content event list table "create" button
 .button-creat-clear{
 	clear:both;
 }
+/* ====================
+Custom main-content event list with picutres page 
+==============*/
+
+
+/* ====================
+Custom main-content event list with picutres page search addictions 
+==============*/
+.addiction-search-button{
+	position: relative;
+	right: 50px;
+}
