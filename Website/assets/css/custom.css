@@ -185,4 +185,16 @@ Custom main-content navigation for event list
 
 .eventListNav .selected{
 	font-weight: bold;
-};
+	};
+}
+/* ====================
+Custom main-content for ticket page
+==============*/
+.ticket-header{
+	color: purple;
+}
+
+.eventListNavxs li a{
+	color: purple;
+	background-color: #40bbea;
+}
