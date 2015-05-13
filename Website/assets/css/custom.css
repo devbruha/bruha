@@ -196,7 +196,7 @@ Custom main-content for ticket page
 }
 .ticket-page{
 	width: 70%;
-	height: 900px;
+	height: 750px;
 	margin:20px 0 20px 10px;
 	float: left;
 	background: white;
@@ -207,8 +207,8 @@ Custom main-content for ticket page
 .ticket-sidebar{
 	margin: 0;
 	padding: 0;
-	width: 25%;
-	height: 900px;
+	width: 190px;
+	height: 600px;
 	float: right;
 	background: white;
 	position: relative;
@@ -258,11 +258,42 @@ Custom main-content for ticket page
 	font-weight: bold;
 	background-color: #E6E6E6;
 }
+.sidebar-list ul{
+	margin: 0px;
+	margin-left: 10px;
+	padding: 0;
+	list-style: none;
+
+}
+.sidebar-list ul li span{
+	font-weight: bold;
+}
+/*sidebar button*/
 .button{
 	margin:5%;
 	float: left;
 }
-.button button{
-	max-width: 50%;
-	margin: 1px;
+.button-row-1{
+	width: 75px;
+	margin: 0 auto;
+	margin-left: 5px;
+	float: left;
+}
+.ticket-clear{
+	clear: both;
+}
+.button-row-2{
+	width: 75px;
+	margin: 0 auto;
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+}
+.ticke-preview :hover{
+	background: orange;
+
+}
+.sidebar-video iframe{
+	margin-top: 20px;
+	margin-left: 10px;
 }
