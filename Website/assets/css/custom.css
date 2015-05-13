@@ -266,11 +266,10 @@ Custom main-content event list table
 .event-list-table-heading tr{
 	font-size: 9px;
 }}
-@media screen and (min-width: 1020px){
+@media screen and (max-width: 1100px){
 .eventListNav li a:nth-child(odd){
-	font-size: 11px;
-}
-}
+	font-size: 10px;
+}}
 @media screen and (min-width:1262px){
 .event-list-table-heading tr{
 	font-size: 12px;
