@@ -208,7 +208,7 @@ Custom main-content for ticket page
 	margin: 0;
 	padding: 0;
 	width: 190px;
-	height: 600px;
+	height: 630px;
 	float: right;
 	background: white;
 	position: relative;
@@ -294,6 +294,16 @@ Custom main-content for ticket page
 
 }
 .sidebar-video iframe{
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-left: 10px;
+}
+.ticket-confirm-button button{
+	float:right;
+	height: 100px;
+	width: 190px;
+	margin-top: 40px;
+}
+.ticket-confirm-button button span{
+	font-size: 1.5em;
+	font-weight: bold;
 }
