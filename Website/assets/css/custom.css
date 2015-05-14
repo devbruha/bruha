@@ -581,8 +581,11 @@ Custom main-content for Calendar page
 ==============*/
 .calendar-topbar{
 	list-style: none;
-	color: purple;
 	padding: 0;
+}
+.calendar-topbar li a{
+	color: purple;
+	text-decoration: none;
 }
 .calendar-topbar li{
 	float: left;
