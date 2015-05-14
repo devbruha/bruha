@@ -199,6 +199,13 @@ Custom main-content for ticket page
 /* ====================
 Custom main-content navigation for event list x-small
 ==============*/
+@media screen and (max-width: 767px){.content-list-navigation-div{
+	max-width: 10%;
+}
+}
+.content-list-navigation-div{
+	float: left;
+}
 .button-eventDropDown{
 	float: left;
 }
@@ -224,6 +231,7 @@ Custom main-content navigation for input field and search button
 }
 .searchBar{
 	float: right;
+	margin:0;
 }
 .event-list-search-input{
 	display: inline-block;
@@ -249,7 +257,29 @@ Custom main-content event list table
 @media screen and (min-width:1px){
 .event-list-table-heading tr{
 	font-size: 9px;
-}}
+}
+.eventListNav{
+	width: 100%;
+	display: inline-block;
+}
+.event-list-pictures{
+	max-width: 80%;
+	margin-top: 1em;
+}
+.searchBar{
+	margin-top:2em;
+}
+.searchBtn{
+	display: inline-block;
+	margin-top:0.15em;
+	margin-right: 1em;
+	float: right;
+}
+}
+
+/* ====================
+Custom main-content event list media query
+==============*/
 @media screen and (min-width:970px){
 .event-list-table-heading tr{
 	font-size: 7px;
@@ -308,33 +338,20 @@ Custom main-content event list table "create" button
 Custom main-content event list with picutres page 
 ==============*/
 
-
-/* ====================
-Custom main-content event list with picutres page search addictions 
-==============*/
-.event-list-search{
-	display: inline;
-	width: 80%;
-	height: 1.1em;
-	margin: 0 -20px 0 0;
-}
-.addiction-search-input{
-	display: inline-block;
-}
-.addiction-search-button{
-	position: relative;
-	right: 60px;
-}
 /* ====================
 Custom main-content event list with picutres page pictures 
 ==============*/
+.event-list-page-with-pictures-main{
+	float: left;
+	max-width: 80%;
+}
+
 .event-list-pictures{
 	padding-top:2.5%;
 	padding-right: 0;
 	background: white;
 	width: 34em;
 }
-
 
 .onimage-title-event-list-picture{
 background:black;
@@ -372,4 +389,183 @@ margin-left:10px;
 	margin-top: 0;
 	padding-top: 0;
 }
+/* ====================
+Custom main-content event list with picutres page side bars
+==============*/
+/* ====================
+Custom main-content event list with picutres page search addictions 
+==============*/
+.event-list-search{
+	display: inline;
+	width: 80%;
+	height: 1.1em;
+	margin: -20px 85px -200px 0;
+}
+.addiction-search-input{
+	display: inline-block;
+	height: 1.5em;
+	width:180%;
+}
+.addiction-search-button{
+	position: relative;
+	right: 20px;
+	top:7px;
+}
+.search-bar-with-side-bars{
+	float: left;
+	max-width: 20%;
+}
+/*ticket-sidebar element*/
+.sidebar-date{
+	margin-left: 10px;
+	font-weight: bold;
+	max-width: 100%;
+}
+.sidebar-date img{
+	position: relative;
+	bottom: 45px;
+}
+.sidebar-picture{
+	max-width: 70%;
+}
+.sidebar-picture-price{
+	height: 20px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #E6E6E6;
+}
+.sidebar-list ul{
+	margin: 0px;
+	margin-left: 10px;
+	padding: 0;
+	list-style: none;
 
+}
+.sidebar-list ul li span{
+	font-weight: bold;
+}
+/*sidebar button*/
+.button{
+	margin:5%;
+	text-align: center;
+	position: relative;
+}
+.button-row-1{
+	width: 45%;
+	margin: 0 auto;
+	margin-left: 3%;
+	float: left;
+}
+.ticket-clear{
+	clear: both;
+}
+.button-row-2{
+	width: 45%;
+	margin: 0 auto;
+	margin-left: 3%;
+	margin-top: 5px;
+	float: left;
+}
+.ticke-preview :hover{
+	background: orange;
+
+}
+.sidebar-video{
+	height: 100px;
+	max-width: 100%;
+}
+.sidebar-video iframe{
+	margin-top: 5%;
+	height: 90%;
+	margin-left: 10px;
+}
+/*Confirm button*/
+.ticket-confirm-button button{
+	float:right;
+	height: 2.8em;
+	width: 200px;
+	position:relative;
+	bottom: 0.6em;
+}
+.ticket-confirm-button button span{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+}.ticket-header{
+	color: purple;
+	font-weight: bold;
+	margin: 0 0 20px 0px;
+}
+.ticket-page{
+	width: 70%;
+	height: 750px;
+	margin:20px 0 20px 10px;
+	float: left;
+	background: white;
+}
+.ticket{
+	height: 2000px;
+}
+.ticket-sidebar{
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 430px;
+	float: right;
+	background: white;
+	position: relative;
+	bottom:12px;
+}
+.ticket-paragraph p{
+	color: black;
+}
+.ticket-table{
+}
+.ticket-logo{
+	max-width: 50px;
+}
+.ticket-seller{
+	margin: 0;
+	padding: 0;
+	max-width: 50%;
+}
+.ticket-client{
+	max-width: 50%;
+}
+.ticket-sidebar h4{
+	color:orange;
+	font-weight: bold;
+	margin: 5px 10px 0 10px;
+}
+/* ====================
+Custom main-content event list with picutres page addiction side bar 
+==============*/
+@media screen and (max-width: 1332px){
+.event-list-pictures{
+max-width: 100%;
+float: none;
+}
+.addiction-search-button{
+	position: relative;
+	left: 60%;
+	bottom: 40%;
+}
+.addiction-search-input{
+	position: relative;
+	right: 15%;
+}
+.search-bar-with-side-bars{
+max-width: 60%;
+width: 80%;
+margin: 0 10%;
+position: relative;
+bottom: 200%;
+}
+.ticket-sidebar{
+width: 140%;
+position: relative;
+left: 18%;
+}
+}
