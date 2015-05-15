@@ -165,6 +165,8 @@ Custom main-content navigation for event list
 ==============*/
 .eventListNav{
 	list-style-type: none;
+	width: 50%;
+	display: inline-block;
 }
 
 .eventListNav li{
@@ -185,6 +187,7 @@ Custom main-content navigation for event list
 
 .eventListNav .selected{
 	font-weight: bold;
+	};
 }
 /* ====================
 Custom main-content for ticket page
@@ -578,4 +581,111 @@ Custom main-content for ticket page
 
 @media only screen and (max-width: 620px){
 
+/* ====================
+Custom main-content navigation for event list x-small
+==============*/
+.button-eventDropDown{
+	float: left;
+}
+
+.eventListNavxs li a{
+	color: purple;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.eventListNavxs li a:hover{
+	color: purple; 
+}
+
+/* ====================
+Custom main-content navigation for input field and search button
+==============*/
+.event-list-search{
+	display: inline;
+	float: right;
+	width: 100%;
+	height: 1.1em;
+}
+.searchBar{
+	float: right;
+}
+.event-list-search-input{
+	display: inline-block;
+	height: 31px;
+}
+.searchBtn{
+	display: inline-block;
+	position: relative;
+	left: 190px;
+	bottom: 36px;
+	float: right;
+}
+
+.rounded { 
+	border-radius:15px; 
+	-moz-border-radius:15px; 
+	-webkit-border-radius:15px; 
+}
+/* ====================
+Custom main-content event list table
+==============*/
+
+@media screen and (min-width:1px){
+.event-list-table-heading tr{
+	font-size: 9px;
+}}
+@media screen and (min-width:970px){
+.event-list-table-heading tr{
+	font-size: 7px;
+}}
+@media screen and (min-width:1053px){
+.event-list-table-heading tr{
+	font-size: 7px;
+}}
+@media screen and (min-width:1113px){
+.event-list-table-heading tr{
+	font-size: 8px;
+}}
+@media screen and (min-width:1131px){
+.event-list-table-heading tr{
+	font-size: 9px;
+}}
+@media screen and (max-width: 1100px){
+.eventListNav li a:nth-child(odd){
+	font-size: 10px;
+}}
+@media screen and (min-width:1262px){
+.event-list-table-heading tr{
+	font-size: 12px;
+}}
+@media screen and (min-width:1280px){
+.event-list-table-heading tr{
+	font-size: 13px;
+}}
+@media screen and (min-width:1343px){
+.event-list-table-heading tr{
+	font-size: 15px;
+}}
+
+.tab-pane{
+	background-color: white;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+/* ====================
+Custom main-content event list table "create" button
+==============*/
+.button-create{
+	float: right;
+	position: relative;
+	bottom: 18px;
+} 
+.button-create-btn{
+	-webkit-border-radius:3em / 1em;
+	-moz-border-radius:3em / 1em;
+	border-radius:3em / 1em;
+}
+.button-creat-clear{
+	clear:both;
 }
