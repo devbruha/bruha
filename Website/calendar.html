@@ -30,6 +30,7 @@
 
 
 </head>
+
 <body class="page-body">
 
 	<div class="settings-pane">
@@ -365,7 +366,7 @@
 		
 		</div>
 	
-		<div class="main-content">
+		<div class="main-content" id="calendar-content">
 			
 					<nav class="navbar user-info-navbar"  role="navigation"><!-- User Info, Notifications and Menu Bar -->
 			
@@ -1104,9 +1105,149 @@
 				}
 			</script>
 		
+			<script type="text/javascript">
+			// Calendar Initialization
+			jQuery(document).ready(function($)
+			{
+				// Form to add new event
+				var colors = ['red', 'blue', 'primary', 'success', 'warning', 'info', 'danger', 'purple', 'black', 'gray'];
+				
+				$("#add_event_form").on('submit', function(ev)
+				{
+					ev.preventDefault();
+					
+					var $event = $(this).find('.form-control'),
+						event_name = $event.val().trim();
+					
+					if(event_name.length >= 3)
+					{
+						var color = colors[Math.floor(Math.random()*colors.length)];
+						
+						// Create Event Entry
+						$("#events-list").append(
+							'<li>\
+								<a href="#" data-event-class="event-color-' + color + '">\
+									<span class="badge badge-' + color + ' badge-roundless upper">' + event_name + '</span>\
+								</a>\
+							</li>'
+						);
+						
+						
+						// Reset draggable
+						$("#events-list li").draggable({
+							revert: true,
+							revertDuration: 50,
+							zIndex: 999
+						});
+						
+						// Reset input
+						$event.val('').focus();
+					}
+					else
+					{
+						$event.focus();
+					}
+				});
+				
+				
+				// Calendar Initialization
+				$('#calendar').fullCalendar({
+					header: {
+						left: 'title',
+						center: '',
+						right: 'month,agendaWeek,agendaDay prev,next'
+					},
+					buttonIcons: {
+						prev: 'prev fa-angle-left',
+						next: 'next fa-angle-right',
+					},
+					defaultDate: '2014-09-12',
+					editable: true,
+					eventLimit: true,
+					events: [
+						{
+							title: 'All Day Event',
+							start: '2014-09-01'
+						},
+						{
+							title: 'Long Event',
+							start: '2014-09-07',
+							end: '2014-09-10'
+						},
+						{
+							id: 999,
+							title: 'Repeating Event',
+							start: '2014-09-09T16:00:00'
+						},
+						{
+							id: 999,
+							title: 'Repeating Event',
+							start: '2014-09-16T16:00:00'
+						},
+						{
+							title: 'Conference',
+							start: '2014-09-11',
+							end: '2014-09-13'
+						},
+						{
+							title: 'Meeting',
+							start: '2014-09-12T10:30:00',
+							end: '2014-09-12T12:30:00'
+						},
+						{
+							title: 'Lunch',
+							start: '2014-09-12T12:00:00'
+						},
+						{
+							title: 'Meeting',
+							start: '2014-09-12T14:30:00'
+						},
+						{
+							title: 'Happy Hour',
+							start: '2014-09-12T17:30:00'
+						},
+						{
+							title: 'Dinner',
+							start: '2014-09-12T20:00:00'
+						},
+						{
+							title: 'Birthday Party',
+							start: '2014-09-13T07:00:00'
+						},
+						{
+							title: 'Click for Google',
+							url: 'http://google.com/',
+							start: '2014-09-28'
+						}
+					],
+					droppable: true,
+					drop: function(date) {
+						
+						var $event = $(this).find('a'),
+							eventObject = {
+								title: $event.find('.badge').text(),
+								start: date,
+								className: $event.data('event-class')
+							};
+						
+						$('#calendar').fullCalendar('renderEvent', eventObject, true);
+						
+						// Remove event from list
+						$(this).remove();
+					}
+				});
+				
+				
+				// Draggable Events
+				$("#events-list li").draggable({
+					revert: true,
+					revertDuration: 50,
+					zIndex: 999
+				});
+			});
+			</script>
 			
-			
-			<!--This Division is for the ticket-->
+			<!--This Division is for the Calendar-->
 			<div class="ticket">
 				<div>
 				<ul class="calendar-topbar">
@@ -1116,179 +1257,18 @@
 				<div class="ticket-clear"></div>
 				</div>
 				<div class="row  calendar-total">
-					<!-- ===================Invoice=========== -->
-				<div class="panel panel-default ticket-page col-lg-9 scrollable" data-max-height="900">
-				<div class="panel-heading hidden-print">Receipt</div>
-						<div class="panel-body">
-							
-							<section class="invoice-env">
-							
-								<!-- Invoice header -->
-								<div class="invoice-header">
-									
-									<!-- Invoice Options Buttons -->
-									<div class="invoice-options hidden-print">
-										<a href="#" class="btn btn-block btn-gray btn-icon btn-icon-standalone btn-icon-standalone-right text-left">
-											<i class="fa-envelope-o"></i>
-											<span>Send</span>
-										</a>
-										
-										<a href="#" class="btn btn-block btn-secondary btn-icon btn-icon-standalone btn-icon-standalone-right btn-single text-left">
-											<i class="fa-print"></i>
-											<span>Print</span>
-										</a>
-									</div>
-									
-									<!-- Invoice Data Header -->
-									<div class="invoice-logo">
-									
-										<a href="#" class="logo">
-											<img src="assets/images/bruha_logo.png" class="img-responsive ticket-logo" />
-										</a>
-										
-										<ul class="list-unstyled">
-											<li class="upper">Receipt No.<strong>#5652256</strong></li>
-											<li>dd/mm/yyyy</li>
-											<li>Toronto&euml;, ON</li>
-										</ul>
-										
-									</div>
-									
-								</div>
-								
-								
-								<!-- Client and Payment Details -->
-								<div class="invoice-details">
-									
-									<div class="invoice-client-info">
-										<strong>Client</strong>
-										
-										<ul class="list-unstyled">
-											<li>Name </li>
-											<li>User Name </li>
-											<li>Email</li>
-										</ul>
-										
-										<ul class="list-unstyled">		
-											<li>Peter </li>
-											<li>Peter32 </li>
-											<li>xxxx@gmail.com</li>
-										</ul>
-									</div>	
-									
-									<div class="invoice-payment-info">
-										<strong>Seller</strong>
-										
-										<ul class="list-unstyled">
-											<li>Name: <strong>Bruha</strong></li>
-											<li>User Name: <strong>Bruha22</strong> </li>
-											<li>Email: <strong>xxxxxx@gmail.com</strong></li>
-										</ul>
-									</div>
-									
-								</div>
-								
-								
-								<!-- Invoice Entries -->
-								<table class="table table-bordered ticket-table">
-									<thead>
-										<tr class="no-borders">
-											<th width="60%" class="text-center">Event</th>
-											<th class="text-center hidden-xs">Amount</th>
-											<th class="text-center">Price</th>
-										</tr>
-									</thead>
-									
-									<tbody>
-										<tr>
-											<td>On am we offices expense thought</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$1,290</td>
-										</tr>
-										
-										<!-- <tr>
-											<td class="text-center hidden-xs">2</td>
-											<td>Up do view time they shot</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$400</td>
-										</tr>
-										
-										<tr>
-											<td class="text-center hidden-xs">3</td>
-											<td>Way ham unwilling not breakfast</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$550</td>
-										</tr>
-										
-										<tr>
-											<td class="text-center hidden-xs">4</td>
-											<td>Songs to an blush woman be sorry</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$4020</td>
-										</tr>
-										
-										<tr>
-											<td class="text-center hidden-xs">5</td>
-											<td>Luckily offered article led lasting</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$87</td>
-										</tr>
-										
-										<tr>
-											<td class="text-center hidden-xs">6</td>
-											<td>Of as by belonging therefore suspicion</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$140</td>
-										</tr> -->
-									</tbody>
-								</table>
-								
-								<!-- Invoice Subtotals and Totals -->
-								<div class="invoice-totals">
-									
-									<div class="invoice-subtotals-totals">
-										<span>
-											Sub - Total amount: 
-											<strong>$6,487</strong>
-										</span>
-										
-										<span>
-											Fee/Tax: 
-											<strong>12.9%</strong>
-										</span>
-										
-										<span>
-											Discount: 
-											<strong>-----</strong>
-										</span>
-										
-										<hr />
-										
-										<span>
-											Grand Total: 
-											<strong>$7,304</strong>
-										</span>
-									</div>
-									
-									<div class="invoice-bill-info">
-										<address>
-											175 Longwood Ave<br />
-											Mcmaster Innovation Park<br />
-											Hamilton, CA <br /> 
-											P: (234) 145-1810 <br />
-											Full Name <br />
-											<a href="#">first.last@email.com</a>
-										</address>
-									</div>
-									
-								</div>
-								
-							</section>
-							
-						</div>
+					<!-- ===================Calendar=========== -->
+					<div class="calendar-page">
+						<div class="calendar-main">
+						
+						<div id="calendar"></div>
+						
 					</div>
+
+					</div>
+				
 					<!-- Sider Bar Element -->
-				<div class="ticket-sidebar">
+				<div id="calendar-sidebar">
 					<h4>Event Name Here</h4>
 					<div>
 						<div class="sidebar-date">
@@ -1311,7 +1291,7 @@
 							</ul>	
 						</div>
 						<!-- button adding -->
-						<div class="button">
+						<div id="calendar-button">
 							<a href="#" style="color:white"><button class="btn btn-purple button-row-1">Tickets</button></a>
 							<a href="#" style="color:white"><button class="btn btn-purple button-row-1">More Info</button></a>
 							<div class="ticket-clear"></div>
@@ -1325,7 +1305,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="ticket-confirm-button">
+				<div class="calendar-confirm-button">
 					<a href="#"><button class="btn btn-info btn-block"><span>Ticket Confirm</span></button></a>
 				</div>
 			</div>
@@ -1374,16 +1354,20 @@
 	<script src="assets/js/joinable.js"></script>
 	<script src="assets/js/xenon-api.js"></script>
 	<script src="assets/js/xenon-toggles.js"></script>
+	<script src="assets/js/moment.min.js"></script>
 
 
 	<!-- Imported scripts on this page -->
+	<link rel="stylesheet" href="assets/js/fullcalendar/fullcalendar.min.css">
 	<script src="assets/js/xenon-widgets.js"></script>
 	<script src="assets/js/devexpress-web-14.1/js/globalize.min.js"></script>
 	<script src="assets/js/devexpress-web-14.1/js/dx.chartjs.js"></script>
 	<script src="assets/js/toastr/toastr.min.js"></script>
+	<script src="assets/js/jquery-ui/jquery-ui.min.js"></script>
 
 
 	<!-- JavaScripts initializations and stuff -->
+	<script src="assets/js/fullcalendar/fullcalendar.min.js"></script>
 	<script src="assets/js/xenon-custom.js"></script>
 
 </body>
