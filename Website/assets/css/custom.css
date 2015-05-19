@@ -784,3 +784,31 @@ Custom main-content for Calendar page
 	margin: 0;
 	text-align: center;
 }
+.gallery{
+	width: 100%;
+	float: left;
+}
+.gallery-row-1{
+	
+}
+.gallery-1{
+	float: left;
+	width: 30%;
+	margin: 1%;
+}
+.gallery-2{
+	float: left;
+	width: 30%;
+	margin: 1%;
+}
+.gallery-3{
+	float: left;
+	width: 30%;
+	margin: 1%;
+}
+
+
+
+
+
+
