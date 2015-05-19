@@ -775,3 +775,12 @@ Custom main-content for Calendar page
 	bottom: 16px;
 	right: 10px;
 }
+#conlist-search ul{
+	position: relative;
+	left: 45px;
+	bottom: 1px;
+	float: right;
+	min-width: 50px;
+	margin: 0;
+	text-align: center;
+}
