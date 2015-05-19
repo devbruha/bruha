@@ -210,11 +210,10 @@ Custom main-content for ticket page
 .ticket-sidebar{
 	margin: 0;
 	padding: 0;
-
-	width: 25%;
-
+	width: 190px;
+	margin-left: 1% !important;
 	height: 630px;
-	float: right;
+	float: left;
 	background: white;
 	position: relative;
 	top:20px;
@@ -310,6 +309,10 @@ Custom main-content for ticket page
 	height: 100px;
 	width: 190px;
 	margin-top: 40px;
+}
+.ticket-confirm-button{
+	float: left;
+	margin-left: 1%;
 }
 .ticket-confirm-button button span{
 	font-size: 1.5em;
@@ -422,10 +425,11 @@ Custom main-content for ticket page
 }
 /*Confirm button*/
 .ticket-confirm-button button{
-	float:right;
+	float:left;
 	height: 50px;
 	width: 100%;
 	margin-top: 40px;
+	margin-left: 1%;
 }
 .ticket-confirm-button button span{
 	font-size: 1.5em;
