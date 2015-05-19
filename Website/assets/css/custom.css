@@ -739,3 +739,39 @@ Custom main-content for Calendar page
 }
 }
 
+/*contentlisting page*/
+#conlist-nav{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#conlist-nav li{
+	font-size: 0.7em;	
+	color: purple;
+	float: left;
+	margin: 0 2%;
+}
+#list-1{
+	border-right: 1px gray solid;
+	padding-right: 1%;
+}
+#conlist-search{
+	position: relative;
+	bottom:2px;
+}
+#conlist-search input{
+	font-size: 0.8em;
+	height: 9px;
+	border-radius: 15px;
+	  -moz-border-radius:15px; 
+    -webkit-border-radius:15px;
+
+}
+#conlist-search button{
+	font-size: 0.7em;
+	color: purple;
+	float: right;
+	position: relative;
+	bottom: 16px;
+	right: 10px;
+}
