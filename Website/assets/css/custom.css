@@ -414,7 +414,7 @@ Custom main-content event list with picutres page search addictions
 }
 .addiction-search-button{
 	position: absolute;
-	left: 103%;
+	left: 98%;
 	bottom:46.5em;
 }
 .search-bar-with-side-bars{
@@ -422,6 +422,11 @@ Custom main-content event list with picutres page search addictions
 	max-width: 20%;
 }
 /*event-list-page-with-pictures-sidebar element*/
+.event-list-page-with-pictures-searchBtn{
+	position: relative;
+	right: 9.2em;
+	bottom: -0.2em
+}
 .sidebar-date{
 	margin-left: 10px;
 	font-weight: bold;
@@ -561,11 +566,43 @@ Custom main-content event list with picutres page search addictions
 /* ====================
 Custom main-content event list with picutres page addiction side bar 
 ==============*/
-@media screen and (max-width: 1085px){
+@media screen and (max-width: 1288px){
 .addiction-search-button{
-	position: absolute;
-	left: 230%;
-	bottom: 0.6em;
+left: 104%;
+}
+}
+@media screen and (max-width: 1230px){
+.addiction-search-button{
+left: 108%;
+}
+}
+@media screen and (max-width: 1190px){
+.addiction-search-button{
+left: 112%;
+}
+}
+@media screen and (max-width: 1140px){
+.addiction-search-button{
+left: 118%;
+}
+}
+@media screen and (max-width: 1110px){
+.addiction-search-button{
+left: 122%;
+}
+}
+@media screen and (max-width: 1085px){
+.addiction-search-input{
+	position: relative;
+	left: 6em;
+	bottom: 2.5em;
+	width: 260%;
+}
+.event-list-page-with-pictures-searchBtn{
+position: relative;
+left: 0;
+top: 0.5em;
+padding-right: 0;
 }
 .event-list-page-with-pictures-sidebar{
 	bottom:16em;
@@ -579,12 +616,6 @@ Custom main-content event list with picutres page addiction side bar
 .event-list-picture-first-rowes{
 max-width: 100%;
 float: none;
-}
-.addiction-search-input{
-position: absolute;
-left: -6em;
-bottom: 2em;
-width: 430%;
 }
 .event-list-search{
 position: relative;
@@ -622,7 +653,7 @@ bottom: 3em
 	left: -3em;
 }
 }
-@media screen and (max-width: 1010px){
+@media screen and (max-width: 1050px){
 .addiction-search-button{
 	position: absolute;
 	left: 280%;
@@ -750,6 +781,13 @@ left: -15%;
 	width: 23em;
 }
 }
+@media screen and (max-width: 480px){
+.event-list-page-with-pictures-sidebar-video{
+	position: relative;
+	left: -5em;
+}
+}
+
 @media screen and (max-width: 480px){
 .addiction-search-input{
 	position: absolute;
