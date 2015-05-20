@@ -849,7 +849,55 @@ Custom main-content for Calendar page
 .conlist-side{
 	width: 90%;
 	margin: 10px 0 0 5%;
-	height: 500px;
+	height: 450px;
 	background: white;
 }
-
+.conlist-sidebar-picture{
+	width: 50%;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 180px;
+	float: left;
+}
+.conlist-sidebar-picture img{
+	height: 160px;
+}
+.conlist-sidebar-list ul{
+	list-style: none;
+}
+.conlist-sidebar-date h4{
+	font-weight: bold;
+	color: orange;
+}
+.conlist-sidebar-date h4 span{
+	float: right;
+	color: gray;
+}
+.conlist-sidebar-date p{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+.conlist-button{
+	margin:8% 5% 3% 5%;
+	padding-left: 3%;
+	text-align: center;
+	height: 75px;
+}
+.conlist-button-row-1{
+	width: 40%;
+	margin: 0 auto;
+	margin-left: 3%;
+	float: left;
+}
+.conlist-button-row-2{
+	width: 40%;
+	margin: 0 auto;
+	margin-left: 3%;
+	margin-top: 3%;
+	float: left;
+}
+.conlist-sidebar-video iframe{
+	margin-top: 0px;
+	margin-left: 10px;
+}
