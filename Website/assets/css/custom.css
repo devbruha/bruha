@@ -901,3 +901,18 @@ Custom main-content for Calendar page
 	margin-top: 0px;
 	margin-left: 10px;
 }
+.conlist-content{
+	height: 500px;
+}
+.conlist-submit{
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+    -webkit-border-radius:15px;
+}
+.conlist-icon{
+	float: right;
+}
+.conlist-categories{
+	font-weight: bold;
+}
