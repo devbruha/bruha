@@ -739,6 +739,9 @@ Custom main-content for Calendar page
 }
 }
 
+
+
+
 /*contentlisting page*/
 #conlist-nav{
 	list-style: none;
@@ -787,6 +790,7 @@ Custom main-content for Calendar page
 .gallery{
 	width: 100%;
 	float: left;
+	height: 130px;
 }
 .gallery-row-1{
 	
@@ -796,8 +800,44 @@ Custom main-content for Calendar page
 	width: 30%;
 	margin: 1%;
 }
-
-
+.conlist-gallery{
+	width: 100%;
+	position: absolute;
+	top: 20px;
+}
+.gallery-paragraph{
+	width: 100%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	background: rgba(0,0,0,0.7);
+	height: 32px;
+	position: relative;
+	top: 100px;
+}
+.gallery-paragraph p{
+	color: white;
+	font-size: 0.3px;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding:0;
+	position: absolute;
+}
+.gallery-paragraph p span{
+	float: right;
+	font-weight: bold;
+}
+.main-body{
+	height: 600px;
+}
+#conlist-top{
+	padding:0 !important;
+}
+.gallery-1 a{
+	position: relative;
+	bottom: 123px;
+	left: 83%;
+}
 
 
 
