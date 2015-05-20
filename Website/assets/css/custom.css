@@ -29,15 +29,13 @@ a {
 Custom Sidebar menu 
 ==============*/
 .sidebar-menu{
-//width:300px;
+width:300px;
 background-color: rgb(13,13,13);
 }
 
-@media screen and (min-width: 768px)
-{
+@media screen and (min-width: 768px){
 	.sidebar-menu.collapsed {
 	  width: 110px;
-
 	}
 }
 
@@ -341,6 +339,9 @@ Custom main-content event list with picutres page
 /* ====================
 Custom main-content event list with picutres page pictures 
 ==============*/
+.event-list-page-main{
+	max-width: 1353px;
+}
 .event-list-page-with-pictures-main{
 	float: left;
 	max-width: 80%;
@@ -354,17 +355,16 @@ Custom main-content event list with picutres page pictures
 }
 
 .onimage-title-event-list-picture{
-background:black;
 width:100%;
+background:black;
 opacity:0.85;
 max-height:40px;
 position:absolute;
-bottom:0;
+bottom:0px;
 left:0px;
 }
 
 .onimage-title-event-list-picture span{
-
 font-Size:11px;
 font-weight: bold;
 color:white;
@@ -377,10 +377,13 @@ margin-left:10px;
 	padding: 0.4%;
 }
 
-.event-list-pictures{
-	width:550px;
+.event-list-page-with-pictures{
+	width:70%;
 }
 
+.event-list-pictures-main{
+	width: 46em;	
+}
 .event-list-pictures-each-column-clear{
 	clear: both;
 }
@@ -403,19 +406,22 @@ Custom main-content event list with picutres page search addictions
 }
 .addiction-search-input{
 	display: inline-block;
-	height: 1.5em;
-	width:180%;
+	height: 1.8em;
+	width:29.7%;
+	position: absolute;
+	left: 39em;
+	bottom: 49.5em;
 }
 .addiction-search-button{
-	position: relative;
-	right: 20px;
-	top:7px;
+	position: absolute;
+	left: 89%;
+	bottom:48.2em;
 }
 .search-bar-with-side-bars{
 	float: left;
 	max-width: 20%;
 }
-/*ticket-sidebar element*/
+/*event-list-page-with-pictures-sidebar element*/
 .sidebar-date{
 	margin-left: 10px;
 	font-weight: bold;
@@ -445,21 +451,22 @@ Custom main-content event list with picutres page search addictions
 	font-weight: bold;
 }
 /*sidebar button*/
-.button{
+.event-list-with-pictures-button{
 	margin:5%;
 	text-align: center;
 	position: relative;
+	left: -1em;
 }
-.button-row-1{
+.event-list-with-pictures-button-row-1{
 	width: 45%;
 	margin: 0 auto;
 	margin-left: 3%;
 	float: left;
 }
-.ticket-clear{
+.event-list-page-with-pictures-clear{
 	clear: both;
 }
-.button-row-2{
+.event-list-with-pictures-button-row-2{
 	width: 45%;
 	margin: 0 auto;
 	margin-left: 3%;
@@ -470,24 +477,31 @@ Custom main-content event list with picutres page search addictions
 	background: orange;
 
 }
-.sidebar-video{
-	height: 100px;
-	max-width: 100%;
+.event-list-page-with-pictures-sidebar{
+	position: relative;
 }
-.sidebar-video iframe{
+.event-list-page-with-pictures-sidebar-video{
+	height: 100px;
+	max-width: 14em;
+}
+.event-list-page-with-pictures-sidebar-video iframe{
 	margin-top: 5%;
-	height: 90%;
+	height: 7em;
 	margin-left: 10px;
+	width: 98%;
 }
 /*Confirm button*/
-.ticket-confirm-button button{
-	float:right;
-	height: 2.8em;
-	width: 200px;
-	position:relative;
-	bottom: 0.6em;
+.event-list-page-with-pictures-confirm-button button{
+	height: 4.8%;
+	width: 16em;
+	position:absolute;
+	float: left;
+	left: 35em;
+	bottom: 12em;
+	margin-top:3em;
+	margin-left: 4.5em;
 }
-.ticket-confirm-button button span{
+.event-list-page-with-pictures-confirm-button button span{
 	font-size: 1.5em;
 	font-weight: bold;
 }
@@ -508,15 +522,16 @@ Custom main-content event list with picutres page search addictions
 .ticket{
 	height: 2000px;
 }
-.ticket-sidebar{
+.event-list-page-with-pictures-sidebar{
 	margin: 0;
 	padding: 0;
-	width: 200px;
+	width: 29%;
 	height: 430px;
-	float: right;
+	float: left;
 	background: white;
-	position: relative;
-	bottom:12px;
+	position: absolute;
+	bottom:16em;
+	left: 39em;
 }
 .ticket-paragraph p{
 	color: black;
@@ -534,7 +549,7 @@ Custom main-content event list with picutres page search addictions
 .ticket-client{
 	max-width: 50%;
 }
-.ticket-sidebar h4{
+.event-list-page-with-pictures-sidebar h4{
 	color:orange;
 	font-weight: bold;
 	margin: 5px 10px 0 10px;
@@ -542,23 +557,25 @@ Custom main-content event list with picutres page search addictions
 /* ====================
 Custom main-content event list with picutres page addiction side bar 
 ==============*/
-@media screen and (max-width: 1000px){
-.event-list-pictures{
+@media screen and (max-width: 1085px){
+.event-list-page-with-pictures{
 	padding-bottom: 0;
 	margin-bottom: 0;
+	padding: 2em 2em 0 2em;
 }
-.event-list-pictures{
+.event-list-picture-first-rowes{
 max-width: 100%;
 float: none;
 }
-.addiction-search-button{
-	position: relative;
-	left: 50%;
-	bottom: 40%;
-}
 .addiction-search-input{
-	position: relative;
-	right: 5%;
+position: absolute;
+left: -6em;
+bottom: 2em;
+width: 430%;
+}
+.event-list-search{
+position: relative;
+right: 42%;
 }
 .search-bar-with-side-bars{
 max-width: 60%;
@@ -567,52 +584,165 @@ margin: 0 10%;
 position: relative;
 bottom: 200%;
 }
-.ticket-sidebar{
-width: 140%;
+.event-list-page-with-pictures-sidebar{
+	width: 50%
+}
+.event-list-page-with-pictures-sidebar{
+width: 240%;
 position: relative;
-left: 18%;
+left: -4em;
+bottom: 3em
 }
-}
-@media screen and (max-width: 970px){
-.addiction-search-button{
+.event-list-page-with-pictures-confirm-button button{
 	position: relative;
-	left: 35%;
-	bottom: 40%;
+	left: 15em;
+	bottom: -1em;
+	height: 7em;
 }
+.event-list-page-with-pictures-sidebar-video{
+	height: 110px;
+	max-width: 18em;
+	left: 2em;
 }
-@media screen and (max-width: 910px){
-.addiction-search-button{
+.event-list-with-pictures-button{
 	position: relative;
-	left: 20%;
-	bottom: 40%;
+	left: -3em;
 }
-
-@media screen and (max-width: 860px){
+}
+@media screen and (max-width: 1010px){
 .addiction-search-button{
-	position: relative;
-	left: -15%;
+	position: absolute;
+	left: 280%;
+	bottom: 80%;
 }
 .addiction-search-input{
 	position: relative;
-	left: 15%;
-}}
-@media screen and (max-width: 860px){
-.ticket-confirm-button{
-	position: relative;
-	left: 10%;
+	left: 6em;
+	bottom: 2.5em;
+	width: 260%;
 }
+.event-list-page-with-pictures-searchBtn{
+position: relative;
+left: 0;
+top: 0.5em;
+padding-right: 0;
+}
+}
+
+@media screen and (max-width: 875px){
+.event-list-picutres{
+	width: 30%;
+}
+.event-list-page-with-pictures-confirm-button button{
+	position: relative;
+	left: 10em;
+	bottom: 6em;
+}
+}
+@media screen and (max-width: 800px){
+.event-list-page-with-pictures-confirm-button button{
+	position: relative;
+	left: 9em;
+	bottom: 9em;
 }
 @media screen and (max-width: 790px){
 .addiction-search-button{
 	position: relative;
-	left: -5%;
+	left: 175%;
+	bottom: 4em
 }
 .addiction-search-input{
-	position: relative;
-	left: 25%;
+	position: absolute;
+	width: 380%;
+	left: -17em;
+	bottom: 2em;
 }
-.ticket-confirm-button{
+.event-list-page-with-pictures-confirm-button{
+	width: 90%;
 	position: relative;
-	left: 40%;
+	left: 30%;
+	bottom: 20%;
+}
+}
+
+@media screen and (max-width: 768px){
+.event-list-page-with-pictures-confirm-button button{
+	position: relative;
+	left: 3em;
+	bottom: 9em;
+}
+.event-list-page-with-pictures-sidebar-video iframe{
+	position: relative;
+	left: 10%;
+	height: 8em;
+	width: 80%;
+}	
+.event-list-page-with-pictures-main{
+	float: none;
+}
+.event-list-page-with-pictures-sidebar{
+	float: left;
+	padding-bottom: 60px;
+	margin-bottom: 70px;
+}
+.search-bar-with-side-bars{
+	max-width: 80%;
+	z-index: 10;
+}
+.event-list-search{
+	width: 100%;
+}
+.event-list-pictures-main{
+	width: 167%;
+}
+.event-list-pictures-images{
+	width: 33em;
+}
+.event-list-page-with-pictures-sidebar{
+width: 130%;
+position: relative;
+left: -15%;
+}
+.addiction-search-input{
+	position: absolute;
+	left: -10em;
+	width: 310%;
+}
+}
+
+@media screen and (max-width: 560px){
+.event-list-page-with-pictures-sidebar-video iframe{
+	position: relative;
+	left: 1em;
+	width: 60%;
+}
+.event-list-page-with-pictures-confirm-button button{
+	width: 80%;
+	position: absolute;
+	bottom: -40em;
+}
+.addiction-search-input{
+	position: absolute;
+	left: -2em;
+	width: 230%;
+}
+}
+@media screen and (max-width: 480px){
+.event-list-page-with-pictures-sidebar-video iframe{
+	position: relative;
+	left: 1em;
+	width: 60%;
+}
+.event-list-page-with-pictures-confirm-button button{
+	width: 80%;
+	margin-bottom: 2em;
+	position: absolute;
+	bottom: -38em;
+	left: 1em;
+}
+.addiction-search-input{
+	position: absolute;
+	left: 2em;
+	width: 200%;
 }
 }

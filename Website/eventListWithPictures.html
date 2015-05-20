@@ -1105,10 +1105,10 @@
 			</script>
 			<div class="eventListMain">
 					
-				<div class ="content-list-navigation-div">
+				<div>
 					<!-- content List Navigation-->
 					<div class="eventListNav">
-						<ul class="nav hidden-xs eventListNav-ul">
+						<ul class="nav hidden-xs">
 						<li><a class = "selected" href="#">Events</a></li>
 						<li><a href="#">Artists</a></li>
 						<li class = "event-list-third-child"><a href="#">Venues</a></li>
@@ -1116,7 +1116,7 @@
 						</ul>
 					</div>
 					<!-- content List Navigation when screen is x-small -->
-					<div class="btn-group hidden-sm hidden-md hidden-lg">
+					<div class=" btn-group hidden-sm hidden-md hidden-lg">
 					    <button type="button" class="button-eventDropDown btn-eventDropDown btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 					    Content <span class="caret"></span>
 				    	</button>
@@ -1128,17 +1128,12 @@
 						    <li><a href="#">Outfits</a></li>
 						</ul>
 					</div>
-					<!-- search bar -->
-				</div>
-				
-						
-				
-				<div><section class="event-list-page-with-pictures-main gallery-env">
+					<section class="event-list-page-with-pictures-main gallery-env">
 							
 								<div class="row event-list-pictures-main">
 							
 								<!-- Gallery Album Optipns and Images -->
-									<div class="col-sm-8 gallery-center event-list-pictures panel panel-dafault scrollable" data-max-height="1200px">
+									<div class="col-xs-8 gallery-center event-list-page-with-pictures panel panel-dafault scrollable" data-max-height="1200px">
 										<div class="row event-list-picture-first-row">
 											<!-- 1 row 3 columns -->
 											<div class="col-sm-4 event-list-pictures-each-column">
@@ -1161,9 +1156,9 @@
 													</div>
 												</div>
 											</div>
-											<div class="col-sm-4 event-list-pictures-each-column">
+											<div class="col-sm-4 event-list-pictures-each-column ">
 												<div class="chart-item-bg">
-													<div class="discover-image">
+													<div class="discover-image event-list-pictures-images">
 														<img src="assets/images/Discover.jpg" alt="Discover Poster" class="img-responsive"/>					
 													</div>
 													<div class="onimage-title-event-list-picture">
@@ -1197,7 +1192,7 @@
 											</div>
 											<div class="col-sm-4 event-list-pictures-each-column">
 												<div class="chart-item-bg">
-													<div class="discover-image">
+													<div class="discover-image event-list-pictures-images">
 														<img src="assets/images/Discover.jpg" alt="Discover Poster" class="img-responsive"/>					
 													</div>
 													<div class="onimage-title-event-list-picture">
@@ -1231,7 +1226,7 @@
 											</div>
 											<div class="col-sm-4 event-list-pictures-each-column">
 												<div class="chart-item-bg">
-													<div class="discover-image">
+													<div class="discover-image event-list-pictures-images">
 														<img src="assets/images/Discover.jpg" alt="Discover Poster" class="img-responsive"/>					
 													</div>
 													<div class="onimage-title-event-list-picture">
@@ -1265,7 +1260,7 @@
 											</div>
 											<div class="col-sm-4 event-list-pictures-each-column">
 												<div class="chart-item-bg">
-													<div class="discover-image">
+													<div class="discover-image event-list-pictures-images">
 														<img src="assets/images/Discover.jpg" alt="Discover Poster" class="img-responsive"/>					
 													</div>
 													<div class="onimage-title-event-list-picture">
@@ -1277,9 +1272,8 @@
 									</div>
 							
 									</div>
-							
 							</section>
-				
+
 							<div class ="search-bar-with-side-bars">
 									<div class = "searchBar">
 										<ul class="user-info-menu right-links list-inline list-unstyled event-list-pictures-search">
@@ -1287,15 +1281,15 @@
 												<form class = "event-list-search" name="userinfo_search_form" method="get" action="extra-search.html">
 													<input type="text" name="s" class="rounded addiction-search-input form-control search-field" placeholder="Search Addictions" />
 													<button type="submit" class="addiction-search-button btn btn-link btn-icon-standalone-right btn-icon-standalone">
-														<i class="searchBtn linecons-search"></i>
+														<i class="event-list-page-with-pictures-searchBtn linecons-search"></i>
 													</button>
 												</form>
 											</li>
 										</ul>
 									</div>
-									<div class="ticket-sidebar col-sm-3">
+									<div class="event-list-page-with-pictures-sidebar col-sm-3">
 									<h4>Event Name Here</h4>
-									<div>
+									<div class="event-list-page-with-pictures-sidebar-main">
 										<div class="sidebar-date">
 											<p style="color:black">1:00pm<br />
 											July 27th, 2015</p>
@@ -1316,26 +1310,29 @@
 											</ul>	
 										</div>
 										<!-- button adding -->
-										<div class="button">
-											<a href="#" style="color:white"><button class="btn btn-purple button-row-1">Tickets</button></a>
-											<a href="#" style="color:white"><button class="btn btn-purple button-row-1">More Info</button></a>
-											<div class="ticket-clear"></div>
-											<a href="#" style="color:white"><button class="btn btn-orange button-row-2 ticket-preview">Preview</button></a>
-											<a href="#" style="color:white"><button class="btn btn-purple button-row-2">Addict</button></a>
+										<div class="event-list-with-pictures-button">
+											<a href="#" style="color:white"><button class="btn btn-purple event-list-with-pictures-button-row-1">Tickets</button></a>
+											<a href="#" style="color:white"><button class="btn btn-purple event-list-with-pictures-button-row-1">More Info</button></a>
+											<div class="event-list-page-with-pictures-clear"></div>
+											<a href="#" style="color:white"><button class="btn btn-orange event-list-with-pictures-button-row-2 ticket-preview">Preview</button></a>
+											<a href="#" style="color:white"><button class="btn btn-purple event-list-with-pictures-button-row-2">Addict</button></a>
 										</div>
-										<div class="ticket-clear"></div>
-										<div class="sidebar-video">
+										<div class="event-list-page-with-pictures-clear"></div>
+										<div class="event-list-page-with-pictures-sidebar-video">
 											<iframe width="90%" src="https://www.youtube.com/embed/VJ09nHDZkEc" frameborder="0" allowfullscreen>
 											</iframe>
 										</div>
 									</div>
 									</div>
-									<div class="ticket-confirm-button">
+									<div class="event-list-page-with-pictures-confirm-button">
 										<a href="#"><button class="btn btn-info btn-block"><span>My Addictions</span></button></a>
 									</div>
 									</div>
-								</div>
-			</div>			
+									
+				</div>
+
+			</div>
+			<div></div>			
 			
 			<!-- Main Footer -->
 			<!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
