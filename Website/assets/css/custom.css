@@ -743,18 +743,18 @@ Custom main-content for Calendar page
 
 
 /*contentlisting page*/
-#conlist-nav{
+.conlist-nav{
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-#conlist-nav li{
+.conlist-nav li{
 	font-size: 0.7em;	
 	color: purple;
 	float: left;
 	margin: 0 2%;
 }
-#list-1{
+.list-1{
 	border-right: 1px gray solid;
 	padding-right: 1%;
 }
@@ -838,7 +838,18 @@ Custom main-content for Calendar page
 	bottom: 123px;
 	left: 83%;
 }
-
-
-
+.list-2{
+	border-right: 1px gray solid;
+	padding-right: 1%;
+	margin: 0 0 0 1% !important;
+}
+.conlist-row2{
+	padding-left: 20%;
+}
+.conlist-side{
+	width: 90%;
+	margin: 10px 0 0 5%;
+	height: 500px;
+	background: white;
+}
 
