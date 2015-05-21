@@ -744,6 +744,8 @@ Custom main-content for Calendar page
 
 /*contentlisting page*/
 .conlist-nav{
+	font-size: 1.5em;
+	font-weight: bold;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -846,8 +848,11 @@ Custom main-content for Calendar page
 .conlist-row2{
 	padding-left: 20%;
 }
+.conlist-sideborder{
+	padding: 0 !important;
+}
 .conlist-side{
-	width: 90%;
+	width: 95%;
 	margin: 10px 0 0 5%;
 	height: 450px;
 	background: white;
