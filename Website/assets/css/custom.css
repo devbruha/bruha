@@ -935,4 +935,20 @@ Custom main-content for Calendar page
 .conlist-slider-button{
 	margin: 0 auto;
 	float: right;
+	margin-bottom: 10px;
+}
+#slide-search input{
+	color: white;
+	background: #E6E6E6;
+	font-size: 0.8em;
+	height: 9px;
+	border-radius: 15px;
+	  -moz-border-radius:15px; 
+    -webkit-border-radius:15px;
+}
+#slide-search h5{
+	color: black;
+}
+.conlist-panel-control{
+	padding-bottom: 0px;
 }

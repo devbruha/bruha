@@ -1001,6 +1001,87 @@
 					setInterval(function(){ networkRealtimeGaugeTick(); }, 2000);
 					setInterval(function(){ networkRealtimeMBupdate(); }, 3000);
 					
+					// Calendar Initialization
+				$('#calendar').fullCalendar({
+					header: {
+						left: 'title',
+						center: '',
+						right: 'month,agendaWeek,agendaDay prev,next'
+					},
+					buttonIcons: {
+						prev: 'prev fc-icon fc-icon-left-single-arrow',
+						next: 'next fc-icon fc-icon-right-single-arrow',
+					},
+					defaultDate: '2014-09-12',
+					editable: true,
+					eventLimit: true,
+					events: [
+						{
+							title: 'All Day Event',
+							start: '2014-09-01'
+						},
+						{
+							title: 'Long Event',
+							start: '2014-09-07',
+							end: '2014-09-10'
+						},
+						{
+							id: 999,
+							title: 'Repeating Event',
+							start: '2014-09-09T16:00:00'
+						},
+						{
+							id: 999,
+							title: 'Repeating Event',
+							start: '2014-09-16T16:00:00'
+						},
+						{
+							title: 'Conference',
+							start: '2014-09-11',
+							end: '2014-09-13'
+						},
+						{
+							title: 'Meeting',
+							start: '2014-09-12T10:30:00',
+							end: '2014-09-12T12:30:00'
+						},
+						{
+							title: 'Lunch',
+							start: '2014-09-12T12:00:00'
+						},
+						{
+							title: 'Meeting',
+							start: '2014-09-12T14:30:00'
+						},
+						{
+							title: 'Happy Hour',
+							start: '2014-09-12T17:30:00'
+						},
+						{
+							title: 'Dinner',
+							start: '2014-09-12T20:00:00'
+						},
+						{
+							title: 'Birthday Party',
+							start: '2014-09-13T07:00:00'
+						},
+						{
+							title: 'Click for Google',
+							url: 'http://google.com/',
+							start: '2014-09-28'
+						}
+					],
+					droppable: true,
+					drop: function(date) {
+						
+						var $event = $(this).find('a'),
+							eventObject = {
+								title: $event.find('.badge').text(),
+								start: date,
+								className: $event.data('event-class')
+							};
+						
+						$('#calendar').fullCalendar('renderEvent', eventObject, true);
 					
 					
 					// CPU Usage Gauge
@@ -1235,6 +1316,10 @@
 						<span class="list-group-item"><input type="checkbox" />Cinematic<span class="fa-twitch conlist-icon"></span></span>
 						<span class="list-group-item"><input type="checkbox" />Keynotes<span class="fa-arrows conlist-icon"></span></span>
 						<span class="list-group-item"><input type="checkbox" />Rodeo<span class="fa-book conlist-icon"></span></span>
+						<span class="list-group-item"><span></span></span>
+						<span class="list-group-item"><span></span></span>
+						<span class="list-group-item"><span></span></span>
+						<span class="list-group-item"><span></span></span>
 						<span class="list-group-item"><button class="btn btn-gray conlist-submit"type="submit">Search</button></span>
 					</form>
 				</div>
@@ -1248,15 +1333,19 @@
 						<span class="list-group-item"><input type="checkbox" />R &#38; B<span class="fa-futbol-o conlist-icon"></span></span>
 						<span class="list-group-item"><input type="checkbox" />Hip Hop<span class="fa-yelp conlist-icon"></span></span>
 						<span class="list-group-item"><input type="checkbox" />EDM<span class="fa-paint-brush conlist-icon"></span></span>
+						<span class="list-group-item"><span></span></span>
+						<span class="list-group-item"><span></span></span>
 						<span class="list-group-item active">Student Groups</span>
 						<span class="list-group-item"><input type="checkbox" />Pub Crawl<span class="fa-arrows conlist-icon"></span></span>
 						<span class="list-group-item"><input type="checkbox" />Orientation Week<span class="fa-book conlist-icon"></span></span>
+						<span class="list-group-item"><span></span></span>
+						<span class="list-group-item"><span></span></span>
 						<span class="list-group-item"><button class="btn btn-gray conlist-submit"type="submit">Search</button></span>
 					</form>
 				</div>
 				<div class="col-sm-4">
 					<!-- #####################    Custom Panel    ###################### -->
-					<div class="panel panel-color panel-black">
+					<div class="panel panel-color panel-black conlist-panel-control">
 						<div class="panel-heading">
 							<h3 class="panel-title">Custom</h3>
 							
@@ -1287,7 +1376,7 @@
 						</div>
 					</div>
 					<!-- ###############  SLIDER   ################# -->
-					<div class="panel panel-color panel-black">
+					<div class="panel panel-color panel-black conlist-panel-control">
 					
 						<div class="panel-heading">
 							<div class="panel-title">
@@ -1303,9 +1392,9 @@
 						</form>
 					</div>
 					<!-- ########################    Save As Custom    ########################## -->
-					<div class="panel panel-color panel-black">
+					<div class="panel panel-color panel-black conlist-panel-control">
 						<div class="panel-heading">
-							<h3 class="panel-title">Custom</h3>
+							<h3 class="panel-title">Save As Custom</h3>
 							
 							<div class="panel-options">
 								<a href="#">
@@ -1329,14 +1418,52 @@
 						
 						<div class="panel-body conlist-panel">
 							
-							<form>
-								
-
+							<form id="slide-search">
+								<h5>Remember these filters</h5>
+								<input type="text" class="form-control input-lg" placeholder="Type filter name here..."  />
 							</form>
 			
 						</div>
 					</div>
 
+					<!-- #################  Calendar  ################# -->
+					<div class="panel panel-color panel-black conlist-panel-control">
+						<div class="panel-heading">
+							<h3 class="panel-title">Dates</h3>
+							
+							<div class="panel-options">
+								<a href="#">
+									<i class="linecons-cog"></i>
+								</a>
+								
+								<a href="#" data-toggle="panel">
+									<span class="collapse-icon">&ndash;</span>
+									<span class="expand-icon">+</span>
+								</a>
+								
+								<a href="#" data-toggle="reload">
+									<i class="fa-rotate-right"></i>
+								</a>
+								
+								<a href="#" data-toggle="remove">
+									&times;
+								</a>
+							</div>
+						</div>
+						
+						<div class="panel-body conlist-panel">
+						
+								<div class="calendar-main">
+						
+									<div id="calendar"></div>
+						
+								</div>
+
+							
+			
+						</div>
+					</div>
+					<!-- ########################################### -->
 				</div>
 			</div>
 			<div class="row">
@@ -1388,9 +1515,11 @@
 	<script src="assets/js/joinable.js"></script>
 	<script src="assets/js/xenon-api.js"></script>
 	<script src="assets/js/xenon-toggles.js"></script>
+	<script src="assets/js/moment.min.js"></script>
 
 
 	<!-- Imported scripts on this page -->
+	<link rel="stylesheet" href="assets/js/fullcalendar/fullcalendar.min.css">
 	<script src="assets/js/xenon-widgets.js"></script>
 	<script src="assets/js/devexpress-web-14.1/js/globalize.min.js"></script>
 	<script src="assets/js/devexpress-web-14.1/js/dx.chartjs.js"></script>
@@ -1400,6 +1529,7 @@
 	<script src="assets/js/knob/jquery.knob.min.js"></script>
 
 	<!-- JavaScripts initializations and stuff -->
+	<script src="assets/js/fullcalendar/fullcalendar.min.js"></script>
 	<script src="assets/js/xenon-custom.js"></script>
 
 </body>
