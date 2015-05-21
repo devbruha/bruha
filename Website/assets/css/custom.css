@@ -957,3 +957,38 @@ Custom main-content for Calendar page
 	margin-right: -30px  !important;
 	height: 223px;
 }
+.recomend-head{
+	padding: 10px;
+	height: 65px;
+	margin-right: 0;
+	width: 100%;
+	color: white;
+	background: black;
+}
+.recomend-head h3{
+	width: 50%;
+	margin: 0;
+	margin-top: 10px;
+	float: left;
+}
+.recomend-head a{
+	color: white;
+	float: right;
+}
+#recomend-a-1{
+}
+#recomend-a-2{
+	position: relative;
+	top:20px;
+	left: 45px;
+}
+.recomend-img{
+	padding: 0;
+}
+.recomended{
+	width: 100%;
+}
+.recomand-gallery{
+	margin-top: 5px;
+	height: 120px;
+}
