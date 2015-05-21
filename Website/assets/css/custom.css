@@ -952,3 +952,8 @@ Custom main-content for Calendar page
 .conlist-panel-control{
 	padding-bottom: 0px;
 }
+.conlist-panel-control-calendar{
+	margin-left: -15px !important;
+	margin-right: -30px  !important;
+	height: 223px;
+}
