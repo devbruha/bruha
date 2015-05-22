@@ -1009,3 +1009,38 @@ Custom main-content for Calendar page
 	font-size:2px;
 	color: gray;
 }
+@media only screen and (max-width: 1305px){
+	.conlist-top-menu{
+		padding: 0;
+	}
+	.conlist-row2{
+		padding-left: 10%;
+	}
+	.conlist-panel-hidden{
+		display: none;
+	}
+	.conlist-panel-control-calendar{
+		margin-left: -20% !important;
+	}
+
+}
+@media only screen and (max-width: 1190px){
+	.conlist-side{
+		height: 500px;
+		margin-bottom: 20px;
+	}
+	.conlist-nav li{
+		font-size: 0.5em;
+	}
+	.conlist-row2{
+		padding-left: 6%;
+	}
+	.conlist-panel-control-calendar{
+		margin-left: -30% !important;
+	}
+}
+@media only screen and (max-width: 1000px){
+	.conlist-panel-control-calendar{
+		margin-left: -20% !important;
+
+	}
