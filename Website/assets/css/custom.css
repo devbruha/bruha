@@ -1114,3 +1114,15 @@ Custom main-content for Calendar page
 		top:1900px;
 	}
 }
+
+
+@media only screen and (min-width: 1400px){
+	.conlist-side{
+		height: 475px;
+	}
+	.conlist-group-selection{
+		margin-top: 20px;
+	}
+
+}
+
