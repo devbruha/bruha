@@ -144,7 +144,7 @@
 		
 	</div>
 	
-	<div class="page-container"><!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
+	<div class="page-container conlist-page-contain"><!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
 			
 		<!-- Add "fixed" class to make the sidebar fixed always to the browser viewport. -->
 		<!-- Adding class "toggle-others" will keep only one menu item open at a time. -->
@@ -1194,7 +1194,7 @@
 							<a href="#"><li>List</li></a>
 						</ul>
 					</div>
-					<div class="col-sm-9">
+					<div class="col-sm-9 conlist-top-search">
 						<form id="conlist-search" method="get" action="" enctype="application/x-www-form-urlencoded">
 							<input type="text" class="form-control input-lg rounded" placeholder="Search..." name="s"  />
 							
@@ -1303,7 +1303,7 @@
 		</div>	
 			
 			<div class="row">
-				<div class="col-sm-4 list-group">
+				<div class="col-sm-4 list-group conlist-col-1">
 					<div>
 						<span class="list-group-item active conlist-categories">Categories</span>
 						<span class="conlist-clear-a"><a href="#">Clear</a></span>
@@ -1329,7 +1329,7 @@
 						<span class="list-group-item"><button class="btn btn-gray conlist-submit"type="submit">Search</button></span>
 					</form>
 				</div>
-				<div class="col-sm-4 list-group">
+				<div class="col-sm-4 list-group conlist-col-2">
 					<span class="list-group-item active conlist-categories">Subs</span>
 					<span class="conlist-clear-a"><a href="#">Clear</a></span>
 					<form>
@@ -1354,7 +1354,7 @@
 						<span class="list-group-item"><button class="btn btn-gray conlist-submit"type="submit">Search</button></span>
 					</form>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-4 conlist-col-3">
 					<!-- #####################    Custom Panel    ###################### -->
 					<div class="panel panel-color panel-black conlist-panel-control">
 						<div class="panel-heading">
@@ -1464,7 +1464,7 @@
 						
 						<div class="panel-body conlist-panel conlist-panel-control-calendar scrollable" data-max-height="250px" data-max-width="100%">
 						
-							<TABLE BORDER=3 CELLSPACING=3 CELLPADDING=3> 
+							<TABLE BORDER=3 CELLSPACING=3 CELLPADDING=3 class="conlist-calendar"> 
 								<TR>
 								<TD COLSPAN="7" ALIGN=center><B>December 2001</B></TD> 
 								</TR>

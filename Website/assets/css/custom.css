@@ -1021,10 +1021,14 @@ Custom main-content for Calendar page
 	}
 	.conlist-panel-control-calendar{
 		margin-left: -20% !important;
+		margin-right: -20% !important;
 	}
 
 }
 @media only screen and (max-width: 1190px){
+	.conlist-panel-hidden{
+		display: block;
+	}
 	.conlist-side{
 		height: 500px;
 		margin-bottom: 20px;
@@ -1036,11 +1040,59 @@ Custom main-content for Calendar page
 		padding-left: 6%;
 	}
 	.conlist-panel-control-calendar{
-		margin-left: -30% !important;
+		width: 80%;
+		margin-right:10% !important;
+		margin-left: 10% !important; 
+	}
+	.conlist-col-1{
+		width: 50%;
+	}
+	.conlist-col-2{
+		width: 50%;
+	}
+	.conlist-col-3{
+		width: 100%;
+	}
+	.conlist-calendar{
+		width: 100%;
 	}
 }
-@media only screen and (max-width: 1000px){
-	.conlist-panel-control-calendar{
-		margin-left: -20% !important;
+@media only screen and (max-width: 770px){
+	.conlist-sideborder{
+		position: relative;
+		top:330px;
+		width: 100%;
+	}
+	.conlist-side{
+		width: 100%;
+		margin-left: 0;
+	}
+	.main-body{
+		height: 900px !important;
+	}
+	.conlist-page-contain{
+		height: 5500px;
+	}
+	.conlist-gallery{
+		position: absolute;
+		top:20px;
 
 	}
+	.conlist-top-menu{
+		width: 30%;
+		float: left;
+		margin-left: 10%;
+	}
+	.conlist-top-search{
+		width: 60%;
+		float: right;
+	}
+	.conlist-col-1{
+		width: 100%;
+		position: relative;
+		top:400px;
+	}
+	.conlist-col-2{
+		width: 100%;
+	}
+}
