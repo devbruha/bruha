@@ -902,6 +902,11 @@ Custom main-content for Calendar page
 	margin-top: 3%;
 	float: left;
 }
+.conlist-sidebar-video{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 .conlist-sidebar-video iframe{
 	margin-top: 0px;
 	margin-left: 10px;
@@ -1122,6 +1127,16 @@ Custom main-content for Calendar page
 	}
 	.conlist-group-selection{
 		margin-top: 20px;
+	}
+
+}
+
+@media only screen and (min-width: 1800px){
+	.conlist-side{
+		height: 500px;
+	}
+	.conlist-group-selection{
+		margin-top: 50px;
 	}
 
 }
