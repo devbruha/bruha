@@ -992,3 +992,20 @@ Custom main-content for Calendar page
 	margin-top: 5px;
 	height: 120px;
 }
+.recomend-badge{
+	float: right;
+	position: relative;
+	right: -120px;
+	top: 20px;
+}
+.conlist-clear-a{
+	float: right;
+	z-index: 10;
+	margin-right: 10px;
+	position: relative;
+	bottom: 30px;
+}
+.conlist-clear-a a{
+	font-size:2px;
+	color: gray;
+}
