@@ -1014,6 +1014,23 @@ Custom main-content for Calendar page
 	font-size:2px;
 	color: gray;
 }
+.conlist-col-1{
+	width: 30%;
+	margin-right: 1.55555%;
+}
+.conlist-col-2{
+	width: 30%;
+	margin-left: 1.5555%;
+}
+.conlist-col12{
+	padding: 0;
+}
+.conlist-col12-head{
+	margin: 0 !important;
+}
+.conlist-col12 form{
+	padding-top: 0 !important;
+}
 @media only screen and (max-width: 1305px){
 	.conlist-top-menu{
 		padding: 0;
@@ -1050,17 +1067,27 @@ Custom main-content for Calendar page
 		margin-left: 10% !important; 
 	}
 	.conlist-col-1{
-		width: 50%;
+		width: 45%;
+		margin-right: 5%;
 	}
 	.conlist-col-2{
-		width: 50%;
+		width: 45%;
+		margin-left: 2.5%;
 	}
 	.conlist-col-3{
 		width: 100%;
+		position: relative;
+		top:150px;
 	}
 	.conlist-calendar{
 		width: 100%;
 	}
+	.recomend{
+		margin-bottom: 100px;
+		position: relative;
+		top:130px;
+	}
+
 }
 @media only screen and (max-width: 770px){
 	.conlist-sideborder{
