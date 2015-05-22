@@ -1076,6 +1076,7 @@ Custom main-content for Calendar page
 	.conlist-gallery{
 		position: absolute;
 		top:20px;
+		left: 15px;
 
 	}
 	.conlist-top-menu{
@@ -1089,10 +1090,27 @@ Custom main-content for Calendar page
 	}
 	.conlist-col-1{
 		width: 100%;
+		padding: 0;
 		position: relative;
 		top:400px;
 	}
 	.conlist-col-2{
 		width: 100%;
+		padding: 0;
+		position: relative;
+		top:400px;
+	}
+	.conlist-col-3{
+		position: relative;
+		top:400px;
+	}
+	.recomend{
+		position: relative;
+		top:400px;
+
+	}
+	.conlist-footer{
+		position: relative;
+		top:1900px;
 	}
 }
