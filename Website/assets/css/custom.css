@@ -834,8 +834,8 @@ Custom main-content for get addictied column
 	width: 60px;
 	left: 20%;
 }
-.skyeblue-box-text-for-ticket-details{
-	font-size: 220%;
+.skyblue-box-text-for-ticket-details{
+	font-size: 200%;
 	top: 4%;
 	left: 38%;
 	font-weight: bold;
@@ -866,7 +866,7 @@ Custom main-content for ticket details page right side other event
 	left: 2%;
 }
 #ticket-details-event-name-h2{
-	font-size: 180%;
+	font-size: 160%;
 	color: gray;
 	font-weight: bold;
 	opacity: 0.4;
@@ -879,6 +879,9 @@ Custom main-content for ticket details page right side event details
 	margin-top: 4.5em;
 	height: 13em;
 	margin-bottom: 8px;
+}
+.ticket-detail-page-table-panel{
+	height: 17em !important;
 }
 .ticket-details-event-details h1{
 	padding-top: 0.8em;
@@ -927,7 +930,7 @@ Custom main-content for ticket details page ticket purchase table
 ==============*/
 .event-details-register-button{
 	position: relative;
-	left: 40em;
+	float: right;
 	width: 11.3em;
 	height: 3.5em;
 }
@@ -939,4 +942,42 @@ Custom main-content for ticket details page promoter pictures
 }
 .chart-item-bg-event-details-promoter-pictures img{
 	height: 20em;
+}
+/* ====================
+Custom main-content for ticket details page media query 
+==============*/
+@media screen and (max-width: 1280px){
+	#ticket-details-event-name-h1{
+		font-size: 140%;
+	}
+	#ticket-details-event-name-h2{
+		font-size: 120%;
+	}
+}	
+@media screen and (max-width: 1220px){
+	.skyblue-box-for-ticket-details{
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 1150px){
+	.skyblue-box-for-ticket-details{
+		font-size: 80%;
+	}
+	#ticket-details-event-name-h1{
+		font-size: 120%;
+	}
+	#ticket-details-event-name-h2{
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 1060px){
+		.skyblue-box-text-for-ticket-details{
+			font-size: 1.7em;
+		}
+		.ticket-detail-page-table-panel td{
+			font-size: .6em;
+		}
+}
+@media screen and (max-width: 1050px){
+	
 }
