@@ -134,6 +134,7 @@ This is for Boxes under three main img
 background:rgb(70,190,194);
 border:2px solid rgb(230,230,230);
 height:300px;
+padding-top: 20px;
 }
 
 
@@ -144,10 +145,13 @@ height:300px;
 	width:140px;
 }
 .skyblue-box-text{
-position:absolute;
+	text-align: center;
+height: 50%;
+width: 100%;
+position:relative;
 bottom:0;
 //margin-left:5px;
-font-Size:3em;
+font-size:2.5em;
 color:white;
 font-family:Helvetica Neu Light;
 }
@@ -1592,3 +1596,53 @@ Custom main-content event list table "create" button
 
 }
 
+
+
+/*first page blue box fixing*/
+.blue-box-image{
+	max-height: 100%;
+	max-width: 100%;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-bottom: 10px;
+}
+.blue-box-mouse{
+	margin-top: 40px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+.image-heigh{
+	height: 50%;
+}
+@media only screen and (max-width: 1150px){
+	.skyblue-box-text h1{
+		font-size: 90%;
+	}
+}
+
+@media only screen and (max-width: 1020px){
+	.skyblue-box-text h1{
+		font-size: 100%;
+		font-weight: bold;
+	}
+}
+@media only screen and (max-width: 1020px){
+	.skyblue-box-text h1{
+		font-size: 90%;
+		font-weight: bold;
+	}
+}
+@media only screen and (max-width: 770px){
+	.blue-box-image{
+		width: 45%;
+		margin-right: 27.5%;
+		margin-left: 27.5%;
+	}
+	.skyblue-box-text h1{
+		font-size: 140%;
+	}
+
+
+}
