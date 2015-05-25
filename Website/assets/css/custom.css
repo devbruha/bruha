@@ -155,6 +155,9 @@ font-size:2.5em;
 color:white;
 font-family:Helvetica Neu Light;
 }
+.skyblue-box-text h1{
+	font-weight: bold;
+}
 /* ====================
 Custom Top navigation bar
 ==============*/
