@@ -1647,3 +1647,25 @@ Custom main-content event list table "create" button
 
 
 }
+
+
+
+
+
+/*First Page Log in Count Setting*/
+
+.count-logIn{
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-right: 20px;
+	border-right: 2px solid white;
+}
+.settings-pane-change{
+	padding: 20px !important;
+}
+#remember-me{
+	margin-right: 10px;
+}
+.login-footer-change a{
+	color: white;
+}
