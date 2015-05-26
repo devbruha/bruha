@@ -1605,19 +1605,20 @@ Custom main-content event list table "create" button
 .blue-box-image{
 	max-height: 100%;
 	max-width: 100%;
-	width: 70%;
-	margin-right: 15%;
-	margin-left: 15%;
 	margin-bottom: 10px;
 }
 .blue-box-mouse{
 	margin-top: 40px;
 	margin-left: 0;
 	margin-right: 0;
-	width: 100%;
+	max-width: 100%;
 }
 .image-heigh{
+	width: 50%;
+	margin-right: 25%;
+	margin-left: 25%;
 	height: 50%;
+	text-align: center;
 }
 @media only screen and (max-width: 1150px){
 	.skyblue-box-text h1{
@@ -1639,9 +1640,6 @@ Custom main-content event list table "create" button
 }
 @media only screen and (max-width: 770px){
 	.blue-box-image{
-		width: 45%;
-		margin-right: 27.5%;
-		margin-left: 27.5%;
 	}
 	.skyblue-box-text h1{
 		font-size: 140%;
