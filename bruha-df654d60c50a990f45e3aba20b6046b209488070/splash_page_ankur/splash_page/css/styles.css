@@ -1,0 +1,41 @@
+/* GRAEME's code
+
+.bg-top{
+	width:100%;
+	height: 100%;
+	height:900px;
+	background:url('../img/Splash_Test2.jpg');
+	background-size: cover;
+	background-position: center center;
+
+}
+
+
+ end of GRAEME's Code*/
+ 
+ /*  Body */
+ 
+ body {
+		background: url(../img/Splash_Test2.jpg) no-repeat center center fixed;
+		background-size: 100% 100%;
+		
+		
+ }
+ 
+ header {
+ margin: 10px;
+ }
+ 
+section{
+	float:left;
+		margin-top:0px;
+		margin-left: 10%;
+
+		 
+		color:white;
+		 -moz-border-radius: 50px;
+   -webkit-border-radius: 50px;
+   border-radius: 50px;
+   padding:25px;
+ 
+}
