@@ -134,6 +134,7 @@ This is for Boxes under three main img
 background:rgb(70,190,194);
 border:2px solid rgb(230,230,230);
 height:300px;
+padding-top: 20px;
 }
 
 
@@ -144,12 +145,18 @@ height:300px;
 	width:140px;
 }
 .skyblue-box-text{
-position:absolute;
+	text-align: center;
+height: 50%;
+width: 100%;
+position:relative;
 bottom:0;
 //margin-left:5px;
-font-Size:3em;
+font-size:2.5em;
 color:white;
 font-family:Helvetica Neu Light;
+}
+.skyblue-box-text h1{
+	font-weight: bold;
 }
 /* ====================
 Custom Top navigation bar
@@ -1592,6 +1599,7 @@ Custom main-content event list table "create" button
 
 }
 
+<<<<<<< HEAD
 /* ====================
 Custom main-content event list with picutres page 
 ==============*/
@@ -2438,4 +2446,114 @@ Custom main-content for ticket details page xsmall about
 	position: relative;
 	bottom: 5em;
 	width: 113%;
+}
+
+
+/*first page blue box fixing*/
+.blue-box-image{
+	max-height: 100%;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.blue-box-mouse{
+	margin-top: 40px;
+	margin-left: 0;
+	margin-right: 0;
+	max-width: 100%;
+}
+.image-heigh{
+	width: 50%;
+	margin-right: 25%;
+	margin-left: 25%;
+	height: 50%;
+	text-align: center;
+}
+@media only screen and (max-width: 1150px){
+	.skyblue-box-text h1{
+		font-size: 90%;
+	}
+}
+
+@media only screen and (max-width: 1020px){
+	.skyblue-box-text h1{
+		font-size: 100%;
+		font-weight: bold;
+	}
+}
+@media only screen and (max-width: 1020px){
+	.skyblue-box-text h1{
+		font-size: 90%;
+		font-weight: bold;
+	}
+}
+@media only screen and (max-width: 770px){
+	.blue-box-image{
+	}
+	.skyblue-box-text h1{
+		font-size: 140%;
+	}
+
+
+}
+
+
+
+
+
+/*First Page Log in Count Setting*/
+
+.count-logIn{
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-right: 5%;
+	border-right: 2px solid white;
+}
+.settings-pane-change{
+	padding: 20px !important;
+}
+#remember-me{
+	color: rgb(70,167,171);
+	margin-right: 10px;
+	position: relative;
+	bottom: 2px;
+}
+.login-footer-change a{
+	color: rgb(70,167,171);
+}
+.account-paragraph h3{
+	color: white;
+}
+.account-paragraph{
+	text-align: left;
+	width: 50%;
+	margin-right: 35%;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+.lock-login{
+	color: black;
+}
+.signIn{
+	text-align: right;
+}
+.signIn span{
+	color: rgb(70,167,171);
+	font-size: 1.5em;
+	font-weight: bold;
+	position: relative;
+	bottom: 150px;
+}
+@media only screen and (max-width: 995px){
+	.signIn{
+		display: none;
+	}
+	.account-signIn{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.count-logIn{
+		border-right:none;
+	}
+
 }
