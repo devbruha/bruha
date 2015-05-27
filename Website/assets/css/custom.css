@@ -1695,32 +1695,32 @@ Custom main-content event list with picutres page search addictions
 	right: 9.2em;
 	bottom: -0.2em
 }
-.sidebar-date{
+.sidebar-date-bill{
 	margin-left: 10px;
 	font-weight: bold;
 	max-width: 100%;
 }
-.sidebar-date img{
+.sidebar-date-bill img{
 	position: relative;
 	bottom: 45px;
 }
-.sidebar-picture{
+.sidebar-picture-bill{
 	max-width: 70%;
 }
-.sidebar-picture-price{
+.sidebar-picture-price-bill{
 	height: 20px;
 	text-align: center;
 	font-weight: bold;
 	background-color: #E6E6E6;
 }
-.sidebar-list ul{
+.sidebar-list-bill ul{
 	margin: 0px;
 	margin-left: 10px;
 	padding: 0;
 	list-style: none;
 
 }
-.sidebar-list ul li span{
+.sidebar-list-bill ul li span{
 	font-weight: bold;
 }
 /*sidebar button*/
@@ -1780,12 +1780,12 @@ Custom main-content event list with picutres page search addictions
 }
 
 
-}.ticket-header{
+}.ticket-header-bill{
 	color: purple;
 	font-weight: bold;
 	margin: 0 0 20px 0px;
 }
-.ticket-page{
+.ticket-page-bill{
 	width: 70%;
 	height: 1000px;
 	margin:20px 0 20px 10px;
