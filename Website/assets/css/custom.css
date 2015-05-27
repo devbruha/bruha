@@ -1664,19 +1664,26 @@ Custom main-content event list table "create" button
 	padding: 20px !important;
 }
 #remember-me{
+	color: rgb(70,167,171);
 	margin-right: 10px;
+	position: relative;
+	bottom: 2px;
 }
 .login-footer-change a{
-	color: white;
+	color: rgb(70,167,171);
 }
 .account-paragraph h3{
 	color: white;
 }
 .account-paragraph{
+	text-align: left;
 	width: 50%;
 	margin-right: 35%;
 	margin-left: 15%;
 	margin-top: 10%;
+}
+.lock-login{
+	color: black;
 }
 .signIn{
 	text-align: right;
@@ -1687,4 +1694,17 @@ Custom main-content event list table "create" button
 	font-weight: bold;
 	position: relative;
 	bottom: 150px;
+}
+@media only screen and (max-width: 995px){
+	.signIn{
+		display: none;
+	}
+	.account-signIn{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.count-logIn{
+		border-right:none;
+	}
 }
