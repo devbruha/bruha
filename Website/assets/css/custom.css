@@ -431,6 +431,9 @@ Custom main-content for ticket page
 	margin: 5%;
 }
 /*Confirm button*/
+.ticket-confirm-button{
+	width: 100%;
+}
 .ticket-confirm-button button{
 	float:left;
 	height: 50px;
@@ -454,6 +457,8 @@ Custom main-content for ticket page
 	height: 230px;
 	float: right;
 	margin: 10px;
+	position: relative;
+	bottom: 50px;
 }
 }
 
