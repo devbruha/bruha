@@ -981,21 +981,8 @@ Custom main-content for ticket details page media query
 /* ====================
 Custom main-content for ticket details page xsmall 
 ==============*/
-@media screen and (max-width: 3000px){
-	.ticket-detail-page-hidden-at-xs{
-		display:inline;
-	}
-	.ticket-detail-page-show-at-xs{
-		display: none;
-	}
-}
-@media screen and (max-width: 800px){
-	.ticket-detail-page-hidden-at-xs{
-		display: none;
-	}
-	.ticket-detail-page-show-at-xs{
-		display:inline;
-	}
+@media screen and (max-width: 1050px){
+	
 }
 /* ====================
 Custom main-content for ticket details page xsmall top part 
@@ -1127,7 +1114,7 @@ Custom main-content for ticket details page xsmall ticket purchase details
 	min-width: 43px;
 	width: 43px;
 	position: absolute;
-	top: 22em;
+	top: 22.2em;
 	left: 11.2em;	
 }
 .ticket-detail-page-ticket-info-table-xs-first-row{
