@@ -1657,7 +1657,7 @@ Custom main-content event list table "create" button
 .count-logIn{
 	margin-left: 10px;
 	margin-top: 10px;
-	padding-right: 20px;
+	padding-right: 5%;
 	border-right: 2px solid white;
 }
 .settings-pane-change{
@@ -1668,4 +1668,23 @@ Custom main-content event list table "create" button
 }
 .login-footer-change a{
 	color: white;
+}
+.account-paragraph h3{
+	color: white;
+}
+.account-paragraph{
+	width: 50%;
+	margin-right: 35%;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+.signIn{
+	text-align: right;
+}
+.signIn span{
+	color: rgb(70,167,171);
+	font-size: 1.5em;
+	font-weight: bold;
+	position: relative;
+	bottom: 150px;
 }
