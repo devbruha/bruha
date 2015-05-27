@@ -1592,3 +1592,850 @@ Custom main-content event list table "create" button
 
 }
 
+/* ====================
+Custom main-content event list with picutres page 
+==============*/
+
+/* ====================
+Custom main-content event list with picutres page pictures 
+==============*/
+.event-list-page-main{
+	max-width: 1353px;
+}
+.event-list-page-with-pictures-main{
+	float: left;
+	max-width: 80%;
+}
+
+.event-list-pictures{
+	padding-top:2.5%;
+	padding-right: 0;
+	background: white;
+	width: 34em;
+}
+
+.onimage-title-event-list-picture{
+width:100%;
+background:black;
+opacity:0.85;
+max-height:40px;
+position:absolute;
+bottom:0px;
+left:0px;
+}
+
+.onimage-title-event-list-picture span{
+font-Size:11px;
+font-weight: bold;
+color:white;
+margin-left:10px;
+}
+
+.event-list-pictures-each-column{
+	width: 31.5%;
+	margin: 0;
+	padding: 0.4%;
+}
+
+.event-list-page-with-pictures{
+	width:70%;
+}
+
+.event-list-pictures-main{
+	width: 46em;	
+}
+.event-list-pictures-each-column-clear{
+	clear: both;
+}
+
+.event-list-picture-first-row{
+	margin-top: 0;
+	padding-top: 0;
+}
+/* ====================
+Custom main-content event list with picutres page side bars
+==============*/
+/* ====================
+Custom main-content event list with picutres page search addictions 
+==============*/
+.event-list-search{
+	display: inline;
+	width: 80%;
+	height: 1.1em;
+	margin: -20px 85px -200px 0;
+}
+.addiction-search-input{
+	display: inline-block;
+	height: 1.8em;
+	width:29.7%;
+	position: absolute;
+	left: 35em;
+	bottom: 47.5em;
+}
+.addiction-search-button{
+	position: absolute;
+	left: 98%;
+	bottom:46.5em;
+}
+.search-bar-with-side-bars{
+	float: left;
+	max-width: 20%;
+}
+/*event-list-page-with-pictures-sidebar element*/
+.event-list-page-with-pictures-searchBtn{
+	position: relative;
+	right: 9.2em;
+	bottom: -0.2em
+}
+.sidebar-date{
+	margin-left: 10px;
+	font-weight: bold;
+	max-width: 100%;
+}
+.sidebar-date img{
+	position: relative;
+	bottom: 45px;
+}
+.sidebar-picture{
+	max-width: 70%;
+}
+.sidebar-picture-price{
+	height: 20px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #E6E6E6;
+}
+.sidebar-list ul{
+	margin: 0px;
+	margin-left: 10px;
+	padding: 0;
+	list-style: none;
+
+}
+.sidebar-list ul li span{
+	font-weight: bold;
+}
+/*sidebar button*/
+.event-list-with-pictures-button{
+	margin:5%;
+	text-align: center;
+	position: relative;
+	left: -1em;
+}
+.event-list-with-pictures-button-row-1{
+	width: 45%;
+	margin: 0 auto;
+	margin-left: 3%;
+	float: left;
+}
+.event-list-page-with-pictures-clear{
+	clear: both;
+}
+.event-list-with-pictures-button-row-2{
+	width: 45%;
+	margin: 0 auto;
+	margin-left: 3%;
+	margin-top: 5px;
+	float: left;
+}
+.ticke-preview :hover{
+	background: orange;
+
+}
+.event-list-page-with-pictures-sidebar{
+	position: relative;
+}
+.event-list-page-with-pictures-sidebar-video{
+	height: 100px;
+	max-width: 14em;
+}
+.event-list-page-with-pictures-sidebar-video iframe{
+	margin-top: 5%;
+	height: 7em;
+	margin-left: 10px;
+	width: 98%;
+}
+/*Confirm button*/
+.event-list-page-with-pictures-confirm-button button{
+	height: 4.8%;
+	width: 16em;
+	position:absolute;
+	float: left;
+	left: 31em;
+	bottom: 12em;
+	margin-top:3em;
+	margin-left: 4.5em;
+}
+.event-list-page-with-pictures-confirm-button button span{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+}.ticket-header{
+	color: purple;
+	font-weight: bold;
+	margin: 0 0 20px 0px;
+}
+.ticket-page{
+	width: 70%;
+	height: 1000px;
+	margin:20px 0 20px 10px;
+	float: left;
+	background: white;
+}
+.ticket{
+	height: 2000px;
+}
+.event-list-page-with-pictures-sidebar{
+	margin: 0;
+	padding: 0;
+	width: 29%;
+	height: 51em;
+	float: left;
+	background: white;
+	position: absolute;
+	bottom:-4em;
+	left: 35em;
+}
+.ticket-paragraph p{
+	color: black;
+}
+.ticket-table{
+}
+.ticket-logo{
+	max-width: 50px;
+}
+.ticket-seller{
+	margin: 0;
+	padding: 0;
+	max-width: 50%;
+}
+.ticket-client{
+	max-width: 50%;
+}
+.event-list-page-with-pictures-sidebar h4{
+	color:orange;
+	font-weight: bold;
+	margin: 5px 10px 0 10px;
+}
+.event-list-page-with-pictures-empty-div{
+	position: relative;
+	top: 1000px;
+}
+/* ====================
+Custom main-content event list with picutres page addiction side bar 
+==============*/
+@media screen and (max-width: 1288px){
+.addiction-search-button{
+left: 104%;
+}
+}
+@media screen and (max-width: 1230px){
+.addiction-search-button{
+left: 108%;
+}
+}
+@media screen and (max-width: 1190px){
+.addiction-search-button{
+left: 112%;
+}
+}
+@media screen and (max-width: 1140px){
+.addiction-search-button{
+left: 118%;
+}
+}
+@media screen and (max-width: 1110px){
+.addiction-search-button{
+left: 122%;
+}
+}
+@media screen and (max-width: 1085px){
+.addiction-search-input{
+	position: relative;
+	left: 6em;
+	bottom: 2.5em;
+	width: 260%;
+}
+.event-list-page-with-pictures-searchBtn{
+position: relative;
+left: 0;
+top: 0.5em;
+padding-right: 0;
+}
+.event-list-page-with-pictures-sidebar{
+	bottom:16em;
+}
+.event-list-page-with-pictures{
+	width: 55%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	padding: 2em 2em 0 2em;
+}
+.event-list-picture-first-rowes{
+max-width: 100%;
+float: none;
+}
+.event-list-search{
+position: relative;
+right: 42%;
+}
+.search-bar-with-side-bars{
+max-width: 60%;
+width: 80%;
+margin: 0 10%;
+position: relative;
+bottom: 200%;
+}
+.event-list-page-with-pictures-sidebar{
+width: 200%;
+position: relative;
+left: -4em;
+bottom: 3em
+}
+.event-list-page-with-pictures-confirm-button button{
+	position: absolute;
+	width: 31em;
+	left: -8.5em;
+	bottom: 4em;
+	height: 5em;
+}
+.event-list-page-with-pictures-sidebar-video{
+	height: 110px;
+	max-width: 200em;
+	width: 31em;
+	position: relative;
+	left: -.5em;
+}
+.event-list-with-pictures-button{
+	position: relative;
+	left: -3em;
+}
+}
+@media screen and (max-width: 1050px){
+.addiction-search-button{
+	position: absolute;
+	left: 280%;
+	bottom: 80%;
+}
+.addiction-search-input{
+	position: relative;
+	left: 6em;
+	bottom: 2.5em;
+	width: 260%;
+}
+.event-list-page-with-pictures-searchBtn{
+position: relative;
+left: 0;
+top: 0.5em;
+padding-right: 0;
+}
+.event-list-page-with-pictures-confirm-button button{
+	position: absolute;
+	bottom: 7em;
+}
+}
+
+@media screen and (max-width: 875px){
+.event-list-picutres{
+	width: 30%;
+}
+}
+@media screen and (max-width: 768px){
+.addiction-search-button{
+	position: relative;
+	left: 175%;
+	bottom: 4em
+}
+.addiction-search-input{
+	position: absolute;
+	width: 380%;
+	left: -17em;
+	bottom: 2em;
+}
+.event-list-page-with-pictures-confirm-button{
+	width: 90%;
+	position: relative;
+	left: 30%;
+	bottom: 20%;
+}
+}
+
+@media screen and (max-width: 768px){
+.event-list-page-with-pictures-confirm-button button{
+	position: relative;
+	left: -11.5em;
+	bottom: 17em;
+	width: 28em;
+}
+.event-list-page-with-pictures-sidebar-video{
+	position: relative;
+	left: 3em;
+}
+.event-list-page-with-pictures-sidebar-video iframe{
+	position: relative;
+	left: 10%;
+	height: 8em;
+	width: 85%;
+}	
+.event-list-page-with-pictures-main{
+	float: none;
+}
+.event-list-page-with-pictures-sidebar{
+	float: left;
+	padding-bottom: 60px;
+	margin-bottom: 70px;
+}
+.search-bar-with-side-bars{
+	max-width: 80%;
+	z-index: 10;
+}
+.event-list-search{
+	width: 100%;
+}
+.event-list-pictures-main{
+	width: 260%;
+	padding-right: 5%;
+}
+.event-list-pictures-images{
+	width: 100%;
+}
+.event-list-page-with-pictures{
+	padding:1% 1% 0 4%;
+}
+.event-list-page-with-pictures-sidebar{
+width: 130%;
+position: relative;
+left: -15%;
+}
+.addiction-search-input{
+	position: absolute;
+	left: -10em;
+	width: 310%;
+}
+}
+@media screen and (max-width: 760px){
+.event-list-page-with-pictures{
+	padding-left:5%;
+	padding-top: 3%;
+}
+.event-list-pictures-images{
+	width: 300%;
+}
+.onimage-title-event-list-picture{
+	width: 300%;
+	text-align: center;
+}
+}
+@media screen and (max-width: 570px){
+.addiction-search-input{
+	position: absolute;
+	left: -2em;
+	width: 230%;
+}
+.event-list-page-with-pictures-confirm-button button{
+	position: relative;
+	left: -12.5em;
+	bottom: 23em;
+	width: 23em;
+}
+}
+@media screen and (max-width: 480px){
+.event-list-page-with-pictures-sidebar-video{
+	position: relative;
+	left: -5em;
+}
+.addiction-search-input{
+	position: absolute;
+	left: 2em;
+	width: 200%;
+}
+}
+@media screen and (max-width: 400px){
+.event-list-page-with-pictures-confirm-button button{
+	width: 20em;
+}
+}
+
+/* ====================
+Custom main-content for ticket details page 
+==============*/
+/* ====================
+Custom main-content for ticket details page left side huge image 
+==============*/
+.onimage-title-ticket-details-image{
+	width:25%;
+	background:white;
+	opacity:0.85;
+	max-height:40px;
+	height: 32px;
+	position:absolute;
+	top:0px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2%;
+	font-size: 1.3em;
+}
+/* ====================
+Custom main-content for ticket details page middle little images 
+==============*/
+.img-ticket-details-ticket-little-images{
+	margin-bottom: 11px;
+}
+/* ====================
+Custom main-content for get addictied column 
+==============*/
+.skyblue-box-for-ticket-details{
+	height: 75px;
+}
+.skybluelogo-image-for-ticket-details{
+	position: relative;
+	width: 60px;
+	left: 20%;
+}
+.skyblue-box-text-for-ticket-details{
+	font-size: 200%;
+	top: 4%;
+	left: 38%;
+	font-weight: bold;
+}
+/* ====================
+Custom main-content for ticket details page right side other event 
+==============*/
+.ticket-details-event-name{
+	height: 4em;
+	background:white;
+	margin-top: 2px;
+	width: 90%;
+	position: absolute;
+	right: 10%;
+}
+.ticket-details-event-name-h1{
+	position: relative;
+	bottom: 30%;
+}
+#ticket-details-event-name-h1{
+	font-size: 180%;
+	font-weight: bold;
+	color: orange;
+}
+.ticket-details-event-name-h2{
+	position: relative;
+	bottom: 32%;
+	left: 2%;
+}
+#ticket-details-event-name-h2{
+	font-size: 160%;
+	color: gray;
+	font-weight: bold;
+	opacity: 0.4;
+}
+/* ====================
+Custom main-content for ticket details page right side event details 
+==============*/
+.ticket-details-event-details{
+	background-color: white;
+	margin-top: 4.5em;
+	height: 13em;
+	margin-bottom: 8px;
+}
+.ticket-detail-page-table-panel{
+	height: 17em !important;
+}
+.ticket-details-event-details h1{
+	padding-top: 0.8em;
+	padding-left : 0.8em;
+	font-size: 180%;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.ticket-details-event-details h2{
+	padding-top: 0.3em;
+	padding-left : 0.8em;
+	font-size: 180%;
+	font-weight: bold;
+	margin-top: 0;
+}
+.ticket-details-event-details ul{
+	list-style: none;
+	padding-left: 1.6em;
+	font-size: 14px;
+	font-weight: 400;
+}
+.ticket-details-event-details ul li{
+	font-weight: bold;
+}
+/* ====================
+Custom main-content for ticket details page event details about 
+==============*/
+.panel-title-event-detail-about{
+	font-size: 28px;
+	font-weight: bold;
+	margin:0;
+	padding:0;
+}
+.panel-heading-event-detail-about{
+	padding:5px !important;
+}
+.panel-body-event-detail-about-first-paragraph{
+	color: black;
+	font-weight: bold;
+}
+.panel-body-event-detail-about p{
+	color: black !important;
+}
+/* ====================
+Custom main-content for ticket details page ticket purchase table 
+==============*/
+.event-details-register-button{
+	position: relative;
+	float: right;
+	width: 11.3em;
+	height: 3.5em;
+}
+/* ====================
+Custom main-content for ticket details page promoter pictures 
+==============*/
+.chart-item-bg-event-details-promoter-pictures{
+	padding: 0 2px;
+}
+.chart-item-bg-event-details-promoter-pictures img{
+	height: 20em;
+}
+/* ====================
+Custom main-content for ticket details page media query 
+==============*/
+@media screen and (max-width: 1280px){
+	#ticket-details-event-name-h1{
+		font-size: 140%;
+	}
+	#ticket-details-event-name-h2{
+		font-size: 120%;
+	}
+}	
+@media screen and (max-width: 1220px){
+	.skyblue-box-for-ticket-details{
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 1150px){
+	.skyblue-box-for-ticket-details{
+		font-size: 80%;
+	}
+	#ticket-details-event-name-h1{
+		font-size: 120%;
+	}
+	#ticket-details-event-name-h2{
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 1060px){
+		.skyblue-box-text-for-ticket-details{
+			font-size: 1.7em;
+		}
+		.ticket-detail-page-table-panel td{
+			font-size: .6em;
+		}
+}
+/* ====================
+Custom main-content for ticket details page xsmall 
+==============*/
+@media screen and (max-width: 3000px){
+	.ticket-detail-page-hidden-at-xs{
+		display:inline;
+	}
+	.ticket-detail-page-show-at-xs{
+		display: none;
+	}
+}
+@media screen and (max-width: 800px){
+	.ticket-detail-page-hidden-at-xs{
+		display: none;
+	}
+	.ticket-detail-page-show-at-xs{
+		display:inline;
+	}
+}
+/* ====================
+Custom main-content for ticket details page xsmall top part 
+==============*/
+.event-list-detail-page-top-big-picture{
+	width: 120%;
+}
+.event-list-detail-page-top-big-picture img{
+	width: 100%;
+	height: 23em;
+	display:block;
+	margin:auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.onimage-title-ticket-details-image-xs{
+	position: relative;
+	top: 10em;
+	right: 1.2em;
+	height: 230px;
+	padding: 5px;
+	background: white;
+}
+.onimage-title-ticket-details-image-xs-div{
+	height: 40em;
+}
+.onimage-title-ticket-details-image-price-xs{
+	position: relative;
+	left: 104%;
+	top: -13em;
+	width: 3.6em;
+}
+/* ====================
+Custom main-content for ticket details page xsmall ticket info 
+==============*/
+.ticket-details-event-name-h1-xs{
+	position: relative;
+	left: -0.5em;
+	top: 9em;
+	font-size: 2.2em;
+	color: orange;
+	font-weight: bold;
+}
+.ticket-details-event-name-h2-xs{
+	position: relative;
+	left: .8em;
+	top: 10.5em;
+	font-size: 2em;
+	font-weight: bold;
+	color: gray;
+	opacity: 0.4;
+	display: inline;
+}
+.event-list-detail-page-first-row-div{
+	height: 370px;
+}
+/* ====================
+Custom main-content for ticket details page xsmall time and location, get addicted 
+==============*/
+.ticket-details-event-details-div{
+	height: 20em;
+}
+.skyblue-box-for-ticket-details-xs{
+	height: 120px;
+	width: 120px;
+	text-align: center;
+}
+.skybluelogo-image-for-ticket-details-xs{
+	position: relative;
+	top: -110px;
+	width: 50px;
+}
+.skyblue-box-text-for-ticket-details-xs{
+	font-size: 20px;
+	width: 20%;
+	top: 23em;
+	left: 24px;
+	font-weight: bold;
+	height: 60px;
+}
+@media only screen and(max-width: 498px){
+.skyblue-box-text-for-ticket-details-xs{
+		font-size: 16px;
+	}
+}
+/* ====================
+Custom main-content for ticket details page xsmall ticket purchase details
+==============*/
+.ticket-details-event-details-xs{
+	background-color: white;
+	width: 80%;
+	margin-top: 4.5em;
+	height: 13em;
+	margin-bottom: 8px;
+	position: relative;
+	left: 10em;
+	bottom: 14em;
+}
+.ticket-details-event-details-xs h1{
+	padding-top: 0.8em;
+	padding-left : 0.8em;
+	font-size: 180%;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.ticket-details-event-details-xs h2{
+	padding-top: 0.3em;
+	padding-left : 0.8em;
+	font-size: 180%;
+	font-weight: bold;
+	margin-top: 0;
+}
+.ticket-details-event-details-xs ul{
+	list-style: none;
+	padding-left: 1.6em;
+	font-size: 14px;
+	font-weight: 400;
+}
+.ticket-details-event-details-xs ul li{
+	font-weight: bold;
+}
+.ticket-detail-page-ticket-info-table-general-xs{
+	position: absolute;
+	top: 8em;
+	left: 11.2em;
+}
+.ticket-detail-page-ticket-info-table-quantity-xs{
+	min-width: 43px;
+	width: 43px;
+	position: absolute;
+	top: 22em;
+	left: 11.2em;	
+}
+.ticket-detail-page-ticket-info-table-xs-first-row{
+	margin-top: 8px;
+}
+/* ====================
+Custom main-content for ticket details page xsmall ticket purchase info
+==============*/
+.ticket-detail-page-table-panel-xs{
+	height: 32em;
+	width: 113%;
+	border-radius: 5%;
+	background-color: rgb(187,231,232);
+}
+.panel-heading-detail-page-xs{
+	background-color: rgb(187,231,232);
+	border-bottom: dotted !important;
+}
+.panel-heading-detail-page-xs span{
+	font-weight: bold;
+}
+.ticket-detail-page-ticket-info-table-xs{
+	border-right: 1px ridge;
+	width: 100px;
+	border-color: rgb(178,182,184);
+}
+.event-detail-page-ticket-info-table-price-explaination-xs{
+	position: relative;
+	left: 65%;
+	top: 4.8em;
+	font-size: 10px;
+}
+.ticket-detail-page-ticket-purchase-table-xs td{
+	border-bottom: none !important;
+}
+/* ====================
+Custom main-content for ticket details page xsmall map
+==============*/
+.event-details-xs-map img{
+	position: relative;
+	bottom: 6em;
+	width: 113%;
+}
+/* ====================
+Custom main-content for ticket details page xsmall about
+==============*/
+.event-details-xs-about-div{
+	position: relative;
+	bottom: 5em;
+	width: 113%;
+}
