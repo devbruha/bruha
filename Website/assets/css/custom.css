@@ -635,6 +635,7 @@ Custom main-content for Calendar page
 .calendar-topbar{
 	list-style: none;
 	padding: 0;
+	height: 20px;
 }
 .calendar-topbar li a{
 	color: purple;
@@ -748,14 +749,22 @@ Custom main-content event list table "create" button
 	padding-right: 5px;
 }
 .calendar-item1{
+	float: left;
 	font-weight: bold;
+	height: 20px;
+	padding-right: 5px;
 	border-right: 2px purple solid;
 	margin-left: 0;
+	margin-right: 5px;
 
 }
 .calendar-total{
 	position: relative;
 	bottom:10px;
+}
+.calendar-nav{
+	margin-right: -10px !important;
+	margin-left: -10px !important;
 }
 .calendar-page{
 	width: 70%;
@@ -891,7 +900,7 @@ Custom main-content event list table "create" button
 .sidebar-video{
 	max-width: 60%;
 	max-height: 100%;
-	height: 280px;
+	height: 240px;
 	width: 51%;
 	float: right;
 	position: relative;
@@ -994,7 +1003,7 @@ Custom main-content event list table "create" button
 	width: 55%;
 	float: right;
 	position: relative;
-	bottom: 325px;
+	bottom: 300px;
 	margin: 0 0 0 0;
 }
 .sidebar-video iframe{
@@ -1512,6 +1521,9 @@ Custom main-content event list table "create" button
 
 }
 @media only screen and (max-width: 770px){
+	.calendar-page{
+		height: 500px;
+	}
 	.conlist-sideborder{
 		position: relative;
 		top:330px;
@@ -1525,7 +1537,7 @@ Custom main-content event list table "create" button
 		height: 900px !important;
 	}
 	.conlist-page-contain{
-		height: 5500px;
+		height: 5000px;
 	}
 	.conlist-gallery{
 		position: absolute;
