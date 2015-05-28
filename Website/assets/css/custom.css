@@ -431,6 +431,9 @@ Custom main-content for ticket page
 	margin: 5%;
 }
 /*Confirm button*/
+.ticket-confirm-button{
+	width: 100%;
+}
 .ticket-confirm-button button{
 	float:left;
 	height: 50px;
@@ -454,6 +457,8 @@ Custom main-content for ticket page
 	height: 230px;
 	float: right;
 	margin: 10px;
+	position: relative;
+	bottom: 50px;
 }
 }
 
@@ -630,6 +635,7 @@ Custom main-content for Calendar page
 .calendar-topbar{
 	list-style: none;
 	padding: 0;
+	height: 20px;
 }
 .calendar-topbar li a{
 	color: purple;
@@ -743,14 +749,22 @@ Custom main-content event list table "create" button
 	padding-right: 5px;
 }
 .calendar-item1{
+	float: left;
 	font-weight: bold;
+	height: 20px;
+	padding-right: 5px;
 	border-right: 2px purple solid;
 	margin-left: 0;
+	margin-right: 5px;
 
 }
 .calendar-total{
 	position: relative;
 	bottom:10px;
+}
+.calendar-nav{
+	margin-right: -10px !important;
+	margin-left: -10px !important;
 }
 .calendar-page{
 	width: 70%;
@@ -886,7 +900,7 @@ Custom main-content event list table "create" button
 .sidebar-video{
 	max-width: 60%;
 	max-height: 100%;
-	height: 280px;
+	height: 240px;
 	width: 51%;
 	float: right;
 	position: relative;
@@ -989,7 +1003,7 @@ Custom main-content event list table "create" button
 	width: 55%;
 	float: right;
 	position: relative;
-	bottom: 325px;
+	bottom: 300px;
 	margin: 0 0 0 0;
 }
 .sidebar-video iframe{
@@ -1507,6 +1521,9 @@ Custom main-content event list table "create" button
 
 }
 @media only screen and (max-width: 770px){
+	.calendar-page{
+		height: 500px;
+	}
 	.conlist-sideborder{
 		position: relative;
 		top:330px;
@@ -1520,7 +1537,7 @@ Custom main-content event list table "create" button
 		height: 900px !important;
 	}
 	.conlist-page-contain{
-		height: 5500px;
+		height: 5000px;
 	}
 	.conlist-gallery{
 		position: absolute;
@@ -1695,32 +1712,32 @@ Custom main-content event list with picutres page search addictions
 	right: 9.2em;
 	bottom: -0.2em
 }
-.sidebar-date{
+.sidebar-date-bill{
 	margin-left: 10px;
 	font-weight: bold;
 	max-width: 100%;
 }
-.sidebar-date img{
+.sidebar-date-bill img{
 	position: relative;
 	bottom: 45px;
 }
-.sidebar-picture{
+.sidebar-picture-bill{
 	max-width: 70%;
 }
-.sidebar-picture-price{
+.sidebar-picture-price-bill{
 	height: 20px;
 	text-align: center;
 	font-weight: bold;
 	background-color: #E6E6E6;
 }
-.sidebar-list ul{
+.sidebar-list-bill ul{
 	margin: 0px;
 	margin-left: 10px;
 	padding: 0;
 	list-style: none;
 
 }
-.sidebar-list ul li span{
+.sidebar-list-bill ul li span{
 	font-weight: bold;
 }
 /*sidebar button*/
@@ -1780,12 +1797,12 @@ Custom main-content event list with picutres page search addictions
 }
 
 
-}.ticket-header{
+}.ticket-header-bill{
 	color: purple;
 	font-weight: bold;
 	margin: 0 0 20px 0px;
 }
-.ticket-page{
+.ticket-page-bill{
 	width: 70%;
 	height: 1000px;
 	margin:20px 0 20px 10px;
