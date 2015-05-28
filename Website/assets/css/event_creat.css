@@ -63,7 +63,7 @@
 	float: left;
 }
 .photo-width img{
-	width: 100%;
+	width: 80%;
 	border-radius: 50%;
 }
 .photo-row-1{
@@ -73,4 +73,10 @@
 	height: 50px;
 	padding-bottom: 7px;
 	border-bottom: 2px solid gray;
+}
+.photo-information{
+	color: black;
+}
+.photo-information p{
+	font-size: 0.5em;
 }
