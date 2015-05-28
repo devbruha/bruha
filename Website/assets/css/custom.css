@@ -1787,7 +1787,7 @@ Custom main-content event list with picutres page search addictions
 	position:absolute;
 	float: left;
 	left: 31em;
-	bottom: 12em;
+	bottom: 7em;
 	margin-top:3em;
 	margin-left: 4.5em;
 }
@@ -1851,9 +1851,18 @@ Custom main-content event list with picutres page search addictions
 /* ====================
 Custom main-content event list with picutres page addiction side bar 
 ==============*/
+@media screen and (max-width: 1308px){
+.event-list-page-with-pictures-confirm-button button{
+	bottom: 2em;
+}
+}
 @media screen and (max-width: 1288px){
 .addiction-search-button{
 left: 104%;
+}
+@media screen and (max-width: 1283px){
+.event-list-page-with-pictures-confirm-button button{
+	bottom: 1em;
 }
 }
 @media screen and (max-width: 1230px){
@@ -1893,7 +1902,7 @@ padding-right: 0;
 	bottom:16em;
 }
 .event-list-page-with-pictures{
-	width: 55%;
+	width: 80%;
 	padding-bottom: 0;
 	margin-bottom: 0;
 	padding: 2em 2em 0 2em;
@@ -1923,7 +1932,7 @@ bottom: 3em
 	position: absolute;
 	width: 31em;
 	left: -8.5em;
-	bottom: 4em;
+	bottom: 3em;
 	height: 5em;
 }
 .event-list-page-with-pictures-sidebar-video{
@@ -1958,13 +1967,25 @@ padding-right: 0;
 }
 .event-list-page-with-pictures-confirm-button button{
 	position: absolute;
-	bottom: 7em;
+	bottom: 3em;
 }
 }
-
+@media screen and (max-width: 930px){
+	.event-list-page-with-pictures{
+	width: 70%;
+}
+}
 @media screen and (max-width: 875px){
 .event-list-picutres{
 	width: 30%;
+}
+.event-list-page-with-pictures{
+	width: 60%;
+}
+}
+@media screen and (max-width: 810px){
+	.event-list-page-with-pictures{
+	width: 55%;
 }
 }
 @media screen and (max-width: 768px){
@@ -1990,13 +2011,13 @@ padding-right: 0;
 @media screen and (max-width: 768px){
 .event-list-page-with-pictures-confirm-button button{
 	position: relative;
-	left: -11.5em;
-	bottom: 17em;
+	left: -13em;
+	bottom: 15em;
 	width: 28em;
 }
 .event-list-page-with-pictures-sidebar-video{
 	position: relative;
-	left: 3em;
+	left: -2em;
 }
 .event-list-page-with-pictures-sidebar-video iframe{
 	position: relative;
@@ -2013,6 +2034,7 @@ padding-right: 0;
 	margin-bottom: 70px;
 }
 .search-bar-with-side-bars{
+	padding-top: 2em;
 	max-width: 80%;
 	z-index: 10;
 }
@@ -2040,6 +2062,12 @@ left: -15%;
 	width: 310%;
 }
 }
+@media screen and (max-width: 620px){
+	.event-list-page-with-pictures-confirm-button button{
+		bottom: 13em;
+	}
+}
+
 @media screen and (max-width: 760px){
 .event-list-page-with-pictures{
 	padding-left:5%;
@@ -2062,7 +2090,7 @@ left: -15%;
 .event-list-page-with-pictures-confirm-button button{
 	position: relative;
 	left: -12.5em;
-	bottom: 23em;
+	bottom: 12em;
 	width: 23em;
 }
 }
