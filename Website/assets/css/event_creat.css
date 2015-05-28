@@ -57,3 +57,20 @@
 .panel-control{
 	margin-top: 5px;
 }
+.photo-width{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.photo-width img{
+	width: 100%;
+	border-radius: 50%;
+}
+.photo-row-1{
+	height: 43px;
+}
+.photo-row-2{
+	height: 50px;
+	padding-bottom: 7px;
+	border-bottom: 2px solid gray;
+}
