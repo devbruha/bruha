@@ -1902,7 +1902,7 @@ padding-right: 0;
 	bottom:16em;
 }
 .event-list-page-with-pictures{
-	width: 55%;
+	width: 80%;
 	padding-bottom: 0;
 	margin-bottom: 0;
 	padding: 2em 2em 0 2em;
@@ -1970,10 +1970,22 @@ padding-right: 0;
 	bottom: 3em;
 }
 }
-
+@media screen and (max-width: 930px){
+	.event-list-page-with-pictures{
+	width: 70%;
+}
+}
 @media screen and (max-width: 875px){
 .event-list-picutres{
 	width: 30%;
+}
+.event-list-page-with-pictures{
+	width: 60%;
+}
+}
+@media screen and (max-width: 810px){
+	.event-list-page-with-pictures{
+	width: 55%;
 }
 }
 @media screen and (max-width: 768px){
