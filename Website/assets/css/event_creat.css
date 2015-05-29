@@ -137,3 +137,86 @@
 .make-bold{
 	font-weight: bold;
 }
+
+
+@media only screen and (max-width: 1255px){
+	.gallery-guide{
+		width: 100%;
+		margin-right: 0%;
+		margin-left: 0%;
+		font-size: 1.4em;
+	}
+	.Adbord-left{
+		width: 100%;
+		margin-right: 0;
+	}
+	.Adbord-right{
+		margin-top: 10px;
+		width: 100%;
+	}
+	.panel-control{	
+
+	}
+	.photo-row-1{
+		height: 60px;
+	}
+	.photo-row-2{
+		height: 60px;
+	}
+}
+
+@media only screen and (max-width: 1005px){
+	.get-add{
+		font-size: 2em;
+		position: relative;
+		bottom: 0;
+		top: 0;
+	}
+	.photo-row-1{
+		height: 100px;
+	}
+	.photo-row-2{
+		height: 100px;
+	}
+	.gallery-guide{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: 1.2em;
+	}
+}
+
+
+@media only screen and (max-width: 650px){
+	.gallery-guide{
+		font-size: 1em;
+	}
+}
+@media only screen and (max-width: 540px){
+	.gallery-guide{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.photo-row-1{
+		height: 55px;
+	}
+	.photo-row-2{
+		height: 55px;
+	}
+}
+@media only screen and (min-width: 1575px){
+	.photo-row-1{
+		height: 70px;
+	}
+	.photo-row-2{
+		height: 70px;
+	}
+	.gallery-guide{
+		margin-top: 10px;
+		font-size: 2em;
+		position: relative;
+		left: 0;
+		right: 0;
+	}
+}
