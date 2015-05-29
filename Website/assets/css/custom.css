@@ -125,7 +125,24 @@ margin-left:10px;
 /* ====================
 This is for Boxes under three main img 
 ==============*/
-
+.blue-box-image{
+	max-height: 100%;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.blue-box-mouse{
+	margin-top: 40px;
+	margin-left: 0;
+	margin-right: 0;
+	max-width: 100%;
+}
+.image-heigh{
+	width: 50%;
+	margin-right: 25%;
+	margin-left: 25%;
+	height: 50%;
+	text-align: center;
+}
 
 
 
@@ -2495,24 +2512,8 @@ Custom main-content for ticket details page xsmall about
 
 
 /*first page blue box fixing*/
-.blue-box-image{
-	max-height: 100%;
-	max-width: 100%;
-	margin-bottom: 10px;
-}
-.blue-box-mouse{
-	margin-top: 40px;
-	margin-left: 0;
-	margin-right: 0;
-	max-width: 100%;
-}
-.image-heigh{
-	width: 50%;
-	margin-right: 25%;
-	margin-left: 25%;
-	height: 50%;
-	text-align: center;
-}
+
+
 @media only screen and (max-width: 1150px){
 	.skyblue-box-text h1{
 		font-size: 90%;
