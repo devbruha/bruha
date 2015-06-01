@@ -181,6 +181,7 @@
 	height: 100%;
 	background: white;
 	float: left;
+	padding: 10px;
 }
 .artist-right{
 	float: left;
@@ -280,6 +281,54 @@
 	.photo-row-2{
 		height: 60px;
 	}
+	.artist-left{
+		width: 100%;
+	}
+	.artist-right{
+		width: 100%;
+	}
+	.blue-add-box{
+		width: 100%;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#artist-die img{
+		width: 70px;
+	}
+	#artist-die h3{
+		margin-left: 20%;
+	}
+	.purple-box{
+		text-align: center;
+		float: left;
+		width: 46%;
+		margin:0;
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+	.purple-box h2{
+		font-size: 33px;
+	}
+	.whole-gallery{
+		margin-top: 0;
+	}	
+	.artist-font{
+		font-size: 10px !important;
+	}
+}
+
+@media only screen and (max-width: 1130px){
+	.purple-box h1{
+		font-size: 20px;
+	}
+	.purple-box h2{
+		font-size: 20px;
+	}
+	.artist-gallery-tag p{
+		font-size: 5px !important;
+	}
+
 }
 
 @media only screen and (max-width: 1005px){
@@ -302,7 +351,11 @@
 		font-size: 1.2em;
 	}
 }
-
+@media only screen and (max-width: 788px){
+	.artist-gallery-tag p{
+		margin-bottom: 0;
+	}
+}
 
 @media only screen and (max-width: 650px){
 	.gallery-guide{
