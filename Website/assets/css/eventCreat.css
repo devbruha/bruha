@@ -1,3 +1,6 @@
+.top-content{
+	height: 400px;
+}
 .bruha-logo{
 	width: 40%;
 	padding-right: 1%;
@@ -36,7 +39,6 @@
 	padding-right: 1%;
 	float: right;
 	height: 375px;
-	background: green;
 }
 .middle-image{
 	width: 98%;
@@ -63,7 +65,7 @@
 	height: 100%;
 	padding-left: 2px;
 	padding-top: 2px;	
-	background: green;
+	background: red;
 	float: left;
 }
 .pad-panel{
@@ -109,5 +111,25 @@
 	width: 42.5%;
 	float: left;
 	margin-left: 2.5%;
+	margin-bottom: 5px;
+}
+.button-form-1{
+	width: 42.5%;
+	float: left;
+	margin-right: 2.5%;
+	margin-bottom: 5px;
+}
+.button-form-2{
+	width: 42.5%;
+	float: left;
+	margin-left: 2.5%;
+	margin-bottom: 5px;
+}
+.schedule-repeats{
+	color: orange;
+}
+.schedule-repeats-load{
+	height: 80px;
+	border: 1px solid gray;
 	margin-bottom: 5px;
 }
