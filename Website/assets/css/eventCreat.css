@@ -133,3 +133,21 @@
 	border: 1px solid gray;
 	margin-bottom: 5px;
 }
+.td-row-3{
+	width: 80%;
+}
+.td-row-1{
+	width: 100%;
+}
+.td-row-2{
+	width: 100%;
+}
+.table-ticket td{
+	width: 25%;
+}
+.margin-icon{
+	margin-left: 10px;
+}
+.text-bold{
+	font-weight: bold;
+}
