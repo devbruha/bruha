@@ -151,3 +151,33 @@
 .text-bold{
 	font-weight: bold;
 }
+.promop{
+	height: 350px;
+}
+.width-33{
+	width: 33.3%;
+	float: left;
+}
+.width-33 img{
+	width: 100%;
+}
+.plus-for-pro{
+	color: white;
+	width: 60%;
+	height: 20px;
+	position: relative;
+	bottom: 20px;
+}
+.plus-div-1{
+	width: 13%;
+	height: 100%;
+	padding-left: 2px;
+	padding-top: 2px;	
+	background: red;
+	float: left;
+}
+.plus-div-2{
+	width: 82%;
+	height: 100%;
+	background: black;
+}
