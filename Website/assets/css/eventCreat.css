@@ -197,7 +197,23 @@
 	-webkit-border-radius:10px;
 }
 @media only screen and (max-width: 1160px){
-
-
-	
+.top-content{
+	height: 800px;
+}
+.right{
+	margin-top: 10px;
+	width: 100%;
+}
+.bruha-logo{
+	width: 70%;
+}
+.middle{
+	width: 30%;
+}
+.heading-control{
+	height: 60px;
+}
+.control-head-change{
+	height: 60px;
+}
 }
