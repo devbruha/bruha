@@ -3,6 +3,7 @@
 }
 .bruha-logo{
 	width: 40%;
+	height: 394px;
 	padding-right: 1%;
 	float: left;
 }
@@ -12,7 +13,7 @@
 }
 .plus-logo{
 	color: white;
-	width: 60%;
+	width: 161px;
 	height: 20px;
 	background:rgba(0,0,0,0.7);
 	position: relative;
@@ -55,7 +56,7 @@
 }
 .plus-logo-middle{
 	color: white;
-	width: 40%;
+	width: 49px;
 	height: 20px;
 	position: relative;
 	bottom: 19px;
@@ -163,14 +164,14 @@
 }
 .plus-for-pro{
 	color: white;
-	width: 60%;
-	height: 20px;
+	width: 138.25px;
+	height: 60px;
 	position: relative;
-	bottom: 20px;
+	bottom: 60px;
 }
 .plus-div-1{
 	width: 13%;
-	height: 100%;
+	height: 40%;
 	padding-left: 2px;
 	padding-top: 2px;	
 	background: red;
@@ -178,6 +179,25 @@
 }
 .plus-div-2{
 	width: 82%;
-	height: 100%;
+	height: 40%;
+	padding-left: 30px;
 	background: black;
+}
+.At-name{
+	background: gray;
+	width: 114px;
+	height: 60%;
+	padding: 5px;
+}
+.At-name input{
+	color: black;
+	text-align: center;
+	width: 100%;
+	height: 90%;
+	-webkit-border-radius:10px;
+}
+@media only screen and (max-width: 1160px){
+
+
+	
 }
