@@ -39,7 +39,7 @@
 	padding-left: 1%;
 	padding-right: 1%;
 	float: right;
-	height: 375px;
+	height: 395px;
 }
 .middle-image{
 	width: 98%;
@@ -132,7 +132,7 @@
 .schedule-repeats-load{
 	height: 80px;
 	border: 1px solid gray;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 }
 .td-row-3{
 	width: 80%;
@@ -196,6 +196,17 @@
 	height: 90%;
 	-webkit-border-radius:10px;
 }
+#panel-descr{
+	width: 100%;
+	height: 100%;
+}
+.describ{
+	height: 100px;
+
+}
+
+
+
 @media only screen and (max-width: 1160px){
 .top-content{
 	height: 800px;
