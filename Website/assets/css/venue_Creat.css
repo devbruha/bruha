@@ -22,7 +22,7 @@
 
 .Adbord-map{
 	background: white;
-	height: 241px;
+	height: 316px;
 	margin-top: 40px;
 }
 .CAS-warning{
@@ -107,6 +107,8 @@
 	padding-left: 5px;
 }
 .gallery-picture{
+	text-align: center;
+	padding: 10px;
 	background: white;
 	height: 600px;
 }
@@ -157,7 +159,7 @@
 	height: 50%;
 	margin-left: 25%;
 	margin-right: 25%;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 .middle-select p{
 	font-size: 1.5em;
@@ -169,11 +171,47 @@
 	width: 150px;
 	height: 36px;
 	background:rgba(0,0,0,0.7);
+	position: relative;
+	top:18px;
 }
 .inside-link p{
 	color: white;
 	margin-top: 10px;
 }
+.text-in textarea{
+	width: 100%;
+	height: 100%;
+}
+#main-select{
+	width: 47.5%;
+	float: left;
+	margin-right: 2.5%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#sub-select{
+	width: 47.5%;
+	float: left;
+	margin-left: 2.5%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#city-select{
+	width: 47.5%;
+	float: left;
+	margin-right: 2.5%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#state-select{
+	width: 47.5%;
+	float: left;
+	margin-left: 2.5%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+
 
 @media only screen and (max-width: 1255px){
 	.gallery-guide{
@@ -221,7 +259,11 @@
 		font-size: 1.2em;
 	}
 }
-
+@media only screen and (max-width: 1250px){
+	.text-in{
+		height: 200px;
+	}
+}
 
 @media only screen and (max-width: 650px){
 	.gallery-guide{
@@ -256,3 +298,4 @@
 		right: 0;
 	}
 }
+
