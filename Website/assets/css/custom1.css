@@ -26,6 +26,20 @@ Custom main-content for ticket details page middle little images
 /* ====================
 Custom main-content for get addictied column 
 ==============*/
+.skyblue-box-text{
+position:absolute;
+bottom:0;
+//margin-left:5px;
+font-Size:3em;
+color:white;
+font-family:Helvetica Neu Light;
+}
+.skyblue-box-text{
+	text-align:left;
+}
+.skyblue-box{
+padding-top: 0;
+}
 .skyblue-box-for-ticket-details{
 	height: 75px;
 }
