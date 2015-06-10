@@ -1,0 +1,395 @@
+/* ====================
+Custom main-content for ticket details page 
+==============*/
+/* ====================
+Custom main-content for ticket details page left side huge image 
+==============*/
+.onimage-title-ticket-details-image{
+	width:25%;
+	background:white;
+	opacity:0.85;
+	max-height:40px;
+	height: 32px;
+	position:absolute;
+	top:0px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2%;
+	font-size: 1.3em;
+}
+/* ====================
+Custom main-content for ticket details page middle little images 
+==============*/
+.img-ticket-details-ticket-little-images{
+	margin-bottom: 11px;
+}
+/* ====================
+Custom main-content for get addictied column 
+==============*/
+.skyblue-box-text{
+position:absolute;
+bottom:0;
+//margin-left:5px;
+font-Size:3em;
+color:white;
+font-family:Helvetica Neu Light;
+}
+.skyblue-box-text{
+	text-align:left;
+}
+.skyblue-box{
+padding-top: 0;
+}
+.skyblue-box-for-ticket-details{
+	height: 75px;
+}
+.skybluelogo-image-for-ticket-details{
+	position: relative;
+	width: 60px;
+	left: 20%;
+}
+.skyblue-box-text-for-ticket-details{
+	font-size: 200%;
+	top: 4%;
+	left: 38%;
+	font-weight: bold;
+}
+/* ====================
+Custom main-content for ticket details page right side other event 
+==============*/
+.ticket-details-event-name{
+	height: 4em;
+	background:white;
+	margin-top: 2px;
+	width: 90%;
+	position: absolute;
+	right: 10%;
+}
+.ticket-details-event-name-h1{
+	position: relative;
+	bottom: 30%;
+}
+#ticket-details-event-name-h1{
+	font-size: 180%;
+	font-weight: bold;
+	color: orange;
+}
+.ticket-details-event-name-h2{
+	position: relative;
+	bottom: 32%;
+	left: 2%;
+}
+#ticket-details-event-name-h2{
+	font-size: 160%;
+	color: gray;
+	font-weight: bold;
+	opacity: 0.4;
+}
+/* ====================
+Custom main-content for ticket details page right side event details 
+==============*/
+.ticket-details-event-details{
+	background-color: white;
+	margin-top: 4.5em;
+	height: 13em;
+	margin-bottom: 8px;
+}
+.ticket-detail-page-table-panel{
+	height: 17em !important;
+}
+.ticket-details-event-details h1{
+	padding-top: 0.8em;
+	padding-left : 0.8em;
+	font-size: 180%;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.ticket-details-event-details h2{
+	padding-top: 0.3em;
+	padding-left : 0.8em;
+	font-size: 180%;
+	font-weight: bold;
+	margin-top: 0;
+}
+.ticket-details-event-details ul{
+	list-style: none;
+	padding-left: 1.6em;
+	font-size: 14px;
+	font-weight: 400;
+}
+.ticket-details-event-details ul li{
+	font-weight: bold;
+}
+/* ====================
+Custom main-content for ticket details page event details about 
+==============*/
+.panel-title-event-detail-about{
+	font-size: 28px;
+	font-weight: bold;
+	margin:0;
+	padding:0;
+}
+.panel-heading-event-detail-about{
+	padding:5px !important;
+}
+.panel-body-event-detail-about-first-paragraph{
+	color: black;
+	font-weight: bold;
+}
+.panel-body-event-detail-about p{
+	color: black !important;
+}
+/* ====================
+Custom main-content for ticket details page ticket purchase table 
+==============*/
+.event-details-register-button{
+	position: relative;
+	float: right;
+	width: 11.3em;
+	height: 3.5em;
+}
+/* ====================
+Custom main-content for ticket details page promoter pictures 
+==============*/
+.chart-item-bg-event-details-promoter-pictures{
+	padding: 0 2px;
+}
+.chart-item-bg-event-details-promoter-pictures img{
+	height: 20em;
+}
+/* ====================
+Custom main-content for ticket details page media query 
+==============*/
+@media screen and (max-width: 1280px){
+	#ticket-details-event-name-h1{
+		font-size: 140%;
+	}
+	#ticket-details-event-name-h2{
+		font-size: 120%;
+	}
+}	
+@media screen and (max-width: 1220px){
+	.skyblue-box-for-ticket-details{
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 1150px){
+	.skyblue-box-for-ticket-details{
+		font-size: 80%;
+	}
+	#ticket-details-event-name-h1{
+		font-size: 120%;
+	}
+	#ticket-details-event-name-h2{
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 1060px){
+		.skyblue-box-text-for-ticket-details{
+			font-size: 1.7em;
+		}
+		.ticket-detail-page-table-panel td{
+			font-size: .6em;
+		}
+}
+/* ====================
+Custom main-content for ticket details page xsmall 
+==============*/
+@media screen and (max-width: 3000px){
+	.ticket-detail-page-hidden-at-xs{
+		display:inline;
+	}
+	.ticket-detail-page-show-at-xs{
+		display: none;
+	}
+}
+@media screen and (max-width: 800px){
+	.ticket-detail-page-hidden-at-xs{
+		display: none;
+	}
+	.ticket-detail-page-show-at-xs{
+		display:inline;
+	}
+}
+/* ====================
+Custom main-content for ticket details page xsmall top part 
+==============*/
+.event-list-detail-page-top-big-picture{
+	width: 120%;
+}
+.event-list-detail-page-top-big-picture img{
+	width: 100%;
+	height: 23em;
+	display:block;
+	margin:auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.onimage-title-ticket-details-image-xs{
+	position: relative;
+	top: 10em;
+	right: 1.2em;
+	height: 230px;
+	padding: 5px;
+	background: white;
+}
+.onimage-title-ticket-details-image-xs-div{
+	height: 40em;
+}
+.onimage-title-ticket-details-image-price-xs{
+	position: relative;
+	left: 104%;
+	top: -13em;
+	width: 3.6em;
+}
+/* ====================
+Custom main-content for ticket details page xsmall ticket info 
+==============*/
+.ticket-details-event-name-h1-xs{
+	position: relative;
+	left: -0.5em;
+	top: 9em;
+	font-size: 2.2em;
+	color: orange;
+	font-weight: bold;
+}
+.ticket-details-event-name-h2-xs{
+	position: relative;
+	left: .8em;
+	top: 10.5em;
+	font-size: 2em;
+	font-weight: bold;
+	color: gray;
+	opacity: 0.4;
+	display: inline;
+}
+.event-list-detail-page-first-row-div{
+	height: 370px;
+}
+/* ====================
+Custom main-content for ticket details page xsmall time and location, get addicted 
+==============*/
+.ticket-details-event-details-div{
+	height: 20em;
+}
+.skyblue-box-for-ticket-details-xs{
+	height: 120px;
+	width: 120px;
+	text-align: center;
+}
+.skybluelogo-image-for-ticket-details-xs{
+	position: relative;
+	top: -110px;
+	width: 50px;
+}
+.skyblue-box-text-for-ticket-details-xs{
+	font-size: 20px;
+	width: 20%;
+	top: 23em;
+	left: 24px;
+	font-weight: bold;
+	height: 60px;
+}
+@media only screen and(max-width: 498px){
+.skyblue-box-text-for-ticket-details-xs{
+		font-size: 16px;
+	}
+}
+/* ====================
+Custom main-content for ticket details page xsmall ticket purchase details
+==============*/
+.ticket-details-event-details-xs{
+	background-color: white;
+	width: 80%;
+	margin-top: 4.5em;
+	height: 13em;
+	margin-bottom: 8px;
+	position: relative;
+	left: 10em;
+	bottom: 14em;
+}
+.ticket-details-event-details-xs h1{
+	padding-top: 0.8em;
+	padding-left : 0.8em;
+	font-size: 180%;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.ticket-details-event-details-xs h2{
+	padding-top: 0.3em;
+	padding-left : 0.8em;
+	font-size: 180%;
+	font-weight: bold;
+	margin-top: 0;
+}
+.ticket-details-event-details-xs ul{
+	list-style: none;
+	padding-left: 1.6em;
+	font-size: 14px;
+	font-weight: 400;
+}
+.ticket-details-event-details-xs ul li{
+	font-weight: bold;
+}
+.ticket-detail-page-ticket-info-table-general-xs{
+	position: absolute;
+	top: 8em;
+	left: 11.2em;
+}
+.ticket-detail-page-ticket-info-table-quantity-xs{
+	min-width: 43px;
+	width: 43px;
+	position: absolute;
+	top: 22em;
+	left: 11.2em;	
+}
+.ticket-detail-page-ticket-info-table-xs-first-row{
+	margin-top: 8px;
+}
+/* ====================
+Custom main-content for ticket details page xsmall ticket purchase info
+==============*/
+.ticket-detail-page-table-panel-xs{
+	height: 32em;
+	width: 113%;
+	border-radius: 5%;
+	background-color: rgb(187,231,232);
+}
+.panel-heading-detail-page-xs{
+	background-color: rgb(187,231,232);
+	border-bottom: dotted !important;
+}
+.panel-heading-detail-page-xs span{
+	font-weight: bold;
+}
+.ticket-detail-page-ticket-info-table-xs{
+	border-right: 1px ridge;
+	width: 100px;
+	border-color: rgb(178,182,184);
+}
+.event-detail-page-ticket-info-table-price-explaination-xs{
+	position: relative;
+	left: 65%;
+	top: 4.8em;
+	font-size: 10px;
+}
+.ticket-detail-page-ticket-purchase-table-xs td{
+	border-bottom: none !important;
+}
+/* ====================
+Custom main-content for ticket details page xsmall map
+==============*/
+.event-details-xs-map img{
+	position: relative;
+	bottom: 6em;
+	width: 113%;
+}
+/* ====================
+Custom main-content for ticket details page xsmall about
+==============*/
+.event-details-xs-about-div{
+	position: relative;
+	bottom: 5em;
+	width: 113%;
+}
