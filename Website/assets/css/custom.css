@@ -2126,6 +2126,7 @@ left: -15%;
 .event-list-page-with-pictures-confirm-button button{
 	width: 20em;
 }
+<<<<<<< HEAD
 }
 
 /* ====================
@@ -2602,4 +2603,6 @@ Custom main-content for ticket details page xsmall about
 		border-right:none;
 	}
 
+=======
+>>>>>>> origin/BillticketDetails
 }
