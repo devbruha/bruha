@@ -46,7 +46,10 @@ text-align:center;
 float:none;
 
 }
-
+.derow{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
 .title{
 font-family: Clarendon Regular;
 font-weight:bold;
