@@ -19,9 +19,10 @@
 	<link rel="stylesheet" href="assets/css/xenon-components.css">
 	<link rel="stylesheet" href="assets/css/xenon-skins.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
-	<link rel="stylesheet" href="assets/css/event_venue.css">
+	<link rel="stylesheet" href="assets/css/organ.css">
 
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -104,12 +105,12 @@
 		
 					<!-- logo -->
 					<div class="logo">
-						<a href="" class="logo-expanded">
+						<a href="Dashboard.html" class="logo-expanded">
 							<img src="assets/images/bruhaface.png" width="50" alt="" />
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/images/bruha.png" width="77"/>
 						</a>
 		
-						<a href="" class="logo-collapsed">
+						<a href="Dashboard.html" class="logo-collapsed">
 							<img src="assets/images/bruhaface.png" width="40" alt="" />
 						</a>
 					</div>
@@ -143,33 +144,33 @@
 					<li class="active opened active">
 						<a href="">
 							<i class="linecons-cog"></i>
-							<span class="title">Content</span>
+							<span class="title">Explore</span>
 						</a>
 						<ul>
 							
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Featured</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Events</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Venues</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Artist</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Outfits</span>
+								<a href="Explore.html">
+									<span class="title-inner">Organizations</span>
 								</a>
 							</li>
 						</ul>
@@ -180,23 +181,23 @@
 						</a>
 						<ul>
 							<li>
-								<a href="">
+								<a href="CreateEvent.html">
 									<span class="title-inner">Events</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="CreateVenue.html">
 									<span class="title-inner">Venues</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="CreateArtist.html">
 									<span class="title-inner">Artist</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Outfits</span>
+								<a href="CreateOrganization.html">
+									<span class="title-inner">Organizations</span>
 								</a>
 							</li>
 							
@@ -208,23 +209,23 @@
 						</a>
 						<ul>
 							<li>
-								<a href="">
+								<a href="MyUploads.html">
 									<span class="title-inner">Events</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="MyUploads.html">
 									<span class="title-inner">Venues</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="MyUploads.html">
 									<span class="title-inner">Artist</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Outfits</span>
+								<a href="MyUploads.html">
+									<span class="title-inner">Organizations</span>
 								</a>
 							</li>
 							
@@ -237,18 +238,18 @@
 						
 						<ul>
 							<li>
-								<a href="">
+								<a href="MyTickets.html">
 									<span class="title-inner">Bought</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="MyTickets.html">
 									<span class="title-inner">Sold</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Expire</span>
+								<a href="MyTickets.html">
+									<span class="title-inner">Expired</span>
 								</a>
 							</li>
 							
@@ -258,12 +259,6 @@
 						<a href="">
 							<span class="title">Following</span>
 							<span class="label label-success pull-right">5</span>
-						</a>
-						
-					</li>
-					<li>
-						<a href="">
-							<span class="title">Recommended</span>
 						</a>
 						
 					</li>
@@ -280,39 +275,16 @@
 						
 					</li>
 					<li>
-						<a href="">
-							<span class="title">Extras</span>
+						<a href="Calendar.html">
+							<span class="title">Calendar</span>
 						</a>
-						<ul>
-							<li>
-								<a href="">
-									<span class="title-inner">Sell Your Tickets</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Premium Tickets</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Featured Advertising</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Featured Advertising</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Premium Featured</span>
-								</a>
-							</li>
-							
-						</ul>
 					</li>
-					
+					<li>
+						<a href="">
+							<span class="title">Project Bruha</span>
+						</a>
+						
+					</li>								
 				</ul>
 				
 			</div>
@@ -1057,91 +1029,207 @@
 					return randInt;
 				}
 			</script>
-			<!-- Main-Content in here -->
-		<div class="event-creat-main-content">
-			<div>
-				<div class="Adbord-left">
-					<div class="Adbord-CAS">
-						<img src="assets/images/CASBAH.png">
-						<span class="badge badge-warning pull-left CAS-warning" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="It's so simple to create a tooltop for my website!" data-original-title="Twitter Bootstrap Popover">i</span>
-					</div>
-					<div class="Adbord-map">
-						<img src="assets/images/Adbord_map.png">
+		<div class="top-content">
+			<div class="bruha-logo">
+				<img src="assets/images/bruha_eventCreat.png">
+				<div class="icon-str plus-logo">
+					<div><a href="#"><i class="fa fa-plus"></i></a></div>
+					<span>Add Logo</span>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="middle">
+				<div class="middle-image pad-bottom">
+					<img src="assets/images/image-5.jpg">
+					<div class="icon-str plus-logo-middle">
+					<div><a href="#"><i class="fa fa-plus"></i></a></div>
 					</div>
 				</div>
-				<div class="Adbord-right">
-					<div>
-						<a href="#"><button class="btn btn-info btn-block get-add">
-							<div class="dies col-sm-4"><img src="assets/images/Icons/Addictions_Icon.png"></div>
-							<span>Get Addicted</span>
-						</button></a>
+
+				<div class="middle-image pad-bottom pad-top">
+					<img src="assets/images/image-5.jpg">
+					<div class="icon-str plus-logo-middle">
+					<div><a href="#"><i class="fa fa-plus"></i></a></div>
 					</div>
-					<div class="clear"></div>
-					<!-- ==================Black Panel=================== -->
-					<div class="panel panel-color panel-black panel-control">
-						<div class="panel-heading">
-							<h3 class="panel-title make-bold">Addicted by 400</h3>
+				</div>
+
+				<div class="middle-image pad-bottom pad-top">
+					<img src="assets/images/image-5.jpg">
+					<div class="icon-str plus-logo-middle">
+					<div><a href="#"><i class="fa fa-plus"></i></a></div>
+					</div>
+				</div>
+
+				<div class="middle-image pad-bottom pad-top">
+					<img src="assets/images/image-5.jpg">
+					<div class="icon-str plus-logo-middle">
+					<div><a href="#"><i class="fa fa-plus"></i></a></div>
+					</div>
+				</div>
+
+				<div class="middle-image pad-top">
+					<img src="assets/images/image-5.jpg">
+					<div class="icon-str plus-logo-middle">
+					<div><a href="#"><i class="fa fa-plus"></i></a></div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="right">
+				<div class="panel panel-color panel-black pad-panel"><!-- Add class "collapsed" to minimize the panel -->
+						<div class="panel-heading heading-control ">
+							<h3 class="panel-title">Organization Info</h3>
+							
 						</div>
 						
 						<div class="panel-body">
-							
-							<div class="photo-row-1">
-								<div class="photo-width"><img src="assets/images/user-1.png"></div>
-								<div class="photo-width"><img src="assets/images/user-1.png"></div>
-								<div class="photo-width"><img src="assets/images/user-1.png"></div>
-								<div class="photo-width"><img src="assets/images/user-1.png"></div>
-								<div class="photo-width"><img src="assets/images/user-1.png"></div>
-							</div>
+							<form>
+								<input type="text" class="form-control margin-form" id="event-name" placeholder="Event Name"  />
+								<select type="text" class="form-control margin-form" id="main-select" placeholder="Event Name"  >
+									<option>Main Categlory</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+								</select>
 
-							<div class="photo-row-2">
-								<div class="photo-width"><img src="assets/images/user-1.png"></div>
-								<div class="photo-width"><img src="assets/images/user-1.png"></div>
-								<div class="photo-width"><img src="assets/images/user-1.png"></div>
-								<div class="photo-width"><img src="assets/images/user-1.png"></div>
-								<div class="photo-width"><img src="assets/images/user-1.png"></div>
-							</div>
-							<div class="clear"></div>
-							<div class="photo-information">
-								<h5>Contact Info:</h5>
-								<p>306 King St W. Hamilton</p>
-								<p>905-741-7625</p>
-							</div>
+								<select type="text" class="form-control margin-form" id="sub-select" placeholder="Event Name"  >
+									<option>Sub-Category</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+								</select>
+
+								<input type="text" class="form-control margin-form" id="address" placeholder="Address"  />
+
+								<select type="text" class="form-control margin-form" id="city-select" placeholder="Event Name"  >
+									<option>City</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+								</select>
+
+								<select type="text" class="form-control margin-form" id="state-select" placeholder="Event Name"  >
+									<option>State</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+									<option>Option1</option>
+								</select>
+
+								<input type="text" class="form-control margin-form" id="post-code" placeholder="post-code"  />
+
+								<div class="schedule-repeats margin-form">
+									<h4>Contact Info</h4>
+									<div class="schedule-repeats-load">
+										<textarea id="info-descr">
+											Phone Number:
+											Email Address:
+											Manager:
+										</textarea>
+
+									</div>
+
+								</div>
+							</form>
+			
 						</div>
 					</div>
 
 
-				</div>
 			</div>
 			<div class="clear"></div>
-			<div class="whole-gallery">
-				<ul class="gallery-guide">
-					<li id="list-1"><a href="#">Pics&Vids</a></li>
-					<li id="list-2"><a href="#">Upcomming Events</a></li>
-					<li id="list-3"><a href="#">Past Events</a></li>
-				</ul>
-				<div class="gallery-picture">
-					<div class="picture-width">
-						<div class="height-30"><img src="assets/images/event_creat_1.png"></div>
-						<div class="height-30"><img src="assets/images/event_creat_3.png"></div>
-						<div class="height-30"><img src="assets/images/event_creat_4.png"></div>
+		</div>	
+		<div class="clear"></div>
+		<div>
+				<div class="panel panel-color panel-black"><!-- Add class "collapsed" to minimize the panel -->
+						<div class="panel-heading">
+							<h3 class="panel-title">Describtion of Organization</h3>
+							
+							<div class="panel-options">
+								<a href="#">
+									<i class="linecons-cog"></i>
+								</a>
+								
+								<a href="#" data-toggle="panel">
+									<span class="collapse-icon">&ndash;</span>
+									<span class="expand-icon">+</span>
+								</a>
+								
+								<a href="#" data-toggle="reload">
+									<i class="fa-rotate-right"></i>
+								</a>
+								
+								<a href="#" data-toggle="remove">
+									&times;
+								</a>
+							</div>
+						</div>
+						
+						<div class="panel-body describ">
+							
+							<textarea id="panel-descr">
+								Describition of Company
+							</textarea>
+			
+						</div>
 					</div>
-					<div class="picture-width">
-						<div class="height-30"><img src="assets/images/event_creat_5.png"></div>
-						<div class="height-70"><img src="assets/images/event_creat_6.png"></div>
-					</div>
-					<div class="picture-width">
-						<div class="height-30"><img src="assets/images/event_creat_7.png"></div>
-						<div class="height-30"><img src="assets/images/event_creat_8.png"></div>
-						<div class="height-30"><img src="assets/images/event_creat_9.png"></div>
-					</div>
+
+
+		</div>
+
+
+		
+			
+			<!--This Division is for the Blue Boxes representation-->
+		<div class="promop">
+			<div class="width-33">
+				<img src="assets/images/back.png">
+				<div class="icon-str plus-for-pro">
+					<div class="At-name"><input type="text" placeholder="Event name"></div>
+					<div class="plus-div-1"><a href="#"><i class="fa fa-plus"></i></a></div>
+					<div class="plus-div-2">Add Event</div>
+				</div>
+
+			</div>
+			
+			<div class="width-33">
+				<img src="assets/images/back.png">
+				<div class="icon-str plus-for-pro">
+					<div class="At-name"><input type="text" placeholder="Event name"></div>
+					<div class="plus-div-1"><a href="#"><i class="fa fa-plus"></i></a></div>
+					<div class="plus-div-2">Add Event</div>
+				</div>
+
+			</div>
+
+			<div class="width-33">
+				<img src="assets/images/back.png">
+				<div class="icon-str plus-for-pro">
+					<div class="At-name"><input type="text" placeholder="Event name"></div>
+					<div class="plus-div-1"><a href="#"><i class="fa fa-plus"></i></a></div>
+					<div class="plus-div-2">Add Event</div>
 				</div>
 
 
 			</div>
-		</div>
-			
-			
-				
+
+
+
+		</div>	
 		
 			
 			

@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="assets/css/custom.css">
 
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -157,12 +158,12 @@
 		
 					<!-- logo -->
 					<div class="logo">
-						<a href="" class="logo-expanded">
+						<a href="Dashboard.html" class="logo-expanded">
 							<img src="assets/images/bruhaface.png" width="50" alt="" />
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/images/bruha.png" width="77"/>
 						</a>
 		
-						<a href="" class="logo-collapsed">
+						<a href="Dashboard.html" class="logo-collapsed">
 							<img src="assets/images/bruhaface.png" width="40" alt="" />
 						</a>
 					</div>
@@ -189,33 +190,33 @@
 					<li class="active opened active">
 						<a href="">
 							<i class="linecons-cog"></i>
-							<span class="title">Content</span>
+							<span class="title">Explore</span>
 						</a>
 						<ul>
 							
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Featured</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Events</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Venues</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Artist</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Outfits</span>
+								<a href="Explore.html">
+									<span class="title-inner">Organizations</span>
 								</a>
 							</li>
 						</ul>
@@ -226,23 +227,23 @@
 						</a>
 						<ul>
 							<li>
-								<a href="">
+								<a href="CreateEvent.html">
 									<span class="title-inner">Events</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="CreateVenue.html">
 									<span class="title-inner">Venues</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="CreateArtist.html">
 									<span class="title-inner">Artist</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Outfits</span>
+								<a href="CreateOrganization.html">
+									<span class="title-inner">Organizations</span>
 								</a>
 							</li>
 							
@@ -254,23 +255,23 @@
 						</a>
 						<ul>
 							<li>
-								<a href="">
+								<a href="MyUploads.html">
 									<span class="title-inner">Events</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="MyUploads.html">
 									<span class="title-inner">Venues</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="MyUploads.html">
 									<span class="title-inner">Artist</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Outfits</span>
+								<a href="MyUploads.html">
+									<span class="title-inner">Organizations</span>
 								</a>
 							</li>
 							
@@ -283,18 +284,18 @@
 						
 						<ul>
 							<li>
-								<a href="">
+								<a href="MyTickets.html">
 									<span class="title-inner">Bought</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="MyTickets.html">
 									<span class="title-inner">Sold</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Expire</span>
+								<a href="MyTickets.html">
+									<span class="title-inner">Expired</span>
 								</a>
 							</li>
 							
@@ -304,12 +305,6 @@
 						<a href="">
 							<span class="title">Following</span>
 							<span class="label label-success pull-right">5</span>
-						</a>
-						
-					</li>
-					<li>
-						<a href="">
-							<span class="title">Recommended</span>
 						</a>
 						
 					</li>
@@ -326,39 +321,16 @@
 						
 					</li>
 					<li>
-						<a href="">
-							<span class="title">Extras</span>
+						<a href="Calendar.html">
+							<span class="title">Calendar</span>
 						</a>
-						<ul>
-							<li>
-								<a href="">
-									<span class="title-inner">Sell Your Tickets</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Premium Tickets</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Featured Advertising</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Featured Advertising</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Premium Featured</span>
-								</a>
-							</li>
-							
-						</ul>
 					</li>
-					
+					<li>
+						<a href="">
+							<span class="title">Project Bruha</span>
+						</a>
+						
+					</li>
 				</ul>
 				
 			</div>
@@ -1103,232 +1075,259 @@
 					return randInt;
 				}
 			</script>
-		
-			
-			
-			<!--This Division is for the ticket-->
-			<div class="ticket">
+			<div class="eventListMain">
+					
 				<div>
-				<h4 class="ticket-header">Thank you for using Bruha!</h4>
-				</div>
-				<div class="row">
-					<!-- ===================Invoice=========== -->
-				<div class="panel panel-default ticket-page col-lg-9 scrollable" data-max-height="900">
-				<div class="panel-heading hidden-print">Receipt</div>
-						<div class="panel-body">
-							
-							<section class="invoice-env">
-							
-								<!-- Invoice header -->
-								<div class="invoice-header">
-									
-									<!-- Invoice Options Buttons -->
-									<div class="invoice-options hidden-print">
-										<a href="#" class="btn btn-block btn-gray btn-icon btn-icon-standalone btn-icon-standalone-right text-left">
-											<i class="fa-envelope-o"></i>
-											<span>Send</span>
-										</a>
-										
-										<a href="#" class="btn btn-block btn-secondary btn-icon btn-icon-standalone btn-icon-standalone-right btn-single text-left">
-											<i class="fa-print"></i>
-											<span>Print</span>
-										</a>
-									</div>
-									
-									<!-- Invoice Data Header -->
-									<div class="invoice-logo">
-									
-										<a href="#" class="logo">
-											<img src="assets/images/bruha_logo.png" class="img-responsive ticket-logo" />
-										</a>
-										
-										<ul class="list-unstyled">
-											<li class="upper">Receipt No.<strong>#5652256</strong></li>
-											<li>dd/mm/yyyy</li>
-											<li>Toronto&euml;, ON</li>
-										</ul>
-										
-									</div>
-									
-								</div>
-								
-								
-								<!-- Client and Payment Details -->
-								<div class="invoice-details">
-									
-									<div class="invoice-client-info">
-										<strong>Client</strong>
-										
-										<ul class="list-unstyled">
-											<li>Name </li>
-											<li>User Name </li>
-											<li>Email</li>
-										</ul>
-										
-										<ul class="list-unstyled">		
-											<li>Peter </li>
-											<li>Peter32 </li>
-											<li>xxxx@gmail.com</li>
-										</ul>
-									</div>	
-									
-									<div class="invoice-payment-info">
-										<strong>Seller</strong>
-										
-										<ul class="list-unstyled">
-											<li>Name: <strong>Bruha</strong></li>
-											<li>User Name: <strong>Bruha22</strong> </li>
-											<li>Email: <strong>xxxxxx@gmail.com</strong></li>
-										</ul>
-									</div>
-									
-								</div>
-								
-								
-								<!-- Invoice Entries -->
-								<table class="table table-bordered ticket-table">
-									<thead>
-										<tr class="no-borders">
-											<th width="60%" class="text-center">Event</th>
-											<th class="text-center hidden-xs">Amount</th>
-											<th class="text-center">Price</th>
-										</tr>
-									</thead>
-									
-									<tbody>
-										<tr>
-											<td>On am we offices expense thought</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$1,290</td>
-										</tr>
-										
-										<!-- <tr>
-											<td class="text-center hidden-xs">2</td>
-											<td>Up do view time they shot</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$400</td>
-										</tr>
-										
-										<tr>
-											<td class="text-center hidden-xs">3</td>
-											<td>Way ham unwilling not breakfast</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$550</td>
-										</tr>
-										
-										<tr>
-											<td class="text-center hidden-xs">4</td>
-											<td>Songs to an blush woman be sorry</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$4020</td>
-										</tr>
-										
-										<tr>
-											<td class="text-center hidden-xs">5</td>
-											<td>Luckily offered article led lasting</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$87</td>
-										</tr>
-										
-										<tr>
-											<td class="text-center hidden-xs">6</td>
-											<td>Of as by belonging therefore suspicion</td>
-											<td class="text-center hidden-xs">1</td>
-											<td class="text-right text-primary text-bold">$140</td>
-										</tr> -->
-									</tbody>
-								</table>
-								
-								<!-- Invoice Subtotals and Totals -->
-								<div class="invoice-totals">
-									
-									<div class="invoice-subtotals-totals">
-										<span>
-											Sub - Total amount: 
-											<strong>$6,487</strong>
-										</span>
-										
-										<span>
-											Fee/Tax: 
-											<strong>12.9%</strong>
-										</span>
-										
-										<span>
-											Discount: 
-											<strong>-----</strong>
-										</span>
-										
-										<hr />
-										
-										<span>
-											Grand Total: 
-											<strong>$7,304</strong>
-										</span>
-									</div>
-									
-									<div class="invoice-bill-info">
-										<address>
-											175 Longwood Ave<br />
-											Mcmaster Innovation Park<br />
-											Hamilton, CA <br /> 
-											P: (234) 145-1810 <br />
-											Full Name <br />
-											<a href="#">first.last@email.com</a>
-										</address>
-									</div>
-									
-								</div>
-								
-							</section>
-							
-						</div>
+					<!-- content List Navigation-->
+					<div class="eventListNav">
+						<ul class="nav hidden-xs">
+						<li><a class = "selected" href="#">Events</a></li>
+						<li><a href="#">Artists</a></li>
+						<li class = "event-list-third-child"><a href="#">Venues</a></li>
+						<li><a href="#">Organizations</a></li>	
+						</ul>
 					</div>
-					<!-- Sider Bar Element -->
-				<div class="ticket-sidebar">
-					<h4>Event Name Here</h4>
-					<div>
-						<div class="sidebar-date">
-							<p style="color:black">1:00pm<br />
-							July 27th, 2015</p>
-							<img class="sidebar-age pull-right" src="assets/images/ticket_age.png" width="30%">
+					<!-- content List Navigation when screen is x-small -->
+					<div class=" btn-group hidden-sm hidden-md hidden-lg">
+					    <button type="button" class="button-eventDropDown btn-eventDropDown btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+					    Content <span class="caret"></span>
+				    	</button>
+					    <ul class="eventListNavxs dropdown-menu" role="menu">
+						    <li><a href="#">Events</a></li>
+						    <li><a href="#">Artists</a></li>
+						    <li><a href="#">Venues</a></li>
+						    <li class="divider"></li>
+						    <li><a href="#">Organizations</a></li>
+						</ul>
+					</div>
+					<!-- search bar -->
+					<div class = "searchBar">
+						<ul class="user-info-menu right-links list-inline list-unstyled">
+							<li class="search-form"><!-- You can add "always-visible" to show make the search input visible -->
+								<form class = "event-list-search" name="userinfo_search_form" method="get" action="extra-search.html">
+									<input type="text" name="s" class="rounded event-list-search-input form-control search-field" placeholder="Search My Uploads" />
+										<a href="">
+											<button type="submit" class="btn btn-link btn-icon-standalone-right btn-icon-standalone">
+											<i class="searchBtn linecons-search"></i>
+											</button>
+										</a>
+								</form>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				
+				<!-- event list table -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="all">
+							<table class="table table-hover members-table middle-align">
+								<thead class = "event-list-table-heading navbar navbar-default">
+									<!-- event list table heading -->
+									<tr>
+										<th style = "background-color : black; color : white" class = "col-md-2 hidden-xs">Photo</th>
+										<th style = "background-color : black; color : white" class= "col-md-2 hidden-xs">Name</th>
+										<th style = "background-color : black; color : white" class = "col-md-2 hidden-xs">Category</th>
+										<th style = "background-color : black; color : white" class = "col-sm-4 hidden-lg hidden-md hidden-sm">Name and Category</th>
+										<th style = "background-color : black; color : white" class = "col-md-2 hidden-xs">Date</th>
+										<th style = "background-color : black; color : white" class = "col-md-2 hidden-xs">Location</th>
+										<th style = "background-color : black; color : white" class = "col-sm-4 hidden-lg hidden-md hidden-sm">Date and Location</th>
+										<th style = "background-color : black; color : white" class = "col-sm-4 hidden-lg hidden-md"></th>
+										<th style = "background-color : black; color : white" class = "col-md-2 col-sm-4">Setting</th>
+									</tr>
+								</thead>
+								<tbody>
+									<!-- 5 rows -->
+									<tr>
+										<td class="user-image hidden-xs">
+											<a href="#">
+												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
+											</a>
+										</td>
+										<td class="user-name">
+											<a href="#" class="name">event1</a>
+											<span class="visible-xs">Nightlife</span>
+										</td>
+										<td class="hidden-xs">
+											<span>Nightlife</span>
+										</td>
+										<td class="date">
+											25/04/15<br>
+											<span class="visible-xs">Toronto</span>
+										</td>
+										<td>
+											<span class="hidden-xs">Toronto</span>
+										</td>
+										<td class="action-links">
+											<a href="#" class="edit">
+												<i class="linecons-pencil"></i>
+												Edit
+											</a>
+											<a href="#" class="delete">
+												<i class="linecons-trash"></i>
+												Delete
+											</a>
+											<a href="#" class="Stats">
+												<i class="linecons-doc"></i>
+												Stats
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="user-image hidden-xs">
+											<a href="#">
+												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
+											</a>
+										</td>
+										<td class="user-name">
+											<a href="#" class="name">event2</a>
+											<span class="visible-xs">Nightlife</span>
+										</td>
+										<td class="hidden-xs">
+											<span>Nightlife</span>
+										</td>
+										<td class="date">
+											25/04/15<br>
+											<span class="visible-xs">Toronto</span>
+										</td>
+										<td>
+											<span class="hidden-xs">Toronto</span>
+										</td>
+										<td class="action-links">
+											<a href="#" class="edit">
+												<i class="linecons-pencil"></i>
+												Edit
+											</a>
+											<a href="#" class="delete">
+												<i class="linecons-trash"></i>
+												Delete
+											</a>
+											<a href="#" class="Stats">
+												<i class="linecons-doc"></i>
+												Stats
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="user-image hidden-xs">
+											<a href="#">
+												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
+											</a>
+										</td>
+										<td class="user-name">
+											<a href="#" class="name">event3</a>
+											<span class="visible-xs">Nightlife</span>
+										</td>
+										<td class="hidden-xs">
+											<span>Nightlife</span>
+										</td>
+										<td class="date">
+											25/04/15<br>
+											<span class="visible-xs">Toronto</span>
+										</td>
+										<td>
+											<span class="hidden-xs">Toronto</span>
+										</td>
+										<td class="action-links">
+											<a href="#" class="edit">
+												<i class="linecons-pencil"></i>
+												Edit
+											</a>
+											<a href="#" class="delete">
+												<i class="linecons-trash"></i>
+												Delete
+											</a>
+											<a href="#" class="Stats">
+												<i class="linecons-doc"></i>
+												Stats
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="user-image hidden-xs">
+											<a href="#">
+												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
+											</a>
+										</td>
+										<td class="user-name">
+											<a href="#" class="name">event4</a>
+											<span class="visible-xs">Nightlife</span>
+										</td>
+										<td class="hidden-xs">
+											<span>Nightlife</span>
+										</td>
+										<td class="date">
+											25/04/15<br>
+											<span class="visible-xs">Toronto</span>
+										</td>
+										<td>
+											<span class="hidden-xs">Toronto</span>
+										</td>
+										<td class="action-links">
+											<a href="#" class="edit">
+												<i class="linecons-pencil"></i>
+												Edit
+											</a>
+											<a href="#" class="delete">
+												<i class="linecons-trash"></i>
+												Delete
+											</a>
+											<a href="#" class="Stats">
+												<i class="linecons-doc"></i>
+												Stats
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="user-image hidden-xs">
+											<a href="#">
+												<img src="assets/images/user-1.png" class="img-circle" alt="user-pic" />
+											</a>
+										</td>
+										<td class="user-name">
+											<a href="#" class="name">event5</a>
+											<span class="visible-xs">Nightlife</span>
+										</td>
+										<td class="hidden-xs">
+											<span>Nightlife</span>
+										</td>
+										<td class="date">
+											25/04/15<br>
+											<span class="visible-xs">Toronto</span>
+										</td>
+										<td>
+											<span class="hidden-xs">Toronto</span>
+										</td>
+										<td class="action-links">
+											<a href="#" class="edit">
+												<i class="linecons-pencil"></i>
+												Edit
+											</a>
+											<a href="#" class="delete">
+												<i class="linecons-trash"></i>
+												Delete
+											</a>
+											<a href="#" class="Stats">
+												<i class="linecons-doc"></i>
+												Stats
+											</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
-						<div class="sidebar-picture">
-							<img src="assets/images/ticket_picture.png" width="100%">
-							<div class="sidebar-picture-price">
-								<p style="color:black">&#36;12&#46;00</p>
+						<!-- button - create -->
+							<div class="button-create btn-group btn-group-xs rounded" role="group" aria-label="...">
+					 		   <button type="button" class="button-create-btn btn btn-default rounded">create</button>
 							</div>
-						</div>
-						<div class="sidebar-list">
-							<ul>
-								<li>Venue: <span>111</span></li>
-								<li>Location: <span>Hamilton</span></li>
-								<li>Category: <span>Sport</span></li>
-								<li>Subs: <span>...</span></li>
-							</ul>	
-						</div>
-						<!-- button adding -->
-						<div class="button">
-							<a href="#" style="color:white"><button class="btn btn-purple button-row-1">Tickets</button></a>
-							<a href="#" style="color:white"><button class="btn btn-purple button-row-1">More Info</button></a>
-							<div class="ticket-clear"></div>
-							<a href="#" style="color:white"><button class="btn btn-orange button-row-2 ticket-preview">Preview</button></a>
-							<a href="#" style="color:white"><button class="btn btn-purple button-row-2">Addict</button></a>
-						</div>
-						<div class="ticket-clear"></div>
-						<div class="sidebar-video">
-							<iframe width="90%" src="https://www.youtube.com/embed/VJ09nHDZkEc" frameborder="0" allowfullscreen>
-							</iframe>
-						</div>
+							<div class="button-creat-clear"></div>
 					</div>
-				</div>
-				<div class="ticket-confirm-button">
-					<a href="#"><button class="btn btn-info btn-block"><span>Ticket Confirm</span></button></a>
-				</div>
-			</div>
-			</div>
-		
 			
+
+				
+				
 			
+			</div>			
 			
 			<!-- Main Footer -->
 			<!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->

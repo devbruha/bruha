@@ -19,8 +19,10 @@
 	<link rel="stylesheet" href="assets/css/xenon-components.css">
 	<link rel="stylesheet" href="assets/css/xenon-skins.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="assets/css/ticketDetailsCustom.css">
 
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -38,11 +40,11 @@
 			&times;
 		</a>
 		
-		<div class="settings-pane-inner settings-pane-change">
+		<div class="settings-pane-inner">
 			
 			<div class="row">
 				
-				<div class="col-md-5 account-signIn">
+				<div class="col-md-4">
 					
 					<div class="user-info">
 						
@@ -51,38 +53,92 @@
 								<img src="assets/images/user-2.png" class="img-responsive img-circle" />
 							</a>
 						</div>
-						<form method="post" role="form" id="login" class="login-form fade-in-effect count-logIn">
-							<div class="form-group"><span id="remember-me">Remember Me</span><input type="checkbox"></div>
-							<div class="form-group">
-								<input type="text" class="form-control input-dark" name="username" id="username" autocomplete="off" placeholder="Username" />
-							</div>
-							<div class="form-group">
-								<input type="password" class="form-control input-dark" name="passwd" id="passwd" autocomplete="off" placeholder="Password" />
-							</div>
-							<div class="form-group lock-login">
-								<button type="submit" class="btn btn-dark  btn-block text-left">
-								<i class="fa-lock"></i>
-								Log In
-								</button>
-							</div>
-							<div class="login-footer login-footer-change">
-								<a href="#">Forgot your password?</a>
-							</div>
-						</form>
 						
+						<div class="user-details">
+							
+							<h3>
+								<a href="">John Smith</a>
+								
+								<!-- Available statuses: is-online, is-idle, is-busy and is-offline -->
+								<span class="user-status is-online"></span>
+							</h3>
+							
+							<p class="user-title">Web Developer</p>
+							
+							<div class="user-links">
+								<a href="" class="btn btn-primary">Edit Profile</a>
+								<a href="" class="btn btn-success">Upgrade</a>
+							</div>
+							
+						</div>
 						
 					</div>
 					
 				</div>
-				<div class="col-md-7 signIn">
-					<div class="account-paragraph">
-						<h3>Sed posuere consectetur est at loborts.Nulla vitae elit libero, a pharetra augue.</h3>
-					</div>
-					<span>Sign In---</span>
-
-
-				</div>
 				
+				<div class="col-md-8 link-blocks-env">
+					
+					<div class="links-block left-sep">
+						<h4>
+							<span>Notifications</span>
+						</h4>
+						
+						<ul class="list-unstyled">
+							<li>
+								<input type="checkbox" class="cbr cbr-primary" checked="checked" id="sp-chk1" />
+								<label for="sp-chk1">Messages</label>
+							</li>
+							<li>
+								<input type="checkbox" class="cbr cbr-primary" checked="checked" id="sp-chk2" />
+								<label for="sp-chk2">Events</label>
+							</li>
+							<li>
+								<input type="checkbox" class="cbr cbr-primary" checked="checked" id="sp-chk3" />
+								<label for="sp-chk3">Updates</label>
+							</li>
+							<li>
+								<input type="checkbox" class="cbr cbr-primary" checked="checked" id="sp-chk4" />
+								<label for="sp-chk4">Server Uptime</label>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="links-block left-sep">
+						<h4>
+							<a href="#">
+								<span>Help Desk</span>
+							</a>
+						</h4>
+						
+						<ul class="list-unstyled">
+							<li>
+								<a href="#">
+									<i class="fa-angle-right"></i>
+									Support Center
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-angle-right"></i>
+									Submit a Ticket
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-angle-right"></i>
+									Domains Protocol
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-angle-right"></i>
+									Terms of Service
+								</a>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
 				
 			</div>
 		
@@ -103,12 +159,12 @@
 		
 					<!-- logo -->
 					<div class="logo">
-						<a href="" class="logo-expanded">
+						<a href="Dashboard.html" class="logo-expanded">
 							<img src="assets/images/bruhaface.png" width="50" alt="" />
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/images/bruha.png" width="77"/>
 						</a>
 		
-						<a href="" class="logo-collapsed">
+						<a href="Dashboard.html" class="logo-collapsed">
 							<img src="assets/images/bruhaface.png" width="40" alt="" />
 						</a>
 					</div>
@@ -124,13 +180,6 @@
 							<i class="fa-bars"></i>
 						</a>
 					</div>	
-
-					<!-- This will open the popup with user profile settings, you can use for any purpose, just be creative -->
-					<div class="settings-icon">
-						<a href="#" data-toggle="settings-pane" data-animate="true">
-							<i class="linecons-cog"></i>
-						</a>
-					</div>
 					
 				</header>
 				
@@ -142,33 +191,33 @@
 					<li class="active opened active">
 						<a href="">
 							<i class="linecons-cog"></i>
-							<span class="title">Content</span>
+							<span class="title">Explore</span>
 						</a>
 						<ul>
 							
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Featured</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Events</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Venues</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="Explore.html">
 									<span class="title-inner">Artist</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Outfits</span>
+								<a href="Explore.html">
+									<span class="title-inner">Organizations</span>
 								</a>
 							</li>
 						</ul>
@@ -179,23 +228,23 @@
 						</a>
 						<ul>
 							<li>
-								<a href="">
+								<a href="CreateEvent.html">
 									<span class="title-inner">Events</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="CreateVenue.html">
 									<span class="title-inner">Venues</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="CreateArtist.html">
 									<span class="title-inner">Artist</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Outfits</span>
+								<a href="CreateOrganization.html">
+									<span class="title-inner">Organizations</span>
 								</a>
 							</li>
 							
@@ -207,23 +256,23 @@
 						</a>
 						<ul>
 							<li>
-								<a href="">
+								<a href="MyUploads.html">
 									<span class="title-inner">Events</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="MyUploads.html">
 									<span class="title-inner">Venues</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="MyUploads.html">
 									<span class="title-inner">Artist</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Outfits</span>
+								<a href="MyUploads.html">
+									<span class="title-inner">Organizations</span>
 								</a>
 							</li>
 							
@@ -236,18 +285,18 @@
 						
 						<ul>
 							<li>
-								<a href="">
+								<a href="MyTickets.html">
 									<span class="title-inner">Bought</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
+								<a href="MyTickets.html">
 									<span class="title-inner">Sold</span>
 								</a>
 							</li>
 							<li>
-								<a href="">
-									<span class="title-inner">Expire</span>
+								<a href="MyTickets.html">
+									<span class="title-inner">Expired</span>
 								</a>
 							</li>
 							
@@ -257,12 +306,6 @@
 						<a href="">
 							<span class="title">Following</span>
 							<span class="label label-success pull-right">5</span>
-						</a>
-						
-					</li>
-					<li>
-						<a href="">
-							<span class="title">Recommended</span>
 						</a>
 						
 					</li>
@@ -279,39 +322,16 @@
 						
 					</li>
 					<li>
-						<a href="">
-							<span class="title">Extras</span>
+						<a href="Calendar.html">
+							<span class="title">Calendar</span>
 						</a>
-						<ul>
-							<li>
-								<a href="">
-									<span class="title-inner">Sell Your Tickets</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Premium Tickets</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Featured Advertising</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Featured Advertising</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<span class="title-inner">Premium Featured</span>
-								</a>
-							</li>
-							
-						</ul>
 					</li>
-					
+					<li>
+						<a href="">
+							<span class="title">Project Bruha</span>
+						</a>
+						
+					</li>
 				</ul>
 				
 			</div>
@@ -1056,94 +1076,337 @@
 					return randInt;
 				}
 			</script>
-		<div>
-			<div class="row">
-				
-				<div class="col-sm-12">
-					
-					<div class="chart-item-bg">
-						<div class="discover-image">
-							<img src="assets/images/Discover.jpg" alt="Discover Poster" class="img-responsive"/>
-							
+			<div>
+
+			<div class = "ticket-detail-page-hidden-at-xs">
+
+			<div class = "row">
+				<div class = "col-sm-5 img-ticket-details-ticketimage">
+					<img src = "assets/images/Create.jpg" alt ="Create" width = "100%" height = "518px">
+					<div class="onimage-title-ticket-details-image">
+						<span>$12.00</span>
+					</div>
+				</div>
+				<div class = "col-sm-2">
+					<div class="img-ticket-details-ticket-little-images">
+						<img src = "assets/images/Discover.jpg" alt ="Discover" width = "100%" height = "95px">
+					</div>
+					<div class="img-ticket-details-ticket-little-images">
+						<img src = "assets/images/Discover.jpg" alt ="Discover" width = "100%" height = "95px">
+					</div>
+					<div class="img-ticket-details-ticket-little-images">
+						<img src = "assets/images/Discover.jpg" alt ="Discover" width = "100%" height = "95px">
+					</div>
+					<div class="img-ticket-details-ticket-little-images">
+						<img src = "assets/images/Discover.jpg" alt ="Discover" width = "100%" height = "95px">
+					</div>
+					<div class="img-ticket-details-ticket-little-images">
+						<img src = "assets/images/Discover.jpg" alt ="Discover" width = "100%" height = "95px">
+					</div>
+				</div>
+				<div class = "col-sm-5"><div class = "skyblue-box skyblue-box-for-ticket-details">
+					<img src="assets/images/Icons/Addictions_Icon.png" alt="My Addiction" class="img-responsive skybluelogo-image skybluelogo-image-for-ticket-details" height = "40px">
+					<span class="skyblue-box-text skyblue-box-text-for-ticket-details">Get Addicted</span>
+				</div>
+				<div class = "row ticket-details-event-name">
+					<div class = "col-sm-9 ticket-details-event-name-h1">
+						<h1 id = "ticket-details-event-name-h1">Kentucky Derby Festival</h1>
+					</div>
+					<div class = "col-sm-3 ticket-details-event-name-h2">
+						<h2 id = "ticket-details-event-name-h2">19+</h2>
+					</div>
+				</div>
+				<div class = "ticket-details-event-details">
+					<h1>1:00pm</h1>
+					<h2>July 27th, 2015</h2>
+					<ul>
+						<li>Venue:</li>
+						<li>Location:</li>
+						<li>Category:</li>
+						<li>Subs:</li>
+					</ul>	
+				</div>
+				<div>
+					<img src = "assets/images/event-detail-map.png" alt ="Map" width = "100%" height = "210px">
+				</div>
+				</div>
+			</div>
+			<div class = "row"></div>
+			<div>
+				<!-- Colored panel, remember to add "panel-color" before applying the color -->
+					<div class="panel panel-color panel-black"><!-- Add class "collapsed" to minimize the panel -->
+						<div class="panel-heading panel-heading-event-detail-about">
+							<h3 class="panel-title-event-detail-about">About</h3>
 						</div>
-						<div class="onimage-title">
-							<span>Discover</span>
+						
+						<div class="panel-body panel-body-event-detail-about">
+							
+							<p class = "panel-body-event-detail-about-first-paragraph">Fat new smallness few supposing suspicion two. Course sir people worthy horses add entire suffer. How one dull get busy dare far. At principle perfectly by sweetness do. As mr started arrival subject by believe. Strictly numerous outlived kindness whatever on we no on addition. </p>
+							
+							<p>Fat new smallness few supposing suspicion two. Course sir people worthy horses add entire suffer. How one dull get busy dare far. At principle perfectly by sweetness do. As mr started arrival subject by believe. Strictly numerous outlived kindness whatever on we no on addition. </p>
 						</div>
 					</div>
-					
-				</div>
-				
 			</div>
-			
-			<div class="row">
-			
-				<div class="col-sm-6">
+			<div>
+				<div class="panel panel-info ticket-detail-page-table-panel">
+					<!-- Default panel contents -->
+					<div class="panel-heading">Panel heading</div>
+					<!-- Table -->
+					<table class="table">
+						<TR>
+							<TD class = "col-sm-4">Type</TD>
+							<TD class = "col-sm-2" ALIGN = "center">Remaining</TD>
+							<TD class = "col-sm-2" ALIGN = "center">End</TD>
+							<TD class = "col-sm-2" ALIGN = "center">Price</TD>
+							<TD class = "col-sm-2" ALIGN = "center">Quantity</TD>
+						</TR>
+						<TR>
+							<TD>General</TD> 
+							<TD ALIGN = "center">33 Tickets</TD>
+							<TD ALIGN = "center">30 May 2015</TD>
+							<TD ALIGN = "center">Free</TD>
+							<TD ALIGN = "center">
+								<div class="col-md-6">
+									<!-- Input spinner, just add class "spinner" to input-group and it will be activated -->
+									<input  type="number" min="1" max="10" step="1" value="0" />
+								</div>
+							</TD>
+						</TR>
+					</table>
+					<a href="#"><button class = "btn-sm event-details-register-button">Register</button></a>
+				</div>
+			</div>
+			<div class = "row">
+
+				<div class = "col-sm-4 chart-item-bg-event-details-promoter-pictures">
 					<div class="chart-item-bg">
 						<div class="create-image">
 								<img src="assets/images/featured.jpg" alt="Featured Poster" class="img-responsive"/>
 						</div>
 						<div class="onimage-title">
-							<span>Featured</span>
+							<span>Promoter</span>
 						</div>
 					</div>
-						
 				</div>
-				<div class="col-sm-6" >
+
+				<div class = "col-sm-4 chart-item-bg-event-details-promoter-pictures">
 					<div class="chart-item-bg">
-						<div class="create-image" >
-								<img src="assets/images/create.jpg" alt="Create Poster" class="img-responsive">
+						<div class="create-image">
+								<img src="assets/images/featured.jpg" alt="Featured Poster" class="img-responsive"/>
 						</div>
 						<div class="onimage-title">
-							<span>Create</span>
+							<span>Promoter</span>
 						</div>
 					</div>
-					
 				</div>
-			</div>
-		</div>	
-			
-			
-			<!--This Division is for the Blue Boxes representation-->
-			<div class="row">
-				<div class="col-sm-4 skyblue-box ">
 
-						<div class="image-heigh"><img class="blue-box-image"src="assets/images/Icons/Addictions_Icon.png" alt="My Addiction" class="img-responsive skybluelogo-image" /></div>
-						<span class="skyblue-box-text"><h1>My Addiction</h1></span>
+				<div class = "col-sm-4 chart-item-bg-event-details-promoter-pictures">
+					<div class="chart-item-bg">
+						<div class="create-image">
+								<img src="assets/images/featured.jpg" alt="Featured Poster" class="img-responsive"/>
+						</div>
+						<div class="onimage-title">
+							<span>Promoter</span>
+						</div>
+					</div>
 				</div>
-				<div class="col-sm-4 skyblue-box">				
-							
-						<div class="image-heigh"><img class="blue-box-image" src="assets/images/Icons/Tickets_icon.png" alt="My Tickets" class="img-responsive skybluelogo-image" /></div>
-						<span class="skyblue-box-text"><h1>My Tickets</h1></span>
-				</div>
-				<div class="col-sm-4 skyblue-box">					
-							
-						<div class="image-heigh"><img class="blue-box-image" src="assets/images/Icons/Popular_Icon.png" alt="What's Hot" class="img-responsive skybluelogo-image" /></div>
-						<span class="skyblue-box-text"><h1>What's Hot</h1></span>
+			
+			</div>
+			<div class = "row">
+
+				<div class = "col-sm-4 chart-item-bg-event-details-promoter-pictures">
+					<div class="chart-item-bg">
+						<div class="create-image">
+								<img src="assets/images/featured.jpg" alt="Featured Poster" class="img-responsive"/>
+						</div>
+						<div class="onimage-title">
+							<span>Venue</span>
+						</div>
+					</div>
 				</div>
 				
+				<div class = "col-sm-4 chart-item-bg-event-details-promoter-pictures">
+					<div class="chart-item-bg">
+						<div class="create-image">
+								<img src="assets/images/featured.jpg" alt="Featured Poster" class="img-responsive"/>
+						</div>
+						<div class="onimage-title">
+							<span>Promoter</span>
+						</div>
+					</div>
+				</div>
+
 			</div>
-				<div class="row">
-				<div class="col-sm-4 skyblue-box">
+			
+			</div>
 
-						<div class="image-heigh"><img class="blue-box-image" src="assets/images/Icons/Social_Icon.png" alt="Social" class="img-responsive skybluelogo-image" /></div>
-						<span class="skyblue-box-text"><h1>Social</h1></span>
+			<div class = "ticket-detail-page-show-at-xs">
+
+				<div>
+
+				<div class = "row event-list-detail-page-top-big-picture">
+					<img src = "assets/images/Create.jpg" alt ="Create" width = "100%" height = "518px">
 				</div>
-				<div class="col-sm-4 skyblue-box">
-
-						<div class="image-heigh"><img class="blue-box-image" src="assets/images/Icons/Uploads_icon.png" alt="My Uploads" class="img-responsive skybluelogo-image" /></div>
-						<span class="skyblue-box-text"><h1>My Uploads</h1></span>
-				</div>
-				<div class="col-sm-4 skyblue-box">
-
-						<div class="image-heigh"><img class="blue-box-image blue-box-mouse" src="assets/images/Icons/Stats_Icon.png" alt="My Stats" class="img-responsive skybluelogo-image" /></div>
-						<span class="skyblue-box-text"><h1>Stats</h1></span>
+				<div class = "row event-list-detail-page-first-row-div">
+					<div class = "onimage-title-ticket-details-image-xs-div col-xs-4">
+						<div class = "col-sm-5 img-ticket-details-ticketimage onimage-title-ticket-details-image-xs">
+							<img src = "assets/images/Create.jpg" alt ="Create" width = "100%" height = "220px">
+							<div class="onimage-title-ticket-details-image onimage-title-ticket-details-image-price-xs">
+								<span>$12.00</span>
+							</div>
+						</div>
+					</div>
+					<div class = "col-xs-6">
+						<h1 class = "ticket-details-event-name-h1-xs">Kentucky Derby Festival</h1>
+					</div>
+					<div class = "col-xs-2">
+						<h2 class = "ticket-details-event-name-h2-xs">19+</h2>
+					</div>
 				</div>
 				
+				<div class = "row ticket-details-event-details-div">
+					<div>	
+						<div class = "skyblue-box skyblue-box-for-ticket-details-xs">
+							<img src="assets/images/Icons/Addictions_Icon.png" alt="My Addiction" class="img-responsive skybluelogo-image skybluelogo-image-for-ticket-details-xs" height = "40px">
+							<span class="skyblue-box-text skyblue-box-text-for-ticket-details-xs">Get Addicted</span>
+						</div>
+					</div>
+					<div>
+						<div class = "ticket-details-event-details-xs">
+							<h1>1:00pm</h1>
+							<h2>July 27th, 2015</h2>
+							<ul>
+								<li>Venue:</li>
+								<li>Location:</li>
+								<li>Category:</li>
+								<li>Subs:</li>
+							</ul>	
+						</div>
+					</div>
+				</div>
+				<div class = "event-details-xs-map"><img src = "assets/images/event-detail-map.png" alt ="Map" width = "100%" height = "210px"></div>
+				<div class = "event-details-xs-about-div"><!-- Colored panel, remember to add "panel-color" before applying the color -->
+					<div class="panel panel-color panel-black"><!-- Add class "collapsed" to minimize the panel -->
+						<div class="panel-heading panel-heading-event-detail-about">
+							<h3 class="panel-title-event-detail-about">About</h3>
+						</div>
+						
+						<div class="panel-body panel-body-event-detail-about">
+							
+							<p class = "panel-body-event-detail-about-first-paragraph">Fat new smallness few supposing suspicion two. Course sir people worthy horses add entire suffer. How one dull get busy dare far. At principle perfectly by sweetness do. As mr started arrival subject by believe. Strictly numerous outlived kindness whatever on we no on addition. </p>
+							
+							<p>Fat new smallness few supposing suspicion two. Course sir people worthy horses add entire suffer. How one dull get busy dare far. At principle perfectly by sweetness do. As mr started arrival subject by believe. Strictly numerous outlived kindness whatever on we no on addition. </p>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="panel ticket-detail-page-table-panel-xs">
+					<!-- Default panel contents -->
+						<div class="panel-heading panel-heading-detail-page-xs">
+							<img src="assets/images/Icons/Tickets_icon.png" width="24px"> 
+							<span>Buy Tickets</span>
+						</div>
+						<!-- Table -->
+							<table class="table ticket-detail-page-ticket-purchase-table-xs">
+								<TR class = "ticket-detail-page-ticket-info-table-xs-first-row">
+									<TD class = "col-sm-2 ticket-detail-page-ticket-info-table-xs">Type</TD>
+									<TD class = "col-sm-3">
+										<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">General<span class="caret"></span></button>
+										<ul class="dropdown-menu ticket-detail-page-ticket-info-table-general-xs" role="menu">
+											<li><a href="#">General</a></li>
+										    <li><a href="#">Music</a></li>
+										    <li><a href="#">Sports</a></li>
+										    <li><a href="#">Academic</a></li>
+										</ul>
+									</TD>
+								</TR>
+								<TR>
+									<TD class = "ticket-detail-page-ticket-info-table-xs">Remaining</TD> 
+									<TD>44</TD>
+								</TR>
+								<TR>
+									<TD class = "ticket-detail-page-ticket-info-table-xs">End</TD> 
+									<TD>May, 15 2:00 pm 2015</TD>
+								</TR>
+								<TR>
+									<TD class = "ticket-detail-page-ticket-info-table-xs">Price</TD> 
+									<TD>$15</TD>
+								</TR>
+								<TR>
+									<TD class = "ticket-detail-page-ticket-info-table-xs">Quantity</TD> 
+									<TD>
+										<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">2<span class="caret"></span></button>
+										<ul class="dropdown-menu ticket-detail-page-ticket-info-table-quantity-xs" role="menu">
+											<li><a href="#">1</a></li>
+										    <li><a href="#">2</a></li>
+										    <li><a href="#">3</a></li>
+										    <li><a href="#">4</a></li>
+										</ul>
+									</TD>
+								</TR>
+								<TR>
+									<TD class = "ticket-detail-page-ticket-info-table-xs">Total</TD> 
+									<TD>$30.00</TD>
+								</TR>
+							</table>
+						<a href="#"><button class = "btn-sm event-details-register-button">Pay</button></a>
+						<span class = "event-detail-page-ticket-info-table-price-explaination-xs">*Prices Displayed Do Not Include Tax<span>
+					</div>
+				</div>
+
+				<div class = "row">
+					<div class = "col-xs-6 chart-item-bg-event-details-promoter-pictures chart-item-bg-event-details-promoter-pictures-xs">
+						<div class="chart-item-bg">
+							<div class="create-image">
+								<img src="assets/images/featured.jpg" alt="Featured Poster" class="img-responsive"/>
+							</div>
+							<div class="onimage-title">
+								<span>Promoter</span>
+							</div>
+						</div>
+					</div>
+
+					<div class = "col-xs-6 chart-item-bg-event-details-promoter-pictures chart-item-bg-event-details-promoter-pictures-xs">
+						<div class="chart-item-bg">
+							<div class="create-image">
+								<img src="assets/images/featured.jpg" alt="Featured Poster" class="img-responsive"/>
+							</div>
+							<div class="onimage-title">
+								<span>Promoter</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class = "row">
+					<div class = "col-xs-6 chart-item-bg-event-details-promoter-pictures chart-item-bg-event-details-promoter-pictures-xs">
+						<div class="chart-item-bg">
+							<div class="create-image">
+								<img src="assets/images/featured.jpg" alt="Featured Poster" class="img-responsive"/>
+							</div>
+							<div class="onimage-title">
+								<span>Venue</span>
+							</div>
+						</div>
+					</div>
+
+					<div class = "col-xs-6 chart-item-bg-event-details-promoter-pictures chart-item-bg-event-details-promoter-pictures-xs">
+						<div class="chart-item-bg">
+							<div class="create-image">
+								<img src="assets/images/featured.jpg" alt="Featured Poster" class="img-responsive"/>
+							</div>
+							<div class="onimage-title">
+								<span>Promoter</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>				
 			</div>
-		
-			
-			
-			
+
+
+		</div>
 			<!-- Main Footer -->
 			<!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
 			<!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
