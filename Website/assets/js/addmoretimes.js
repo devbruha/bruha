@@ -1,0 +1,5 @@
+$("#addMore").click(function(e){
+										$("#listingTimes").append('<div class="startDate"><h3 class="panel-title"> Starting at</h3><input type="text" class="form-control datepicker" id="startDate" data-format="D, dd MM yyyy"><input type="text" class="form-control timepicker" id="startTime" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" /></div> <div class="endDate"><h3 class="panel-title"> Ending at</h3><input type="text" class="form-control datepicker" id="endDate" data-format="D, dd MM yyyy"><input type="text" class="form-control timepicker" id="endTime" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" /></div> ');
+									//newclas='2';
+									//$('#1').clone().attr('id', newclas).appendTo('#listingTimes');	
+										});
