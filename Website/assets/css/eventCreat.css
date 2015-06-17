@@ -51,6 +51,9 @@ float :left;
 margin-left:5%;
 height:350px;
 width:350px;
+background-image: url("../images/yourlogohere.jpg");
+background-size:cover;
+
 }
 
 .margin-form{
