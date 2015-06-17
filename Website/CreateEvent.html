@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="assets/css/xenon-skins.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
 	<link rel="stylesheet" href="assets/css/eventCreat.css">
-
+	<link rel="stylesheet" href="assets/js/dropzone/css/dropzone.css">
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 
@@ -1030,53 +1030,11 @@
 				}
 			</script>
 		<div class="top-content">
-			<div class="bruha-logo">
-				<img src="assets/images/bruha_eventCreat.png">
-				<div class="icon-str plus-logo">
-					<div><a href="#"><i class="fa fa-plus"></i></a></div>
-					<span>Add Event Image</span>
-				</div>
-			</div>
+			
 
 			<div class="clear"></div>
 
-			<div class="middle">
-				<div class="middle-image pad-bottom">
-					<img src="assets/images/image-5.jpg">
-					<div class="icon-str plus-logo-middle">
-					<div><a href="#"><i class="fa fa-plus"></i></a></div>
-					</div>
-				</div>
-
-				<div class="middle-image pad-bottom pad-top">
-					<img src="assets/images/image-5.jpg">
-					<div class="icon-str plus-logo-middle">
-					<div><a href="#"><i class="fa fa-plus"></i></a></div>
-					</div>
-				</div>
-
-				<div class="middle-image pad-bottom pad-top">
-					<img src="assets/images/image-5.jpg">
-					<div class="icon-str plus-logo-middle">
-					<div><a href="#"><i class="fa fa-plus"></i></a></div>
-					</div>
-				</div>
-
-				<div class="middle-image pad-bottom pad-top">
-					<img src="assets/images/image-5.jpg">
-					<div class="icon-str plus-logo-middle">
-					<div><a href="#"><i class="fa fa-plus"></i></a></div>
-					</div>
-				</div>
-
-				<div class="middle-image pad-top">
-					<img src="assets/images/image-5.jpg">
-					<div class="icon-str plus-logo-middle">
-					<div><a href="#"><i class="fa fa-plus"></i></a></div>
-					</div>
-				</div>
-
-			</div>
+			
 
 			<div class="right">
 				<div class="panel panel-color panel-black pad-panel"><!-- Add class "collapsed" to minimize the panel -->
@@ -1087,8 +1045,9 @@
 						
 						<div class="panel-body">
 							<form>
-								<input type="text" class="form-control margin-form" id="event-name" placeholder="Event Name"  />
-								<select type="text" class="form-control margin-form" id="main-select" placeholder="Event Name"  >
+								<div class="eventPoster"></div>
+								<input type="text" class="form-control margin-form" id="event-name" placeholder="Event Name"  />							
+								<select type="text" class="form-control margin-form" id="main-select">
 									<option>Main Categlory</option>
 									<option>Option1</option>
 									<option>Option1</option>
@@ -1097,8 +1056,7 @@
 									<option>Option1</option>
 									<option>Option1</option>
 								</select>
-
-								<select type="text" class="form-control margin-form" id="sub-select" placeholder="Event Name"  >
+								<select type="text" class="form-control margin-form" id="sub-select">
 									<option>Sub-Category</option>
 									<option>Option1</option>
 									<option>Option1</option>
@@ -1107,10 +1065,8 @@
 									<option>Option1</option>
 									<option>Option1</option>
 								</select>
-
 								<input type="text" class="form-control margin-form" id="address" placeholder="Address"  />
-
-								<select type="text" class="form-control margin-form" id="city-select" placeholder="Event Name"  >
+								<select type="text" class="form-control margin-form" id="city-select">
 									<option>City</option>
 									<option>Option1</option>
 									<option>Option1</option>
@@ -1119,7 +1075,6 @@
 									<option>Option1</option>
 									<option>Option1</option>
 								</select>
-
 								<select type="text" class="form-control margin-form" id="state-select" placeholder="Event Name"  >
 									<option>State</option>
 									<option>Option1</option>
@@ -1130,15 +1085,29 @@
 									<option>Option1</option>
 								</select>
 
-								<button class="btn btn-white margin-form button-form-1" data-toggle="popover" data-trigger="click" data-placement="left" data-content="It's so simple to create a tooltop for my website!" data-original-title="Twitter Bootstrap Popover">Date Start</button>
-
-								<button class="btn btn-white margin-form button-form-2" data-toggle="popover" data-trigger="click" data-placement="bottom" data-content="It's so simple to create a tooltop for my website!" data-original-title="Twitter Bootstrap Popover">Date End</button>
-
-								<div class="schedule-repeats margin-form">
-									<h4>This Event repeat</h4>
-									<div class="schedule-repeats-load"></div>
-
+									<div class="timings">
+									<h3 class="panel-title"> Event Timings</h3>
+									<div id="listingTimes">
+										
+											<div class="startDate">
+											<h3 class="panel-title"> Starting at</h3>
+												<input type="text" class="form-control datepicker" id="startDate1" data-format="D, dd MM yyyy">
+												<input type="text" class="form-control timepicker" id="startTime1" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" />
+											</div> 
+											<div class="endDate">
+											<h3 class="panel-title"> Ending at</h3>
+												<input type="text" class="form-control datepicker" id="endDate1" data-format="D, dd MM yyyy">
+												<input type="text" class="form-control timepicker" id="endTime1" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" />
+											</div> 
+										
+									</div>
+									<button type="button" class="btn btn-info btn-single" id="addMore">Add More</button>
 								</div>
+							
+							<textarea id="panel-descr" class="autogrow" placeholder="Describe yourself here..."></textarea>
+							
+			
+						<button type="submit" class="btn btn-info btn-single pull-right" id="saveAndContinue">Save & Continue</button>
 							</form>
 			
 						</div>
@@ -1149,66 +1118,73 @@
 			<div class="clear"></div>
 		</div>	
 		<div class="clear"></div>
-		<div>
-				<div class="panel panel-color panel-black"><!-- Add class "collapsed" to minimize the panel -->
+		
+	
+		<div id="media">
+				<div class="panel panel-color panel-black media"><!-- Add class "collapsed" to minimize the panel -->
 						<div class="panel-heading">
-							<h3 class="panel-title">Describtion of Event</h3>
-							
+							<h3 class="panel-title">Media</h3>
 							<div class="panel-options">
-								<a href="#">
-									<i class="linecons-cog"></i>
-								</a>
+								
 								
 								<a href="#" data-toggle="panel">
 									<span class="collapse-icon">&ndash;</span>
 									<span class="expand-icon">+</span>
 								</a>
 								
-								<a href="#" data-toggle="reload">
-									<i class="fa-rotate-right"></i>
-								</a>
 								
-								<a href="#" data-toggle="remove">
-									&times;
-								</a>
 							</div>
 						</div>
+						<div class="panel-body">
 						
-						<div class="panel-body describ">
+							<div calss="mediaPic">
+								<form action="scripts/upload-file.php" class="dropzone dz-clickable"><div class="dz-message" data-dz-message><span>Drag and Drop your Images or Click</span></div></form>
+								
+							</div>
 							
-							<textarea id="panel-descr">
-								Describition of Event
-							</textarea>
-			
+							<div class="mediaVid">
+									<div class="innerMediaHeading">
+										<h3 class="panel-title">Video</h3>
+									</div>
+								<div class="mediaInner">
+										<input type="file" class="form-control margin-form mediaInput" id="" placeholder="Video name"  />	
+										<input type="file" class="form-control margin-form mediaInput" id="" placeholder="Video name"  />	
+										<input type="text" class="form-control margin-form mediaInput" id="" placeholder="Video name"  />	
+										<input type="text" class="form-control margin-form mediaInput" id="" placeholder="Video name"  />	
+										<video>
+										</video>
+							   </div>
+							</div>
+							<div class="mediaAud">
+								
+										<h3 class="panel-title">Audio</h3>
+									
+								<div class="mediaInner">
+										<input type="file" class="form-control margin-form mediaInput" id="" placeholder="Audio name"  />	
+										<input type="file" class="form-control margin-form mediaInput" id="" placeholder="Audio name"  />	
+										<input type="text" class="form-control margin-form mediaInput" id="" placeholder="Audio name"  />	
+										<input type="text" class="form-control margin-form mediaInput" id="" placeholder="Audio name"  />
+								</div>
+							</div>
 						</div>
-					</div>
-
-
+				</div>
 		</div>
 
 
-		<div>
+		<div id="ticketArea">
 				<div class="panel panel-color panel-black"><!-- Add class "collapsed" to minimize the panel -->
 						<div class="panel-heading">
 							<h3 class="panel-title">Tickets</h3>
 							
 							<div class="panel-options">
-								<a href="#">
-									<i class="linecons-cog"></i>
-								</a>
+								
 								
 								<a href="#" data-toggle="panel">
 									<span class="collapse-icon">&ndash;</span>
 									<span class="expand-icon">+</span>
 								</a>
 								
-								<a href="#" data-toggle="reload">
-									<i class="fa-rotate-right"></i>
-								</a>
 								
-								<a href="#" data-toggle="remove">
-									&times;
-								</a>
 							</div>
 						</div>
 						
@@ -1219,7 +1195,7 @@
 									<thead>
 										<tr>
 											<th>Ticket Name</th>
-											<th>Quantity avaiable</th>
+											<th>Quantity person</th>
 											<th>Price</th>
 											<th>Actions</th>
 										</tr>
@@ -1236,32 +1212,12 @@
 										<td><a href="#"><i class="fa-gear">Edit</i></a> <a href="#" class="margin-icon"><i class="fa-trash">Trash</i></a></td>
 										</tr>
 
-										<tr>
-										<td>
-											<input type="text" class="td-row-1" placeholder="Early Bird RSVP">
-										</td>
-
-										<td><input type="text" class="td-row-2" placeholder="100"></td>
-										<td><i class="fa-dollar"></i><input type="text" class="td-row-3" placeholder="15.00"></td>
-										<td><a href="#"><i class="fa-gear">Edit</i></a> <a href="#" class="margin-icon"><i class="fa-trash">Trash</i></a></td>
-										</tr>
-
-										<tr>
-										<td>
-											<input type="text" class="td-row-1" placeholder="Early Bird RSVP">
-										</td>
-
-										<td><input type="text" class="td-row-2" placeholder="100"></td>
-										<td><i class="fa-dollar"></i><input type="text" class="td-row-3" placeholder="15.00"></td>
-										<td><a href="#"><i class="fa-gear">Edit</i></a> <a href="#" class="margin-icon"><i class="fa-trash">Trash</i></a></td>
-										</tr>
-
 
 									</tbody>
 
 								</table>
 								<div>
-									<div><p>Total Price: <span class="text-bold">100</span></p></div>
+									
 									<button type="submit" class="btn btn-info btn-single pull-right">Submit</button>
 								</div>
 
@@ -1355,7 +1311,7 @@
 	<script src="assets/js/joinable.js"></script>
 	<script src="assets/js/xenon-api.js"></script>
 	<script src="assets/js/xenon-toggles.js"></script>
-
+	<script src="assets/js/moment.min.js"></script>
 
 	<!-- Imported scripts on this page -->
 	<script src="assets/js/xenon-widgets.js"></script>
@@ -1363,9 +1319,24 @@
 	<script src="assets/js/devexpress-web-14.1/js/dx.chartjs.js"></script>
 	<script src="assets/js/toastr/toastr.min.js"></script>
 
+	
+	<script src="assets/js/daterangepicker/daterangepicker.js"></script>
+	<script src="assets/js/datepicker/bootstrap-datepicker.js"></script>
+	<script src="assets/js/timepicker/bootstrap-timepicker.min.js"></script>
+	<script src="assets/js/colorpicker/bootstrap-colorpicker.min.js"></script>
+	<script src="assets/js/select2/select2.min.js"></script>
+	<script src="assets/js/jquery-ui/jquery-ui.min.js"></script>
+	<script src="assets/js/selectboxit/jquery.selectBoxIt.min.js"></script>
+	<script src="assets/js/tagsinput/bootstrap-tagsinput.min.js"></script>
+	<script src="assets/js/typeahead.bundle.js"></script>
+	<script src="assets/js/handlebars.min.js"></script>
+	<script src="assets/js/multiselect/js/jquery.multi-select.js"></script>
 
 	<!-- JavaScripts initializations and stuff -->
 	<script src="assets/js/xenon-custom.js"></script>
+	
+    <script src="assets/js/addmoretimes.js"></script>
+	<script src="assets/js/dropzone/dropzone.min.js"></script>
 
 </body>
 </html>
